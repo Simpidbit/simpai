@@ -52,6 +52,8 @@ class Trainer:
             leave = True,
             position = 0
         )
+
+        self.eval_fn(self.epoch_idx_offset - 1, self.model, tqdm)
         for idx in epoch_pbar:
             epoch_idx = idx + self.epoch_idx_offset
             self.model.train()
@@ -68,7 +70,7 @@ class Trainer:
                         pbar.set_postfix(status = 'Computing')
                     else:
                         pbar.set_postfix(status = 'Computing', loss = f'{loss:.5g}')
-                    loss = self.step_fn(epoch_idx, self.model, data)
+                    loss = self.step_fn(epoch_idx, self.model, tqdm, data)
                     if isinstance(loss, torch.Tensor):
                         loss = loss.item()
                     pbar.update(self.train_dataloader.batch_size)

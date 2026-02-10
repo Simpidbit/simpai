@@ -7,17 +7,17 @@ from simpai import vis
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
-
+from torchmetrics.image import PeakSignalNoiseRatio, StructuralSimilarityIndexMeasure
 
 import os
 
 # 超参数
 hp.set_hp_begin()
 hp.set_hp('device', torch.device('cuda'))
-hp.set_hp('epoch_num', 30)
-hp.set_hp('batch_size', 32)
+hp.set_hp('epoch_num', 100)
+hp.set_hp('batch_size', 20)
 hp.set_hp('dataset_dir', '/media/simpidbit/Home/BaiduNetdiskDownload/DIV2K')
-hp.set_hp('patch_size', 41)
+hp.set_hp('patch_size', 100)
 hp.set_hp('loss_fn', torch.nn.MSELoss())
 hp.set_hp_end()
 
@@ -49,10 +49,13 @@ test_loader   = DataLoader(test_dataset, batch_size = hp.get_hp('batch_size'), s
 # 训练
 trainer = Trainer(model, train_loader)
 
-hp.get_hp('optimizer').load_state_dict(trainer.load_checkpoint('checkpoint.pt', hp.get_hp('device')))
+#hp.get_hp('optimizer').load_state_dict(trainer.load_checkpoint('checkpoint.pt', hp.get_hp('device')))
+
+psnr_metric = PeakSignalNoiseRatio(data_range = 1.0).to(hp.get_hp('device'))
+ssim_metric = StructuralSimilarityIndexMeasure(data_range = 1.0).to(hp.get_hp('device'))
 
 @trainer.set_step
-def step_fn(epoch_idx, model, data):
+def step_fn(epoch_idx, model, tqdm, data):
     x, truth_y = data
 
     x = x.to(hp.get_hp('device'))
@@ -67,10 +70,12 @@ def step_fn(epoch_idx, model, data):
 
     hp.get_hp('optimizer').zero_grad()
     loss.mean().backward()
+
     torch.nn.utils.clip_grad_norm_(
         model.parameters(),
-        0.01 / hp.get_hp('optimizer').param_groups[0]['lr']
+        0.2 / hp.get_hp('optimizer').param_groups[0]['lr']
     )
+
     hp.get_hp('optimizer').step()
 
     return loss.mean()
@@ -81,6 +86,8 @@ def eval_fn(epoch_idx, model, tqdm):
     model.eval()
 
     total_loss = 0.
+    total_psnr = 0.
+    total_ssim = 0.
     for x, truth_y in test_loader:
         x = x.to(hp.get_hp('device'))
         truth_y = truth_y.to(hp.get_hp('device'))
@@ -91,9 +98,13 @@ def eval_fn(epoch_idx, model, tqdm):
         with torch.no_grad():
             predict_y = model(x)
 
-        current_loss = hp.get_hp('loss_fn')(predict_y, truth_y)
-        total_loss += current_loss.item()
-    test_loss = total_loss / len(test_loader)
-    tqdm.write(f'Test Loss on Average of epoch {epoch_idx + 1} is {test_loss:.5g}')
+        total_psnr += psnr_metric(truth_y, predict_y)
+        total_ssim += ssim_metric(truth_y, predict_y)
+
+        total_loss += hp.get_hp('loss_fn')(predict_y, truth_y).item()
+    mean_loss = total_loss / len(test_loader)
+    mean_psnr = total_psnr / len(test_loader)
+    mean_ssim = total_ssim / len(test_loader)
+    tqdm.write(f'Epoch {epoch_idx + 1}: loss = {mean_loss:.5g}, psnr = {mean_psnr:.5g}, ssim = {mean_ssim:.5g}')
 
 trainer.train(hp.get_hp('epoch_num'), 'checkpoint.pt', hp.get_hp('optimizer'))

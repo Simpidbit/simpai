@@ -51,12 +51,8 @@ class SP_DIV2K_Dataset(Dataset):
         HR_tensor = torch.from_numpy(HR_img)
         LR_tensor = torch.from_numpy(LR_img)
 
-        if HR_tensor.shape != LR_tensor.shape:
-            simpai.vis.show_chw_tensor(HR_tensor)
-            simpai.vis.show_chw_tensor(LR_tensor)
-
         transforms = v2.Compose([
-            v2.RandomResizedCrop(size = (self.patch_size, self.patch_size), antialias = True),
+            v2.RandomCrop((self.patch_size, self.patch_size)),
             v2.RandomHorizontalFlip(p = 0.5),
             v2.ToDtype(torch.float32, scale = True)
         ])

@@ -34,6 +34,7 @@ if __name__ == '__main__':
             predict_y_y = model(x_ycbcr[:, 0, :, :].unsqueeze(1))
         vis.show_chw_tensor(x[0])
         vis.show_chw_tensor(truth_y[0])
+
         output_ycbcr = torch.stack([
             predict_y_y[:, 0, :, :],
             x_ycbcr[:, 1, :, :],

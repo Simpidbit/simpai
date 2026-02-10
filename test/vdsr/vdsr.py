@@ -38,6 +38,5 @@ class VDSR(nn.Module):
         out = self.layer2(out)
         out = self.layer3(out)
 
-        print(out.sum(), residual.sum())
         out = torch.add(out, residual)
         return out
