@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/simpai/__init__.py
+src/simpai/data.py
+src/simpai/hyperparam.py
+src/simpai/vis.py
+src/simpai.egg-info/PKG-INFO
+src/simpai.egg-info/SOURCES.txt
+src/simpai.egg-info/dependency_links.txt
+src/simpai.egg-info/top_level.txt
+test/test.py

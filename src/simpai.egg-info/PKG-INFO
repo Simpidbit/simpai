@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: simpai
+Version: 0.0.1
+Summary: AI utilities with PyTorch.
+Author-email: Simpidbit Isaiah <simpidbit@gmail.com>
+Project-URL: Homepage, https://github.com/yourusername/my_package
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Simpai
+
+Hello simpai!
