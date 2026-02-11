@@ -1,7 +1,7 @@
 # True 代表已上锁
-__simpai_hyperparam_set_lock = True
-__simpai_hyperparam_read_lock = True
-__simpai_hyperparam = dict()
+_simpai_hyperparam_set_lock = True
+_simpai_hyperparam_read_lock = True
+_simpai_hyperparam = dict()
 
 def set_hp_begin():
     """
@@ -24,10 +24,10 @@ def set_hp_begin():
 
     请审慎对待超参数的设置，保持配置的纯洁性与确定性。
     """
-    global __simpai_hyperparam_set_lock
-    global __simpai_hyperparam_read_lock
-    __simpai_hyperparam_set_lock = False
-    __simpai_hyperparam_read_lock = True
+    global _simpai_hyperparam_set_lock
+    global _simpai_hyperparam_read_lock
+    _simpai_hyperparam_set_lock = False
+    _simpai_hyperparam_read_lock = True
 
 def set_hp_end():
     """
@@ -50,10 +50,10 @@ def set_hp_end():
 
     请审慎对待超参数的设置，保持配置的纯洁性与确定性。
     """
-    global __simpai_hyperparam_set_lock
-    global __simpai_hyperparam_read_lock
-    __simpai_hyperparam_set_lock = True
-    __simpai_hyperparam_read_lock = False
+    global _simpai_hyperparam_set_lock
+    global _simpai_hyperparam_read_lock
+    _simpai_hyperparam_set_lock = True
+    _simpai_hyperparam_read_lock = False
 
 def set_hp(key:str, value = None):
     """
@@ -76,23 +76,23 @@ def set_hp(key:str, value = None):
     
     Example:
         # 用法 1: 直接赋值
-        setHp('epoch_num', 100)
+        set_hp('epoch_num', 100)
         
         # 用法 2: 装饰器
-        @setHp('loss')
+        @set_hp('loss')
         def my_loss_func(a, b):
             return a + b
     """
-    if __simpai_hyperparam_set_lock:
+    if _simpai_hyperparam_set_lock:
         raise RuntimeError('调用set_hp()之前应该先调用set_hp_begin()!')
 
     if value is None:
         def decorator(func):
-            __simpai_hyperparam[key] = func
+            _simpai_hyperparam[key] = func
             return func
         return decorator
     else:
-        __simpai_hyperparam[key] = value
+        _simpai_hyperparam[key] = value
 
 def get_hp(key:str):
     """
@@ -107,13 +107,13 @@ def get_hp(key:str):
              如果键不存在，则返回 None。
     
     Example:
-        epoch = getHp('epoch_num')
-        loss_func = getHp('loss')
+        epoch = get_hp('epoch_num')
+        loss_func = get_hp('loss')
     """
-    if __simpai_hyperparam_read_lock:
+    if _simpai_hyperparam_read_lock:
         raise RuntimeError('还未设置任何超参数!')
 
-    if key in __simpai_hyperparam:
-        return __simpai_hyperparam[key]
+    if key in _simpai_hyperparam:
+        return _simpai_hyperparam[key]
     else:
         return None

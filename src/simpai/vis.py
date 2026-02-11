@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def show_hw_ndarray(img:np.ndarray,
-                    title:str           = None,
-                    figsize:tuple       = (-1, -1)):
+                    title:str           = '',
+                    figsize:tuple       = (-1, -1)) -> None:
     # 判断类型是否正确
     if not isinstance(img, np.ndarray):
         raise TypeError(f"img must be a np.ndarray, got {type(img)}")
@@ -20,7 +20,7 @@ def show_hw_ndarray(img:np.ndarray,
         figsize = (width, height)
 
     plt.figure(figsize = figsize)
-    if title is not None:
+    if title != '':
         plt.title(title)
     plt.axis("off")
 
@@ -28,8 +28,8 @@ def show_hw_ndarray(img:np.ndarray,
     plt.show()
 
 def show_hwc_ndarray(img:np.ndarray,
-                     title:str          = None, 
-                     figsize:tuple      = (-1, -1)):
+                     title:str          = '', 
+                     figsize:tuple      = (-1, -1)) -> None:
     # 判断类型是否正确
     if not isinstance(img, np.ndarray):
         raise TypeError(f"img must be a np.ndarray, got {type(img)}")
@@ -47,9 +47,9 @@ def show_hwc_ndarray(img:np.ndarray,
         width = w / 100
         height = h / 100
         figsize = (width, height)
-
+    
     plt.figure(figsize = figsize)
-    if title is not None:
+    if title != '':
         plt.title(title)
     plt.axis("off")
 
@@ -60,13 +60,13 @@ def show_hwc_ndarray(img:np.ndarray,
     plt.show()
 
 def show_chw_ndarray(img:np.ndarray,
-                     title:str          = None, 
-                     figsize:tuple      = (-1, -1)):
+                     title:str          = '', 
+                     figsize:tuple      = (-1, -1)) -> None:
     show_hwc_ndarray(np.transpose(img, (1, 2, 0)), title, figsize)
 
 def show_chw_tensor(img:torch.Tensor,
-                    title:str           = None, 
-                    figsize:tuple       = (-1, -1)):
+                    title:str           = '', 
+                    figsize:tuple       = (-1, -1)) -> None:
     # 判断是否是张量
     if not isinstance(img, torch.Tensor):
         raise TypeError(f"img must be a torch.Tensor, got {type(img)}")
@@ -74,8 +74,8 @@ def show_chw_tensor(img:torch.Tensor,
     show_hwc_ndarray(x, title, figsize)
 
 def show_hwc_tensor(img:torch.Tensor,
-                    title:str           = None, 
-                    figsize:tuple       = (-1, -1)):
+                    title:str           = '', 
+                    figsize:tuple       = (-1, -1)) -> None:
     # 判断是否是张量
     if not isinstance(img, torch.Tensor):
         raise TypeError(f"img must be a torch.Tensor, got {type(img)}")

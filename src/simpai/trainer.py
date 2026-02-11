@@ -8,7 +8,7 @@ class Trainer:
         self.eval_fn = None
         self.epoch_idx_offset = 0
 
-    def __is_notebook(self) -> bool:
+    def _is_notebook(self) -> bool:
         """
         检查当前环境是否为 Notebook (Jupyter/Colab/VS Code等)。
         """
@@ -41,7 +41,7 @@ class Trainer:
         return checkpoint['optimizer_state_dict']
 
     def train(self, epoch_num, save_checkpoint = None, optimizer = None):
-        if self.__is_notebook():
+        if self._is_notebook():
             from tqdm.notebook import tqdm
         else:
             from tqdm import tqdm
@@ -53,12 +53,13 @@ class Trainer:
             position = 0
         )
 
+        # eval_fn 的第一个参数有可能是 -1
         self.eval_fn(self.epoch_idx_offset - 1, self.model, tqdm)
         for idx in epoch_pbar:
             epoch_idx = idx + self.epoch_idx_offset
             self.model.train()
             with tqdm(
-                total = self.train_dataloader.batch_size * len(self.train_dataloader),
+                total = len(self.train_dataloader.dataset),
                 desc = f'Progress of epoch {epoch_idx + 1}',
                 leave = False,
                 position = 1
