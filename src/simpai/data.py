@@ -50,9 +50,8 @@ def filepath_to_ndarray(
     filepath:str,
     transpose:str = 'hwc'
 ) -> np.ndarray:
-    img_file = Image.open(filepath).convert('RGB')
-    img = np.array(img_file, dtype = 'uint8')
-    img_file.close()
+    with Image.open(filepath).convert('RGB') as img_file:
+        img = np.array(img_file, dtype = 'uint8')
     if transpose == 'hwc':
         pass
     elif transpose == 'chw':
@@ -107,22 +106,21 @@ def filepath_to_ndarray_enhancement(
             - 值范围：[0.0, 1.0] (已除以 255.0)。
             - 内存布局：连续 (Contiguous)。
     """
-    img_file = Image.open(filepath).convert('RGB')
 
-    if resize_enable and enhancement_enable:
-        img_file = img_file.resize(resize_shape)
-    w, h = img_file.size
-    if crop_enable and enhancement_enable:
-        if crop_patch_size <= 0:
-            raise ValueError(f'crop_patch_size is illegal: {crop_patch_size}')
-        if w < crop_patch_size or h < crop_patch_size:
-            raise ValueError(f'crop_patch_size: {crop_patch_size} but w, h is {w}, {h}')
-        x = random.randint(0, w - crop_patch_size)
-        y = random.randint(0, h - crop_patch_size)
-        img_file = img_file.crop((x, y, x + crop_patch_size, y + crop_patch_size))
+    with Image.open(filepath).convert('RGB') as img_file:
+        if resize_enable and enhancement_enable:
+            img_file = img_file.resize(resize_shape)
+        w, h = img_file.size
+        if crop_enable and enhancement_enable:
+            if crop_patch_size <= 0:
+                raise ValueError(f'crop_patch_size is illegal: {crop_patch_size}')
+            if w < crop_patch_size or h < crop_patch_size:
+                raise ValueError(f'crop_patch_size: {crop_patch_size} but w, h is {w}, {h}')
+            x = random.randint(0, w - crop_patch_size)
+            y = random.randint(0, h - crop_patch_size)
+            img_file = img_file.crop((x, y, x + crop_patch_size, y + crop_patch_size))
 
-    img = np.array(img_file, dtype = dtype) / 255.0
-    img_file.close()
+        img = np.array(img_file, dtype = dtype) / 255.0
 
     if enhancement_enable:
         if not 0 <= flip_lr_prob <= 1:
