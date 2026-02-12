@@ -6,5 +6,5 @@ build:
 	python3 -m pip install -e .
 
 test:
-	python3 ./test/main.py
+	cd ./test/vdsr && python3 train.py && cd ../../
 
