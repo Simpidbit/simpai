@@ -2,7 +2,7 @@ from simpai import hyperparam as hp
 from simpai import constant as cst
 from simpai import data as dt
 from simpai.trainer import Trainer
-from simpai import vis
+from simpai import visual as vis
 
 import torch
 import torch.nn as nn

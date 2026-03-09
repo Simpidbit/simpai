@@ -12,6 +12,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from typeguard import typechecked
 
+from simpai import logger
 
 @typechecked
 def plot_bhwc(
@@ -77,7 +78,7 @@ def plot_bhwc(
     elif nrows * ncols < b:
         raise ValueError(f'nrows = {nrows}, ncols = {ncols}, but there\'re {b} image(s)')
 
-    print(f'nrows = {nrows}, ncols = {ncols}')
+    logger.debug(f'nrows = {nrows}, ncols = {ncols}')
 
     # Calculate figure size
     figsize = (
@@ -113,7 +114,7 @@ def plot_bhwc(
 
     # Warn if figure is neither shown nor saved
     if (not show) and (len(save_as) == 0):
-        print('plot_bhwc(): [WARNING] Ploted images aren\'t showed or saved.')
+        logger.warning('plot_bhwc(): [WARNING] Ploted images aren\'t showed or saved.')
 
 
 @typechecked
@@ -335,5 +336,5 @@ def show_chw(
 
 
 if __name__ == '__main__':
-    from simpai import data
+    from simpai import file
     show_chw(torch.rand(3, 90, 100))

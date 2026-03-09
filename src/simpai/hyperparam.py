@@ -1,28 +1,28 @@
-# True 代表已上锁
+# True represents locked status
 _simpai_hyperparam_set_lock = True
 _simpai_hyperparam_read_lock = True
 _simpai_hyperparam = dict()
 
 def set_hp_begin():
     """
-    超参数不仅是程序的输入，更是系统运行的基石。
-    允许在代码的任意位置、任意时刻随意修改超参数，
-    是导致逻辑混乱与状态不可控的根源。
+    Hyperparameters are not only program inputs but also the cornerstone of system operation.
+    Allowing arbitrary modification of hyperparameters at any time and any location in the code
+    is the root cause of logical confusion and uncontrollable state.
 
-    因而，此处引入严格的生命周期管理机制：
-    - 显式开启：
-        只有在调用 `set_hp_begin()` 开启配置窗口后，才允许定义超参数。
-    - 集中管理：
-        强制开发者将超参数的设置逻辑集中在特定的代码块中，
-        而非散落在业务逻辑的各个角落。
-    - 不可篡改：
-        一旦调用 `set_hp_end()` 关闭配置窗口，超参数即进入“只读”状态，
-        确保系统在运行时的稳定性。
-    - 完备可见：
-        在 `set_hp_end()` 锁定之前，参数处于正在构建状态，禁止读取。
-        这确保了业务逻辑获取到的永远是完整、已定稿的配置集合。
+    Therefore, a strict lifecycle management mechanism is introduced here:
+    - Explicit enablement:
+        Hyperparameters can only be defined after calling `set_hp_begin()` to open the configuration window.
+    - Centralized management:
+        Developers are forced to concentrate hyperparameter setting logic in specific code blocks,
+        rather than scattering it across various corners of business logic.
+    - Immutable:
+        Once `set_hp_end()` is called to close the configuration window, hyperparameters enter a "read-only" state,
+        ensuring system stability at runtime.
+    - Complete visibility:
+        Before `set_hp_end()` locks, parameters are in a building state and reading is prohibited.
+        This ensures that business logic always retrieves complete and finalized configuration sets.
 
-    请审慎对待超参数的设置，保持配置的纯洁性与确定性。
+    Please treat hyperparameter setting with care and maintain the purity and determinism of the configuration.
     """
     global _simpai_hyperparam_set_lock
     global _simpai_hyperparam_read_lock
@@ -31,24 +31,24 @@ def set_hp_begin():
 
 def set_hp_end():
     """
-    超参数不仅是程序的输入，更是系统运行的基石。
-    允许在代码的任意位置、任意时刻随意修改超参数，
-    是导致逻辑混乱与状态不可控的根源。
+    Hyperparameters are not only program inputs but also the cornerstone of system operation.
+    Allowing arbitrary modification of hyperparameters at any time and any location in the code
+    is the root cause of logical confusion and uncontrollable state.
 
-    因而，此处引入严格的生命周期管理机制：
-    - 显式开启：
-        只有在调用 `set_hp_begin()` 开启配置窗口后，才允许定义超参数。
-    - 集中管理：
-        强制开发者将超参数的设置逻辑集中在特定的代码块中，
-        而非散落在业务逻辑的各个角落。
-    - 不可篡改：
-        一旦调用 `set_hp_end()` 关闭配置窗口，超参数即进入“只读”状态，
-        确保系统在运行时的稳定性。
-    - 完备可见：
-        在 `set_hp_end()` 锁定之前，参数处于正在构建状态，禁止读取。
-        这确保了业务逻辑获取到的永远是完整、已定稿的配置集合。
+    Therefore, a strict lifecycle management mechanism is introduced here:
+    - Explicit enablement:
+        Hyperparameters can only be defined after calling `set_hp_begin()` to open the configuration window.
+    - Centralized management:
+        Developers are forced to concentrate hyperparameter setting logic in specific code blocks,
+        rather than scattering it across various corners of business logic.
+    - Immutable:
+        Once `set_hp_end()` is called to close the configuration window, hyperparameters enter a "read-only" state,
+        ensuring system stability at runtime.
+    - Complete visibility:
+        Before `set_hp_end()` locks, parameters are in a building state and reading is prohibited.
+        This ensures that business logic always retrieves complete and finalized configuration sets.
 
-    请审慎对待超参数的设置，保持配置的纯洁性与确定性。
+    Please treat hyperparameter setting with care and maintain the purity and determinism of the configuration.
     """
     global _simpai_hyperparam_set_lock
     global _simpai_hyperparam_read_lock
@@ -58,33 +58,33 @@ def set_hp_end():
 def set_hp(key:str, value = None):
     """
     set_hp - Set Hyperparameter
-    设置超参数，或者作为装饰器注册函数。
+    Set hyperparameters or register functions as decorators.
 
-    该函数有两种用法：
-    1. 直接赋值模式：如果提供了 `value` 参数，将直接保存该值。
-    2. 装饰器模式：如果未提供 `value` (即为 None)，将返回一个装饰器，
-       用于将被装饰的函数注册到超参数字典中。
+    This function has two usage patterns:
+    1. Direct assignment mode: If the `value` parameter is provided, the value will be saved directly.
+    2. Decorator mode: If `value` is not provided (i.e., None), a decorator is returned,
+       used to register the decorated function into the hyperparameter dictionary.
 
     Args:
-        key (str): 超参数的名称（键）。
-        value (Any, optional): 要存储的超参数值。默认为 None。
+        key (str): The name (key) of the hyperparameter.
+        value (Any, optional): The hyperparameter value to store. Defaults to None.
 
     Returns:
-        function or None: 
-        - 如果作为装饰器使用（value is None），返回装饰器函数。
-        - 如果作为普通赋值函数使用，返回 None。
-    
+        function or None:
+        - If used as a decorator (value is None), returns the decorator function.
+        - If used as a regular assignment function, returns None.
+
     Example:
-        # 用法 1: 直接赋值
+        # Usage 1: Direct assignment
         set_hp('epoch_num', 100)
-        
-        # 用法 2: 装饰器
+
+        # Usage 2: Decorator
         @set_hp('loss')
         def my_loss_func(a, b):
             return a + b
     """
     if _simpai_hyperparam_set_lock:
-        raise RuntimeError('调用set_hp()之前应该先调用set_hp_begin()!')
+        raise RuntimeError('You should call set_hp_begin() before calling set_hp()!')
 
     if value is None:
         def decorator(func):
@@ -97,21 +97,21 @@ def set_hp(key:str, value = None):
 def get_hp(key:str):
     """
     get_hp - Get Hyperparameter
-    根据键名获取已注册的超参数值或函数。
+    Retrieve a registered hyperparameter value or function by key name.
 
     Args:
-        key (str): 要检索的超参数名称。
+        key (str): The name of the hyperparameter to retrieve.
 
     Returns:
-        Any: 对应的超参数值（可以是数值、字符串、函数等）。
-             如果键不存在，则返回 None。
-    
+        Any: The corresponding hyperparameter value (can be a number, string, function, etc.).
+             Returns None if the key does not exist.
+
     Example:
         epoch = get_hp('epoch_num')
         loss_func = get_hp('loss')
     """
     if _simpai_hyperparam_read_lock:
-        raise RuntimeError('还未设置任何超参数!')
+        raise RuntimeError('No hyperparameters have been set yet!')
 
     if key in _simpai_hyperparam:
         return _simpai_hyperparam[key]
