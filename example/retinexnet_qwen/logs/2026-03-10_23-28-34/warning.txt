@@ -1,0 +1,3 @@
+[ WARNING ] (2026-03-10 23:28:41.551244) load_ckpt: model_state_dict.pt is not found. Pass.
+[ WARNING ] (2026-03-10 23:28:41.551268) load_ckpt: decom_optimizer_state_dict.pt is not found. Pass.
+[ WARNING ] (2026-03-10 23:28:41.551280) load_ckpt: relight_optimizer_state_dict.pt is not found. Pass.

@@ -120,6 +120,8 @@ def plot_bhwc(
 @typechecked
 def show_bhw(
     img: np.ndarray | torch.Tensor,
+    nrows: int                              = -1,
+    ncols: int                              = -1,
     title: tuple[str, ...]                  = tuple(),
     figsize: tuple[int|float, int|float]    = (-1, -1),
 ) -> None:
@@ -150,6 +152,8 @@ def show_bhw(
     # Add channel dimension and plot
     plot_bhwc(
         img     = np.expand_dims(img, axis = (3,)),
+        nrows   = nrows,
+        ncols   = ncols,
         title   = title,
         figsize = figsize,
         show    = True,
@@ -159,6 +163,8 @@ def show_bhw(
 @typechecked
 def show_hw(
     img: np.ndarray | torch.Tensor,
+    nrows: int                              = -1,
+    ncols: int                              = -1,
     title: str                              = str(),
     figsize: tuple[int|float, int|float]    = (-1, -1),
 ) -> None:
@@ -188,6 +194,8 @@ def show_hw(
     # Add batch and channel dimensions, then plot
     plot_bhwc(
         img     = np.expand_dims(img, axis = (0, 3)),
+        nrows   = nrows,
+        ncols   = ncols,
         title   = (title, ),
         figsize = figsize,
         show    = True,
@@ -197,6 +205,8 @@ def show_hw(
 @typechecked
 def show_bhwc(
     img: np.ndarray | torch.Tensor,
+    nrows: int                              = -1,
+    ncols: int                              = -1,
     title: tuple[str, ...]                  = tuple(),
     figsize: tuple[int|float, int|float]    = (-1, -1),
 ) -> None:
@@ -215,6 +225,8 @@ def show_bhwc(
     """
     plot_bhwc(
         img     = img,
+        nrows   = nrows,
+        ncols   = ncols,
         title   = title,
         figsize = figsize,
         show    = True,
@@ -224,6 +236,8 @@ def show_bhwc(
 @typechecked
 def show_hwc(
     img: np.ndarray | torch.Tensor,
+    nrows: int                              = -1,
+    ncols: int                              = -1,
     title: str                              = str(),
     figsize: tuple[int|float, int|float]    = (-1, -1),
 ) -> None:
@@ -253,6 +267,8 @@ def show_hwc(
     # Add batch dimension and plot
     plot_bhwc(
         img     = np.expand_dims(img, axis = (0,)),
+        nrows   = nrows,
+        ncols   = ncols,
         title   = (title, ),
         figsize = figsize,
         show    = True,
@@ -262,6 +278,8 @@ def show_hwc(
 @typechecked
 def show_bchw(
     img: np.ndarray | torch.Tensor,
+    nrows: int                              = -1,
+    ncols: int                              = -1,
     title: tuple[str, ...]                  = tuple(),
     figsize: tuple[int|float, int|float]    = (-1, -1),
 ) -> None:
@@ -282,6 +300,8 @@ def show_bchw(
         # Transpose from (B, C, H, W) to (B, H, W, C)
         plot_bhwc(
             img     = img.transpose(0, 2, 3, 1),
+            nrows   = nrows,
+            ncols   = ncols,
             title   = title,
             figsize = figsize,
             show    = True,
@@ -291,6 +311,8 @@ def show_bchw(
         # Permute from (B, C, H, W) to (B, H, W, C)
         plot_bhwc(
             img     = img.permute(0, 2, 3, 1),
+            nrows   = nrows,
+            ncols   = ncols,
             title   = title,
             figsize = figsize,
             show    = True,
@@ -300,6 +322,8 @@ def show_bchw(
 @typechecked
 def show_chw(
     img: np.ndarray | torch.Tensor,
+    nrows: int                              = -1,
+    ncols: int                              = -1,
     title: str                              = str(),
     figsize: tuple[int|float, int|float]    = (-1, -1),
 ) -> None:
@@ -320,6 +344,8 @@ def show_chw(
         # Transpose from (C, H, W) to (H, W, C), add batch dimension, and plot
         plot_bhwc(
             img     = np.expand_dims(img.transpose(1, 2, 0), axis = (0, )),
+            nrows   = nrows,
+            ncols   = ncols,
             title   = (title, ),
             figsize = figsize,
             show    = True,
@@ -329,6 +355,8 @@ def show_chw(
         # Permute from (C, H, W) to (H, W, C), add batch dimension, and plot
         plot_bhwc(
             img     = torch.unsqueeze(img.permute(1, 2, 0), dim = 0),
+            nrows   = nrows,
+            ncols   = ncols,
             title   = (title, ),
             figsize = figsize,
             show    = True,

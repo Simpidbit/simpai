@@ -1,5 +1,6 @@
 import os
 import random
+import typing
 
 import torch
 import numpy as np
@@ -22,28 +23,29 @@ class Our485(Dataset):
 
     def __getitem__(self, idx: int) -> tuple[torch.Tensor, torch.Tensor]:
         seed = os.urandom(1)[0]
-        high_img_enhanced = file.img_enhancement_xxhw(
+        high_img_enhanced = typing.cast(torch.Tensor, file.img_enhancement_xxhw(
             self.high_imgs[idx],
             randomly_crop_patch = hp.get_hp('patch_size'),
             hflip = True,
             vflip = False,
             rot_prob = 0.5,
             seed = seed
-        )
+        ))
 
-        low_img_enhanced = file.img_enhancement_xxhw(
+        low_img_enhanced = typing.cast(torch.Tensor, file.img_enhancement_xxhw(
             self.low_imgs[idx],
             randomly_crop_patch = hp.get_hp('patch_size'),
             hflip = True,
             vflip = False,
             rot_prob = 0.5,
             seed = seed
-        )
+        ))
 
         return low_img_enhanced, high_img_enhanced
 
 
     def _read_imgs(self) -> None:
+        # TODO
         our485_dir = '/data/our485/'
         high_dir = our485_dir + 'high/'
         low_dir = our485_dir + 'low/'

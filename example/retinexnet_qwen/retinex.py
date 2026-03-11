@@ -6,9 +6,11 @@ import torch.nn.functional as F
 from typeguard import typechecked
 
 from simpai import hyperparam as hp
+from simpai import logger
 
 from decom import DecomNet
 from relight import RelightNet
+from qwen import QwenScorer
 
 class RetinexNet(nn.Module):
     @typechecked
@@ -17,6 +19,7 @@ class RetinexNet(nn.Module):
         self.device         = hp.get_hp('device')
         self.decom_net      = DecomNet().to(self.device)
         self.relight_net    = RelightNet().to(self.device)
+        self.qwen_scorer    = QwenScorer(self.device)
 
     def forward(
         self,
@@ -47,16 +50,23 @@ class RetinexNet(nn.Module):
         self.Ismooth_loss_high  = self._smooth(I_high, R_high)
         self.Ismooth_loss_delta = self._smooth(I_delta, R_low)
 
+        self.output_S_device = R_low * I_delta_3
+        self.qwen_score = self.qwen_scorer(self.output_S_device)
+
+        logger.debug(f'Qwen Score: {self.qwen_score}', True)
+
         self.loss_Decom = self.recon_loss_low + \
                           self.recon_loss_high + \
                           0.001 * self.recon_loss_mutal_low + \
                           0.001 * self.recon_loss_mutal_high + \
                           0.1 * self.Ismooth_loss_low + \
                           0.1 * self.Ismooth_loss_high + \
-                          0.01 * self.equal_R_loss
+                          0.01 * self.equal_R_loss + \
+                          0.01 * self.qwen_score
         self.loss_Relight = self.relight_loss + \
-                            3 * self.Ismooth_loss_delta
-        #print(f'loss_Decom: {self.loss_Decom}, loss_Relight: {self.loss_Relight}')
+                            3 * self.Ismooth_loss_delta + \
+                            0.01 * self.qwen_score
+        logger.debug(f'Loss_Decom: {self.loss_Decom}, Loss_Relight: {self.loss_Relight}', True)
 
         self.output_R_low   = R_low.detach().cpu()
         self.output_I_low   = I_low_3.detach().cpu()

@@ -1,7 +1,25 @@
-import numpy as np
+from typing import Any
+from threading import Thread
+from queue import Queue
+from copy import deepcopy
 
+import numpy as np
 import torch
 from typeguard import typechecked
+
+from simpai import logger
+
+_simpai_data_ckpt_queue: Queue[tuple[str, Any]] = Queue(maxsize = 0)
+def _simpai_data_worker() -> None:
+    global _simpai_data_ckpt_queue
+    while True:
+        filename, meta_dict = _simpai_data_ckpt_queue.get(block = True)
+        if meta_dict is None:
+            # For `wait_for_ckpt_io`
+            return
+        torch.save(meta_dict, filename)
+_simpai_data_worker_thread = Thread(target = _simpai_data_worker, daemon = True)
+_simpai_data_worker_thread.start()
 
 def rgb_to_ycbcr_ndarray(img:np.ndarray) -> np.ndarray:
     """
@@ -87,3 +105,64 @@ def rgb_to_ycbcr_tensor(img:torch.Tensor) -> torch.Tensor:
     return torch.stack([y, cb, cr], dim = 1)
 
 
+def _simpai_data_make_meta_dict_tuple(*args: tuple[str, Any], **kwargs) -> tuple[dict]:
+    ckpt_meta_dict_list: list = list()
+    for arg in args:
+        if isinstance(arg[1], torch.nn.Module):
+            ckpt_meta_dict_list.append({
+                'typeid': 'torch.nn.Module',
+                'meta_data': arg[1].state_dict()
+            })
+        elif isinstance(arg[1], torch.optim.Optimizer):
+            ckpt_meta_dict_list.append({
+                'typeid': 'torch.optim.Optimizer',
+                'meta_data': arg[1].state_dict()
+            })
+    return tuple(ckpt_meta_dict_list)
+
+
+@typechecked
+def save_ckpt(*args: tuple[str, Any], **kwargs) -> None:
+    ckpt_meta_dict_tuple = _simpai_data_make_meta_dict_tuple(*args, **kwargs)
+    for i in range(len(ckpt_meta_dict_tuple)):
+        torch.save(ckpt_meta_dict_tuple[i], args[i][0])
+
+@typechecked
+def save_ckpt_multithread(*args: tuple[str, Any], **kwargs) -> None:
+    global _simpai_data_ckpt_queue
+    ckpt_meta_dict_tuple = _simpai_data_make_meta_dict_tuple(*args, **kwargs)
+    for i in range(len(ckpt_meta_dict_tuple)):
+        _simpai_data_ckpt_queue.put((args[i][0], deepcopy(ckpt_meta_dict_tuple[i])))
+
+@typechecked
+def wait_for_ckpt_io() -> None:
+    _simpai_data_ckpt_queue.put((str(), None))
+    _simpai_data_worker_thread.join()
+
+@typechecked
+def load_ckpt(
+        *args: str | tuple[str, torch.nn.Module | torch.optim.Optimizer], 
+        device: torch.device = torch.device('cpu')
+) -> tuple:
+    result_list: list = list()
+    for arg in args:
+        if isinstance(arg, str):
+            try:
+                ckpt_meta_dict = torch.load(arg, map_location = device)
+                result_list.append(ckpt_meta_dict)
+            except FileNotFoundError:
+                logger.warning(f'load_ckpt: {arg} is not found. Pass.')
+        else:
+            try:
+                ckpt_meta_dict = torch.load(arg[0], map_location = device)
+                # It may be torch.nn.Module or torch.optim.Optimizer!
+                # But both have `load_state_dict` method.
+                if isinstance(arg[1], torch.nn.Module):
+                    arg[1].load_state_dict(ckpt_meta_dict['meta_data'], strict = False)
+                else:
+                    arg[1].load_state_dict(ckpt_meta_dict['meta_data'])
+                result_list.append(ckpt_meta_dict)
+            except FileNotFoundError:
+                logger.warning(f'load_ckpt: {arg[0]} is not found. Pass.')
+
+    return tuple(result_list)

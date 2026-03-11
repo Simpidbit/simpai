@@ -1,9 +1,12 @@
+from typing import Any, Callable
+from typeguard import typechecked
+
 # True represents locked status
 _simpai_hyperparam_set_lock = True
 _simpai_hyperparam_read_lock = True
 _simpai_hyperparam = dict()
 
-def set_hp_begin():
+def set_hp_begin() -> None:
     """
     Hyperparameters are not only program inputs but also the cornerstone of system operation.
     Allowing arbitrary modification of hyperparameters at any time and any location in the code
@@ -29,7 +32,7 @@ def set_hp_begin():
     _simpai_hyperparam_set_lock = False
     _simpai_hyperparam_read_lock = True
 
-def set_hp_end():
+def set_hp_end() -> None:
     """
     Hyperparameters are not only program inputs but also the cornerstone of system operation.
     Allowing arbitrary modification of hyperparameters at any time and any location in the code
@@ -55,7 +58,11 @@ def set_hp_end():
     _simpai_hyperparam_set_lock = True
     _simpai_hyperparam_read_lock = False
 
-def set_hp(key:str, value = None):
+@typechecked
+def set_hp(
+        key: str, 
+        value: Any = None
+) -> None | Callable:
     """
     set_hp - Set Hyperparameter
     Set hyperparameters or register functions as decorators.
@@ -94,7 +101,8 @@ def set_hp(key:str, value = None):
     else:
         _simpai_hyperparam[key] = value
 
-def get_hp(key:str):
+@typechecked
+def get_hp(key: str) -> Any:
     """
     get_hp - Get Hyperparameter
     Retrieve a registered hyperparameter value or function by key name.

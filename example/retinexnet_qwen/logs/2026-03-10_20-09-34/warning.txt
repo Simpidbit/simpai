@@ -1,0 +1,2 @@
+[ WARNING ] (2026-03-10 20:09:41.348092) load_ckpt: decom_optimizer_state_dict.pt is not found. Pass.
+[ WARNING ] (2026-03-10 20:09:41.348111) load_ckpt: relight_optimizer_state_dict.pt is not found. Pass.

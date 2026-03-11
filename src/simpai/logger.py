@@ -4,6 +4,7 @@ from queue import Queue
 from time import time as get_timestamp
 from datetime import datetime
 from platform import system as get_system
+from tqdm import tqdm
 
 def color_print_str(
     s: str,
@@ -78,22 +79,22 @@ def worker() -> None:
             msgstr = f'({timestr}) {msgobj.msg}'
             if msgobj.msg_type == _SIMPAI_LOGGER_INFO_CODE:
                 msgstr = '[ INFO    ] ' + msgstr
-                if msgobj.output: print(green_print_str(msgstr))
+                if msgobj.output: tqdm.write(green_print_str(msgstr))
                 info_file.write(msgstr + '\n')
                 info_file.flush()
             elif msgobj.msg_type == _SIMPAI_LOGGER_WARNING_CODE:
                 msgstr = '[ WARNING ] ' + msgstr
-                if msgobj.output: print(yellow_print_str(msgstr))
+                if msgobj.output: tqdm.write(yellow_print_str(msgstr))
                 warning_file.write(msgstr + '\n')
                 warning_file.flush()
             elif msgobj.msg_type == _SIMPAI_LOGGER_ERROR_CODE:
                 msgstr = '[ ERROR   ] ' + msgstr
-                if msgobj.output: print(red_print_str(msgstr))
+                if msgobj.output: tqdm.write(red_print_str(msgstr))
                 error_file.write(msgstr + '\n')
                 error_file.flush()
             elif msgobj.msg_type == _SIMPAI_LOGGER_DEBUG_CODE:
                 msgstr = '[ DEBUG   ] ' + msgstr
-                if msgobj.output: print(blue_print_str(msgstr))
+                if msgobj.output: tqdm.write(blue_print_str(msgstr))
                 debug_file.write(msgstr + '\n')
                 debug_file.flush()
             elif msgobj.msg_type == _SIMPAI_LOGGER_STOP_CODE:
