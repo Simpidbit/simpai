@@ -1,8 +1,10 @@
+from os import wait
 import typing
 import time
 
 import torch
 from torch.utils.data import DataLoader
+import torch.nn.functional as F
 import gc
 
 from simpai import utils
@@ -52,6 +54,49 @@ def eval_fn(
             ), dim = 0), nrows = 5, ncols = 16)
             break
 
+def _flatten_grad_vector(
+    grads: tuple[torch.Tensor | None, ...],
+    device: torch.device,
+) -> torch.Tensor:
+    grad_parts = [grad.reshape(-1) for grad in grads if grad is not None]
+    if len(grad_parts) == 0:
+        return torch.zeros(1, dtype = torch.float32, device = device)
+    return torch.cat(grad_parts)
+
+def _log_decom_grad_conflict(model: RetinexNet) -> None:
+    shared_params = tuple(param for param in model.decom_net.parameters() if param.requires_grad)
+    g_ori = torch.autograd.grad(
+        model.original_loss_Decom,
+        shared_params,
+        retain_graph = True,
+        allow_unused = True,
+    )
+    g_qwen = torch.autograd.grad(
+        0.01 * model.qwen_score,
+        shared_params,
+        retain_graph = True,
+        allow_unused = True,
+    )
+
+    v_ori = _flatten_grad_vector(g_ori, model.device)
+    v_qwen = _flatten_grad_vector(g_qwen, model.device)
+
+    dot = torch.dot(v_ori, v_qwen)
+    ori_norm = v_ori.norm()
+    qwen_norm = v_qwen.norm()
+    cosine = torch.tensor(0.0, device = dot.device)
+    if ori_norm.item() > 0 and qwen_norm.item() > 0:
+        cosine = dot / (ori_norm * qwen_norm)
+
+    logger.debug(
+        'decom grad stats '
+        f'ori_norm={ori_norm.item():.6e}, '
+        f'qwen_norm={qwen_norm.item():.6e}, '
+        f'dot={dot.item():.6e}, '
+        f'cosine={cosine.item():.6f}, '
+        f'norm_ratio={(qwen_norm / (ori_norm + 1e-12)).item():.6e}'
+    )
+
 def step_fn(
     epoch_idx: int,
     model: torch.nn.Module,
@@ -66,9 +111,7 @@ def step_fn(
 
     logger.debug(f'Train step, epoch {epoch_idx}')
 
-    logger.debug(f'Forward begin, timestamp: {time.time()}', True)
     model(x, y)
-    logger.debug(f'Forward completed, timestamp: {time.time()}', True)
     if hp.get_hp('train_phase') == 'decom':
 
         if epoch_idx > 20:
@@ -78,12 +121,11 @@ def step_fn(
             for param_group in user_data['decom_op'].param_groups:
                 param_group['lr'] = 0.001
 
+        _log_decom_grad_conflict(model)
+
         user_data['decom_op'].zero_grad()
-        logger.debug(f'Backward begin, timestamp: {time.time()}', True)
         model.loss_Decom.backward()
-        logger.debug(f'Step begin, timestamp: {time.time()}', True)
         user_data['decom_op'].step()
-        logger.debug(f'Step completed, timestamp: {time.time()}', True)
         train_loss = model.loss_Decom
     elif hp.get_hp('train_phase') == 'relight':
 
@@ -95,11 +137,8 @@ def step_fn(
                 param_group['lr'] = 0.001
 
         user_data['relight_op'].zero_grad()
-        logger.debug(f'Backward begin, timestamp: {time.time()}', True)
         model.loss_Relight.backward()
-        logger.debug(f'Step begin, timestamp: {time.time()}', True)
         user_data['relight_op'].step()
-        logger.debug(f'Step completed, timestamp: {time.time()}', True)
         train_loss = model.loss_Relight
     else: raise RuntimeError
     return train_loss
@@ -156,12 +195,12 @@ if __name__ == '__main__':
     hp.set_hp_begin()
     hp.set_hp('train_phase', 'decom')
     hp.set_hp_end()
-    trainer.train(hp.get_hp('epoch_num'))
+    trainer.train(hp.get_hp('epoch_num'), interrupt_feedback = lambda x, y: wait_for_io())
 
     hp.set_hp_begin()
     hp.set_hp('train_phase', 'relight')
     hp.set_hp_end()
-    trainer.train(hp.get_hp('epoch_num'))
+    trainer.train(hp.get_hp('epoch_num'), interrupt_feedback = lambda x, y: wait_for_io())
 
     data.save_ckpt(
         ('model_state_dict.pt', trainer.model),

@@ -82,7 +82,7 @@ class QwenScorer(torch.nn.Module):
         super().__init__()
 
         self.device: torch.device = device
-        self.text_prompt: str = "请用一个整数描述这张图片的质量（范围从0到9，越高质量越好），要考虑的因素：图像的光照质量、图像的分辨率质量、图像中的物体轮廓是否清晰。注意：只生成一个整数，其他任何token都不要生成！！禁止生成除了整数之外的任何自然语言！！请输出:"
+        self.text_prompt: str = "这是一张低光图像恢复模型的输出图，请用一个整数描述这张图片的质量（范围从0到9，越高质量越好），以指导低光图像恢复模型的训练。要考虑的因素：图像的光照质量、图像的分辨率质量、图像中的物体轮廓是否清晰。注意：只生成一个整数，其他任何token都不要生成！！禁止生成除了整数之外的任何自然语言！！请输出:"
 
         self.processor = AutoProcessor.from_pretrained(QWEN_MODEL_ID)
         self.qwen_model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
@@ -91,6 +91,8 @@ class QwenScorer(torch.nn.Module):
             device_map = self.device,          # 也可以用 "auto"（多卡/大模型时更方便）
             low_cpu_mem_usage = True,           # 这个参数设为True有什么用？
         ).eval()
+        for p in self.qwen_model.parameters():
+            p.requires_grad_(False)
 
     def forward(self, img: torch.Tensor) -> torch.Tensor:
         if len(img.shape) == 3:
@@ -100,7 +102,7 @@ class QwenScorer(torch.nn.Module):
 
         aver_score: torch.Tensor = torch.tensor(0., dtype = torch.float32, device = self.device)
         for i in range(img_cnt):
-            visual.show_chw(img[i])
+            #visual.show_chw(img[i])
             score = qwen_score(img[i], self.processor, self.text_prompt, self.device, self.qwen_model)
             logger.debug(f'Qwen score: {score} for img[{i}]')
             aver_score += score
