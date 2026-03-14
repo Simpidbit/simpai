@@ -25,6 +25,7 @@ hp.set_hp('device', torch.device('cpu'))
 hp.set_hp('epoch_num', 1)
 hp.set_hp('batch_size', 2)
 hp.set_hp('patch_size', 96)
+hp.set_hp('mode', 'train')
 hp.set_hp('lr', 0.001)
 hp.set_hp_end()
 
@@ -97,6 +98,40 @@ def _log_decom_grad_conflict(model: RetinexNet) -> None:
         f'norm_ratio={(qwen_norm / (ori_norm + 1e-12)).item():.6e}'
     )
 
+def _log_relight_grad_conflict(model: RetinexNet) -> None:
+    shared_params = tuple(param for param in model.decom_net.parameters() if param.requires_grad)
+    g_ori = torch.autograd.grad(
+        model.original_loss_Relight,
+        shared_params,
+        retain_graph = True,
+        allow_unused = True,
+    )
+    g_qwen = torch.autograd.grad(
+        0.01 * model.qwen_score,
+        shared_params,
+        retain_graph = True,
+        allow_unused = True,
+    )
+
+    v_ori = _flatten_grad_vector(g_ori, model.device)
+    v_qwen = _flatten_grad_vector(g_qwen, model.device)
+
+    dot = torch.dot(v_ori, v_qwen)
+    ori_norm = v_ori.norm()
+    qwen_norm = v_qwen.norm()
+    cosine = torch.tensor(0.0, device = dot.device)
+    if ori_norm.item() > 0 and qwen_norm.item() > 0:
+        cosine = dot / (ori_norm * qwen_norm)
+
+    logger.debug(
+        'decom grad stats '
+        f'ori_norm={ori_norm.item():.6e}, '
+        f'qwen_norm={qwen_norm.item():.6e}, '
+        f'dot={dot.item():.6e}, '
+        f'cosine={cosine.item():.6f}, '
+        f'norm_ratio={(qwen_norm / (ori_norm + 1e-12)).item():.6e}'
+    )
+
 def step_fn(
     epoch_idx: int,
     model: torch.nn.Module,
@@ -135,6 +170,8 @@ def step_fn(
         else:
             for param_group in user_data['relight_op'].param_groups:
                 param_group['lr'] = 0.001
+
+        _log_relight_grad_conflict(model)
 
         user_data['relight_op'].zero_grad()
         model.loss_Relight.backward()
@@ -197,10 +234,12 @@ if __name__ == '__main__':
     hp.set_hp_end()
     trainer.train(hp.get_hp('epoch_num'), interrupt_feedback = lambda x, y: wait_for_io())
 
+    '''
     hp.set_hp_begin()
     hp.set_hp('train_phase', 'relight')
     hp.set_hp_end()
     trainer.train(hp.get_hp('epoch_num'), interrupt_feedback = lambda x, y: wait_for_io())
+    '''
 
     data.save_ckpt(
         ('model_state_dict.pt', trainer.model),

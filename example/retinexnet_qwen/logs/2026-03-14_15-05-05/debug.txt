@@ -1,0 +1,1099 @@
+[ DEBUG   ] (2026-03-14 15:05:08.000756) high_paths = ['/data/our485/high/106.png', '/data/our485/high/483.png', '/data/our485/high/642.png', '/data/our485/high/236.png', '/data/our485/high/44.png', '/data/our485/high/242.png', '/data/our485/high/775.png', '/data/our485/high/773.png', '/data/our485/high/590.png', '/data/our485/high/786.png', '/data/our485/high/475.png', '/data/our485/high/571.png', '/data/our485/high/557.png', '/data/our485/high/249.png', '/data/our485/high/732.png', '/data/our485/high/241.png', '/data/our485/high/735.png', '/data/our485/high/514.png', '/data/our485/high/107.png', '/data/our485/high/246.png', '/data/our485/high/344.png', '/data/our485/high/630.png', '/data/our485/high/747.png', '/data/our485/high/60.png', '/data/our485/high/27.png', '/data/our485/high/554.png', '/data/our485/high/232.png', '/data/our485/high/721.png', '/data/our485/high/46.png', '/data/our485/high/741.png', '/data/our485/high/14.png', '/data/our485/high/257.png', '/data/our485/high/486.png', '/data/our485/high/221.png', '/data/our485/high/607.png', '/data/our485/high/620.png', '/data/our485/high/184.png', '/data/our485/high/616.png', '/data/our485/high/648.png', '/data/our485/high/38.png', '/data/our485/high/710.png', '/data/our485/high/91.png', '/data/our485/high/143.png', '/data/our485/high/237.png', '/data/our485/high/89.png', '/data/our485/high/566.png', '/data/our485/high/26.png', '/data/our485/high/678.png', '/data/our485/high/126.png', '/data/our485/high/737.png', '/data/our485/high/671.png', '/data/our485/high/139.png', '/data/our485/high/561.png', '/data/our485/high/537.png', '/data/our485/high/78.png', '/data/our485/high/470.png', '/data/our485/high/506.png', '/data/our485/high/610.png', '/data/our485/high/580.png', '/data/our485/high/501.png', '/data/our485/high/640.png', '/data/our485/high/220.png', '/data/our485/high/525.png', '/data/our485/high/35.png', '/data/our485/high/686.png', '/data/our485/high/130.png', '/data/our485/high/660.png', '/data/our485/high/50.png', '/data/our485/high/563.png', '/data/our485/high/562.png', '/data/our485/high/151.png', '/data/our485/high/154.png', '/data/our485/high/252.png', '/data/our485/high/684.png', '/data/our485/high/763.png', '/data/our485/high/204.png', '/data/our485/high/716.png', '/data/our485/high/542.png', '/data/our485/high/601.png', '/data/our485/high/512.png', '/data/our485/high/676.png', '/data/our485/high/605.png', '/data/our485/high/659.png', '/data/our485/high/261.png', '/data/our485/high/84.png', '/data/our485/high/553.png', '/data/our485/high/708.png', '/data/our485/high/480.png', '/data/our485/high/634.png', '/data/our485/high/103.png', '/data/our485/high/604.png', '/data/our485/high/527.png', '/data/our485/high/102.png', '/data/our485/high/460.png', '/data/our485/high/167.png', '/data/our485/high/494.png', '/data/our485/high/196.png', '/data/our485/high/471.png', '/data/our485/high/136.png', '/data/our485/high/138.png', '/data/our485/high/97.png', '/data/our485/high/515.png', '/data/our485/high/120.png', '/data/our485/high/259.png', '/data/our485/high/57.png', '/data/our485/high/180.png', '/data/our485/high/651.png', '/data/our485/high/774.png', '/data/our485/high/187.png', '/data/our485/high/119.png', '/data/our485/high/625.png', '/data/our485/high/675.png', '/data/our485/high/689.png', '/data/our485/high/39.png', '/data/our485/high/759.png', '/data/our485/high/726.png', '/data/our485/high/588.png', '/data/our485/high/110.png', '/data/our485/high/647.png', '/data/our485/high/505.png', '/data/our485/high/174.png', '/data/our485/high/552.png', '/data/our485/high/546.png', '/data/our485/high/740.png', '/data/our485/high/92.png', '/data/our485/high/125.png', '/data/our485/high/718.png', '/data/our485/high/64.png', '/data/our485/high/95.png', '/data/our485/high/530.png', '/data/our485/high/52.png', '/data/our485/high/193.png', '/data/our485/high/596.png', '/data/our485/high/229.png', '/data/our485/high/88.png', '/data/our485/high/535.png', '/data/our485/high/592.png', '/data/our485/high/600.png', '/data/our485/high/615.png', '/data/our485/high/74.png', '/data/our485/high/508.png', '/data/our485/high/670.png', '/data/our485/high/544.png', '/data/our485/high/597.png', '/data/our485/high/524.png', '/data/our485/high/727.png', '/data/our485/high/472.png', '/data/our485/high/172.png', '/data/our485/high/711.png', '/data/our485/high/42.png', '/data/our485/high/502.png', '/data/our485/high/766.png', '/data/our485/high/624.png', '/data/our485/high/628.png', '/data/our485/high/598.png', '/data/our485/high/233.png', '/data/our485/high/210.png', '/data/our485/high/654.png', '/data/our485/high/202.png', '/data/our485/high/122.png', '/data/our485/high/15.png', '/data/our485/high/162.png', '/data/our485/high/342.png', '/data/our485/high/142.png', '/data/our485/high/496.png', '/data/our485/high/528.png', '/data/our485/high/523.png', '/data/our485/high/556.png', '/data/our485/high/517.png', '/data/our485/high/677.png', '/data/our485/high/83.png', '/data/our485/high/36.png', '/data/our485/high/56.png', '/data/our485/high/482.png', '/data/our485/high/576.png', '/data/our485/high/623.png', '/data/our485/high/612.png', '/data/our485/high/679.png', '/data/our485/high/141.png', '/data/our485/high/783.png', '/data/our485/high/777.png', '/data/our485/high/114.png', '/data/our485/high/779.png', '/data/our485/high/724.png', '/data/our485/high/770.png', '/data/our485/high/626.png', '/data/our485/high/621.png', '/data/our485/high/543.png', '/data/our485/high/591.png', '/data/our485/high/693.png', '/data/our485/high/10.png', '/data/our485/high/195.png', '/data/our485/high/725.png', '/data/our485/high/478.png', '/data/our485/high/101.png', '/data/our485/high/239.png', '/data/our485/high/714.png', '/data/our485/high/687.png', '/data/our485/high/533.png', '/data/our485/high/638.png', '/data/our485/high/2.png', '/data/our485/high/62.png', '/data/our485/high/219.png', '/data/our485/high/33.png', '/data/our485/high/212.png', '/data/our485/high/250.png', '/data/our485/high/683.png', '/data/our485/high/641.png', '/data/our485/high/699.png', '/data/our485/high/228.png', '/data/our485/high/16.png', '/data/our485/high/646.png', '/data/our485/high/761.png', '/data/our485/high/661.png', '/data/our485/high/227.png', '/data/our485/high/262.png', '/data/our485/high/694.png', '/data/our485/high/760.png', '/data/our485/high/545.png', '/data/our485/high/5.png', '/data/our485/high/606.png', '/data/our485/high/539.png', '/data/our485/high/682.png', '/data/our485/high/587.png', '/data/our485/high/653.png', '/data/our485/high/99.png', '/data/our485/high/59.png', '/data/our485/high/94.png', '/data/our485/high/263.png', '/data/our485/high/209.png', '/data/our485/high/176.png', '/data/our485/high/691.png', '/data/our485/high/617.png', '/data/our485/high/490.png', '/data/our485/high/750.png', '/data/our485/high/567.png', '/data/our485/high/131.png', '/data/our485/high/25.png', '/data/our485/high/17.png', '/data/our485/high/526.png', '/data/our485/high/736.png', '/data/our485/high/751.png', '/data/our485/high/782.png', '/data/our485/high/614.png', '/data/our485/high/47.png', '/data/our485/high/551.png', '/data/our485/high/713.png', '/data/our485/high/215.png', '/data/our485/high/477.png', '/data/our485/high/593.png', '/data/our485/high/644.png', '/data/our485/high/744.png', '/data/our485/high/595.png', '/data/our485/high/781.png', '/data/our485/high/191.png', '/data/our485/high/159.png', '/data/our485/high/703.png', '/data/our485/high/123.png', '/data/our485/high/531.png', '/data/our485/high/488.png', '/data/our485/high/189.png', '/data/our485/high/484.png', '/data/our485/high/43.png', '/data/our485/high/200.png', '/data/our485/high/254.png', '/data/our485/high/93.png', '/data/our485/high/112.png', '/data/our485/high/495.png', '/data/our485/high/540.png', '/data/our485/high/719.png', '/data/our485/high/570.png', '/data/our485/high/258.png', '/data/our485/high/701.png', '/data/our485/high/86.png', '/data/our485/high/489.png', '/data/our485/high/743.png', '/data/our485/high/609.png', '/data/our485/high/538.png', '/data/our485/high/658.png', '/data/our485/high/225.png', '/data/our485/high/135.png', '/data/our485/high/734.png', '/data/our485/high/733.png', '/data/our485/high/132.png', '/data/our485/high/128.png', '/data/our485/high/586.png', '/data/our485/high/565.png', '/data/our485/high/560.png', '/data/our485/high/87.png', '/data/our485/high/788.png', '/data/our485/high/731.png', '/data/our485/high/61.png', '/data/our485/high/474.png', '/data/our485/high/739.png', '/data/our485/high/772.png', '/data/our485/high/124.png', '/data/our485/high/28.png', '/data/our485/high/690.png', '/data/our485/high/121.png', '/data/our485/high/54.png', '/data/our485/high/704.png', '/data/our485/high/662.png', '/data/our485/high/104.png', '/data/our485/high/468.png', '/data/our485/high/260.png', '/data/our485/high/564.png', '/data/our485/high/58.png', '/data/our485/high/152.png', '/data/our485/high/183.png', '/data/our485/high/500.png', '/data/our485/high/633.png', '/data/our485/high/664.png', '/data/our485/high/188.png', '/data/our485/high/243.png', '/data/our485/high/240.png', '/data/our485/high/762.png', '/data/our485/high/481.png', '/data/our485/high/244.png', '/data/our485/high/53.png', '/data/our485/high/157.png', '/data/our485/high/160.png', '/data/our485/high/649.png', '/data/our485/high/729.png', '/data/our485/high/186.png', '/data/our485/high/100.png', '/data/our485/high/787.png', '/data/our485/high/144.png', '/data/our485/high/247.png', '/data/our485/high/201.png', '/data/our485/high/758.png', '/data/our485/high/127.png', '/data/our485/high/511.png', '/data/our485/high/709.png', '/data/our485/high/67.png', '/data/our485/high/712.png', '/data/our485/high/173.png', '/data/our485/high/81.png', '/data/our485/high/680.png', '/data/our485/high/69.png', '/data/our485/high/611.png', '/data/our485/high/573.png', '/data/our485/high/674.png', '/data/our485/high/118.png', '/data/our485/high/504.png', '/data/our485/high/572.png', '/data/our485/high/68.png', '/data/our485/high/70.png', '/data/our485/high/730.png', '/data/our485/high/668.png', '/data/our485/high/6.png', '/data/our485/high/698.png', '/data/our485/high/149.png', '/data/our485/high/238.png', '/data/our485/high/492.png', '/data/our485/high/9.png', '/data/our485/high/63.png', '/data/our485/high/784.png', '/data/our485/high/745.png', '/data/our485/high/499.png', '/data/our485/high/555.png', '/data/our485/high/769.png', '/data/our485/high/248.png', '/data/our485/high/450.png', '/data/our485/high/497.png', '/data/our485/high/715.png', '/data/our485/high/235.png', '/data/our485/high/73.png', '/data/our485/high/569.png', '/data/our485/high/550.png', '/data/our485/high/330.png', '/data/our485/high/105.png', '/data/our485/high/231.png', '/data/our485/high/583.png', '/data/our485/high/40.png', '/data/our485/high/76.png', '/data/our485/high/720.png', '/data/our485/high/667.png', '/data/our485/high/476.png', '/data/our485/high/265.png', '/data/our485/high/568.png', '/data/our485/high/199.png', '/data/our485/high/13.png', '/data/our485/high/116.png', '/data/our485/high/613.png', '/data/our485/high/738.png', '/data/our485/high/251.png', '/data/our485/high/681.png', '/data/our485/high/700.png', '/data/our485/high/185.png', '/data/our485/high/507.png', '/data/our485/high/487.png', '/data/our485/high/717.png', '/data/our485/high/643.png', '/data/our485/high/140.png', '/data/our485/high/18.png', '/data/our485/high/75.png', '/data/our485/high/207.png', '/data/our485/high/629.png', '/data/our485/high/575.png', '/data/our485/high/115.png', '/data/our485/high/96.png', '/data/our485/high/230.png', '/data/our485/high/203.png', '/data/our485/high/82.png', '/data/our485/high/558.png', '/data/our485/high/771.png', '/data/our485/high/117.png', '/data/our485/high/21.png', '/data/our485/high/532.png', '/data/our485/high/696.png', '/data/our485/high/113.png', '/data/our485/high/776.png', '/data/our485/high/479.png', '/data/our485/high/253.png', '/data/our485/high/213.png', '/data/our485/high/98.png', '/data/our485/high/622.png', '/data/our485/high/594.png', '/data/our485/high/12.png', '/data/our485/high/585.png', '/data/our485/high/267.png', '/data/our485/high/559.png', '/data/our485/high/216.png', '/data/our485/high/645.png', '/data/our485/high/198.png', '/data/our485/high/137.png', '/data/our485/high/548.png', '/data/our485/high/469.png', '/data/our485/high/608.png', '/data/our485/high/194.png', '/data/our485/high/498.png', '/data/our485/high/522.png', '/data/our485/high/785.png', '/data/our485/high/746.png', '/data/our485/high/639.png', '/data/our485/high/169.png', '/data/our485/high/752.png', '/data/our485/high/529.png', '/data/our485/high/728.png', '/data/our485/high/171.png', '/data/our485/high/222.png', '/data/our485/high/147.png', '/data/our485/high/789.png', '/data/our485/high/464.png', '/data/our485/high/206.png', '/data/our485/high/637.png', '/data/our485/high/549.png', '/data/our485/high/473.png', '/data/our485/high/541.png', '/data/our485/high/328.png', '/data/our485/high/702.png', '/data/our485/high/264.png', '/data/our485/high/655.png', '/data/our485/high/150.png', '/data/our485/high/51.png', '/data/our485/high/722.png', '/data/our485/high/80.png', '/data/our485/high/650.png', '/data/our485/high/579.png', '/data/our485/high/485.png', '/data/our485/high/77.png', '/data/our485/high/685.png', '/data/our485/high/578.png', '/data/our485/high/627.png', '/data/our485/high/109.png', '/data/our485/high/491.png', '/data/our485/high/24.png', '/data/our485/high/574.png', '/data/our485/high/175.png', '/data/our485/high/534.png', '/data/our485/high/695.png', '/data/our485/high/129.png', '/data/our485/high/145.png', '/data/our485/high/757.png', '/data/our485/high/211.png', '/data/our485/high/692.png', '/data/our485/high/765.png', '/data/our485/high/666.png', '/data/our485/high/45.png', '/data/our485/high/723.png', '/data/our485/high/764.png', '/data/our485/high/697.png', '/data/our485/high/663.png', '/data/our485/high/48.png', '/data/our485/high/688.png']
+[ DEBUG   ] (2026-03-14 15:05:08.000793) low_paths = ['/data/our485/low/106.png', '/data/our485/low/483.png', '/data/our485/low/642.png', '/data/our485/low/236.png', '/data/our485/low/44.png', '/data/our485/low/242.png', '/data/our485/low/775.png', '/data/our485/low/773.png', '/data/our485/low/590.png', '/data/our485/low/786.png', '/data/our485/low/475.png', '/data/our485/low/571.png', '/data/our485/low/557.png', '/data/our485/low/249.png', '/data/our485/low/732.png', '/data/our485/low/241.png', '/data/our485/low/735.png', '/data/our485/low/514.png', '/data/our485/low/107.png', '/data/our485/low/246.png', '/data/our485/low/344.png', '/data/our485/low/630.png', '/data/our485/low/747.png', '/data/our485/low/60.png', '/data/our485/low/27.png', '/data/our485/low/554.png', '/data/our485/low/232.png', '/data/our485/low/721.png', '/data/our485/low/46.png', '/data/our485/low/741.png', '/data/our485/low/14.png', '/data/our485/low/257.png', '/data/our485/low/486.png', '/data/our485/low/221.png', '/data/our485/low/607.png', '/data/our485/low/620.png', '/data/our485/low/184.png', '/data/our485/low/616.png', '/data/our485/low/648.png', '/data/our485/low/38.png', '/data/our485/low/710.png', '/data/our485/low/91.png', '/data/our485/low/143.png', '/data/our485/low/237.png', '/data/our485/low/89.png', '/data/our485/low/566.png', '/data/our485/low/26.png', '/data/our485/low/678.png', '/data/our485/low/126.png', '/data/our485/low/737.png', '/data/our485/low/671.png', '/data/our485/low/139.png', '/data/our485/low/561.png', '/data/our485/low/537.png', '/data/our485/low/78.png', '/data/our485/low/470.png', '/data/our485/low/506.png', '/data/our485/low/610.png', '/data/our485/low/580.png', '/data/our485/low/501.png', '/data/our485/low/640.png', '/data/our485/low/220.png', '/data/our485/low/525.png', '/data/our485/low/35.png', '/data/our485/low/686.png', '/data/our485/low/130.png', '/data/our485/low/660.png', '/data/our485/low/50.png', '/data/our485/low/563.png', '/data/our485/low/562.png', '/data/our485/low/151.png', '/data/our485/low/154.png', '/data/our485/low/252.png', '/data/our485/low/684.png', '/data/our485/low/763.png', '/data/our485/low/204.png', '/data/our485/low/716.png', '/data/our485/low/542.png', '/data/our485/low/601.png', '/data/our485/low/512.png', '/data/our485/low/676.png', '/data/our485/low/605.png', '/data/our485/low/659.png', '/data/our485/low/261.png', '/data/our485/low/84.png', '/data/our485/low/553.png', '/data/our485/low/708.png', '/data/our485/low/480.png', '/data/our485/low/634.png', '/data/our485/low/103.png', '/data/our485/low/604.png', '/data/our485/low/527.png', '/data/our485/low/102.png', '/data/our485/low/460.png', '/data/our485/low/167.png', '/data/our485/low/494.png', '/data/our485/low/196.png', '/data/our485/low/471.png', '/data/our485/low/136.png', '/data/our485/low/138.png', '/data/our485/low/97.png', '/data/our485/low/515.png', '/data/our485/low/120.png', '/data/our485/low/259.png', '/data/our485/low/57.png', '/data/our485/low/180.png', '/data/our485/low/651.png', '/data/our485/low/774.png', '/data/our485/low/187.png', '/data/our485/low/119.png', '/data/our485/low/625.png', '/data/our485/low/675.png', '/data/our485/low/689.png', '/data/our485/low/39.png', '/data/our485/low/759.png', '/data/our485/low/726.png', '/data/our485/low/588.png', '/data/our485/low/110.png', '/data/our485/low/647.png', '/data/our485/low/505.png', '/data/our485/low/174.png', '/data/our485/low/552.png', '/data/our485/low/546.png', '/data/our485/low/740.png', '/data/our485/low/92.png', '/data/our485/low/125.png', '/data/our485/low/718.png', '/data/our485/low/64.png', '/data/our485/low/95.png', '/data/our485/low/530.png', '/data/our485/low/52.png', '/data/our485/low/193.png', '/data/our485/low/596.png', '/data/our485/low/229.png', '/data/our485/low/88.png', '/data/our485/low/535.png', '/data/our485/low/592.png', '/data/our485/low/600.png', '/data/our485/low/615.png', '/data/our485/low/74.png', '/data/our485/low/508.png', '/data/our485/low/670.png', '/data/our485/low/544.png', '/data/our485/low/597.png', '/data/our485/low/524.png', '/data/our485/low/727.png', '/data/our485/low/472.png', '/data/our485/low/172.png', '/data/our485/low/711.png', '/data/our485/low/42.png', '/data/our485/low/502.png', '/data/our485/low/766.png', '/data/our485/low/624.png', '/data/our485/low/628.png', '/data/our485/low/598.png', '/data/our485/low/233.png', '/data/our485/low/210.png', '/data/our485/low/654.png', '/data/our485/low/202.png', '/data/our485/low/122.png', '/data/our485/low/15.png', '/data/our485/low/162.png', '/data/our485/low/342.png', '/data/our485/low/142.png', '/data/our485/low/496.png', '/data/our485/low/528.png', '/data/our485/low/523.png', '/data/our485/low/556.png', '/data/our485/low/517.png', '/data/our485/low/677.png', '/data/our485/low/83.png', '/data/our485/low/36.png', '/data/our485/low/56.png', '/data/our485/low/482.png', '/data/our485/low/576.png', '/data/our485/low/623.png', '/data/our485/low/612.png', '/data/our485/low/679.png', '/data/our485/low/141.png', '/data/our485/low/783.png', '/data/our485/low/777.png', '/data/our485/low/114.png', '/data/our485/low/779.png', '/data/our485/low/724.png', '/data/our485/low/770.png', '/data/our485/low/626.png', '/data/our485/low/621.png', '/data/our485/low/543.png', '/data/our485/low/591.png', '/data/our485/low/693.png', '/data/our485/low/10.png', '/data/our485/low/195.png', '/data/our485/low/725.png', '/data/our485/low/478.png', '/data/our485/low/101.png', '/data/our485/low/239.png', '/data/our485/low/714.png', '/data/our485/low/687.png', '/data/our485/low/533.png', '/data/our485/low/638.png', '/data/our485/low/2.png', '/data/our485/low/62.png', '/data/our485/low/219.png', '/data/our485/low/33.png', '/data/our485/low/212.png', '/data/our485/low/250.png', '/data/our485/low/683.png', '/data/our485/low/641.png', '/data/our485/low/699.png', '/data/our485/low/228.png', '/data/our485/low/16.png', '/data/our485/low/646.png', '/data/our485/low/761.png', '/data/our485/low/661.png', '/data/our485/low/227.png', '/data/our485/low/262.png', '/data/our485/low/694.png', '/data/our485/low/760.png', '/data/our485/low/545.png', '/data/our485/low/5.png', '/data/our485/low/606.png', '/data/our485/low/539.png', '/data/our485/low/682.png', '/data/our485/low/587.png', '/data/our485/low/653.png', '/data/our485/low/99.png', '/data/our485/low/59.png', '/data/our485/low/94.png', '/data/our485/low/263.png', '/data/our485/low/209.png', '/data/our485/low/176.png', '/data/our485/low/691.png', '/data/our485/low/617.png', '/data/our485/low/490.png', '/data/our485/low/750.png', '/data/our485/low/567.png', '/data/our485/low/131.png', '/data/our485/low/25.png', '/data/our485/low/17.png', '/data/our485/low/526.png', '/data/our485/low/736.png', '/data/our485/low/751.png', '/data/our485/low/782.png', '/data/our485/low/614.png', '/data/our485/low/47.png', '/data/our485/low/551.png', '/data/our485/low/713.png', '/data/our485/low/215.png', '/data/our485/low/477.png', '/data/our485/low/593.png', '/data/our485/low/644.png', '/data/our485/low/744.png', '/data/our485/low/595.png', '/data/our485/low/781.png', '/data/our485/low/191.png', '/data/our485/low/159.png', '/data/our485/low/703.png', '/data/our485/low/123.png', '/data/our485/low/531.png', '/data/our485/low/488.png', '/data/our485/low/189.png', '/data/our485/low/484.png', '/data/our485/low/43.png', '/data/our485/low/200.png', '/data/our485/low/254.png', '/data/our485/low/93.png', '/data/our485/low/112.png', '/data/our485/low/495.png', '/data/our485/low/540.png', '/data/our485/low/719.png', '/data/our485/low/570.png', '/data/our485/low/258.png', '/data/our485/low/701.png', '/data/our485/low/86.png', '/data/our485/low/489.png', '/data/our485/low/743.png', '/data/our485/low/609.png', '/data/our485/low/538.png', '/data/our485/low/658.png', '/data/our485/low/225.png', '/data/our485/low/135.png', '/data/our485/low/734.png', '/data/our485/low/733.png', '/data/our485/low/132.png', '/data/our485/low/128.png', '/data/our485/low/586.png', '/data/our485/low/565.png', '/data/our485/low/560.png', '/data/our485/low/87.png', '/data/our485/low/788.png', '/data/our485/low/731.png', '/data/our485/low/61.png', '/data/our485/low/474.png', '/data/our485/low/739.png', '/data/our485/low/772.png', '/data/our485/low/124.png', '/data/our485/low/28.png', '/data/our485/low/690.png', '/data/our485/low/121.png', '/data/our485/low/54.png', '/data/our485/low/704.png', '/data/our485/low/662.png', '/data/our485/low/104.png', '/data/our485/low/468.png', '/data/our485/low/260.png', '/data/our485/low/564.png', '/data/our485/low/58.png', '/data/our485/low/152.png', '/data/our485/low/183.png', '/data/our485/low/500.png', '/data/our485/low/633.png', '/data/our485/low/664.png', '/data/our485/low/188.png', '/data/our485/low/243.png', '/data/our485/low/240.png', '/data/our485/low/762.png', '/data/our485/low/481.png', '/data/our485/low/244.png', '/data/our485/low/53.png', '/data/our485/low/157.png', '/data/our485/low/160.png', '/data/our485/low/649.png', '/data/our485/low/729.png', '/data/our485/low/186.png', '/data/our485/low/100.png', '/data/our485/low/787.png', '/data/our485/low/144.png', '/data/our485/low/247.png', '/data/our485/low/201.png', '/data/our485/low/758.png', '/data/our485/low/127.png', '/data/our485/low/511.png', '/data/our485/low/709.png', '/data/our485/low/67.png', '/data/our485/low/712.png', '/data/our485/low/173.png', '/data/our485/low/81.png', '/data/our485/low/680.png', '/data/our485/low/69.png', '/data/our485/low/611.png', '/data/our485/low/573.png', '/data/our485/low/674.png', '/data/our485/low/118.png', '/data/our485/low/504.png', '/data/our485/low/572.png', '/data/our485/low/68.png', '/data/our485/low/70.png', '/data/our485/low/730.png', '/data/our485/low/668.png', '/data/our485/low/6.png', '/data/our485/low/698.png', '/data/our485/low/149.png', '/data/our485/low/238.png', '/data/our485/low/492.png', '/data/our485/low/9.png', '/data/our485/low/63.png', '/data/our485/low/784.png', '/data/our485/low/745.png', '/data/our485/low/499.png', '/data/our485/low/555.png', '/data/our485/low/769.png', '/data/our485/low/248.png', '/data/our485/low/450.png', '/data/our485/low/497.png', '/data/our485/low/715.png', '/data/our485/low/235.png', '/data/our485/low/73.png', '/data/our485/low/569.png', '/data/our485/low/550.png', '/data/our485/low/330.png', '/data/our485/low/105.png', '/data/our485/low/231.png', '/data/our485/low/583.png', '/data/our485/low/40.png', '/data/our485/low/76.png', '/data/our485/low/720.png', '/data/our485/low/667.png', '/data/our485/low/476.png', '/data/our485/low/265.png', '/data/our485/low/568.png', '/data/our485/low/199.png', '/data/our485/low/13.png', '/data/our485/low/116.png', '/data/our485/low/613.png', '/data/our485/low/738.png', '/data/our485/low/251.png', '/data/our485/low/681.png', '/data/our485/low/700.png', '/data/our485/low/185.png', '/data/our485/low/507.png', '/data/our485/low/487.png', '/data/our485/low/717.png', '/data/our485/low/643.png', '/data/our485/low/140.png', '/data/our485/low/18.png', '/data/our485/low/75.png', '/data/our485/low/207.png', '/data/our485/low/629.png', '/data/our485/low/575.png', '/data/our485/low/115.png', '/data/our485/low/96.png', '/data/our485/low/230.png', '/data/our485/low/203.png', '/data/our485/low/82.png', '/data/our485/low/558.png', '/data/our485/low/771.png', '/data/our485/low/117.png', '/data/our485/low/21.png', '/data/our485/low/532.png', '/data/our485/low/696.png', '/data/our485/low/113.png', '/data/our485/low/776.png', '/data/our485/low/479.png', '/data/our485/low/253.png', '/data/our485/low/213.png', '/data/our485/low/98.png', '/data/our485/low/622.png', '/data/our485/low/594.png', '/data/our485/low/12.png', '/data/our485/low/585.png', '/data/our485/low/267.png', '/data/our485/low/559.png', '/data/our485/low/216.png', '/data/our485/low/645.png', '/data/our485/low/198.png', '/data/our485/low/137.png', '/data/our485/low/548.png', '/data/our485/low/469.png', '/data/our485/low/608.png', '/data/our485/low/194.png', '/data/our485/low/498.png', '/data/our485/low/522.png', '/data/our485/low/785.png', '/data/our485/low/746.png', '/data/our485/low/639.png', '/data/our485/low/169.png', '/data/our485/low/752.png', '/data/our485/low/529.png', '/data/our485/low/728.png', '/data/our485/low/171.png', '/data/our485/low/222.png', '/data/our485/low/147.png', '/data/our485/low/789.png', '/data/our485/low/464.png', '/data/our485/low/206.png', '/data/our485/low/637.png', '/data/our485/low/549.png', '/data/our485/low/473.png', '/data/our485/low/541.png', '/data/our485/low/328.png', '/data/our485/low/702.png', '/data/our485/low/264.png', '/data/our485/low/655.png', '/data/our485/low/150.png', '/data/our485/low/51.png', '/data/our485/low/722.png', '/data/our485/low/80.png', '/data/our485/low/650.png', '/data/our485/low/579.png', '/data/our485/low/485.png', '/data/our485/low/77.png', '/data/our485/low/685.png', '/data/our485/low/578.png', '/data/our485/low/627.png', '/data/our485/low/109.png', '/data/our485/low/491.png', '/data/our485/low/24.png', '/data/our485/low/574.png', '/data/our485/low/175.png', '/data/our485/low/534.png', '/data/our485/low/695.png', '/data/our485/low/129.png', '/data/our485/low/145.png', '/data/our485/low/757.png', '/data/our485/low/211.png', '/data/our485/low/692.png', '/data/our485/low/765.png', '/data/our485/low/666.png', '/data/our485/low/45.png', '/data/our485/low/723.png', '/data/our485/low/764.png', '/data/our485/low/697.png', '/data/our485/low/663.png', '/data/our485/low/48.png', '/data/our485/low/688.png']
+[ DEBUG   ] (2026-03-14 15:05:11.831172) high_paths = ['/data/our485/high/106.png', '/data/our485/high/483.png', '/data/our485/high/642.png', '/data/our485/high/236.png', '/data/our485/high/44.png', '/data/our485/high/242.png', '/data/our485/high/775.png', '/data/our485/high/773.png', '/data/our485/high/590.png', '/data/our485/high/786.png', '/data/our485/high/475.png', '/data/our485/high/571.png', '/data/our485/high/557.png', '/data/our485/high/249.png', '/data/our485/high/732.png', '/data/our485/high/241.png', '/data/our485/high/735.png', '/data/our485/high/514.png', '/data/our485/high/107.png', '/data/our485/high/246.png', '/data/our485/high/344.png', '/data/our485/high/630.png', '/data/our485/high/747.png', '/data/our485/high/60.png', '/data/our485/high/27.png', '/data/our485/high/554.png', '/data/our485/high/232.png', '/data/our485/high/721.png', '/data/our485/high/46.png', '/data/our485/high/741.png', '/data/our485/high/14.png', '/data/our485/high/257.png', '/data/our485/high/486.png', '/data/our485/high/221.png', '/data/our485/high/607.png', '/data/our485/high/620.png', '/data/our485/high/184.png', '/data/our485/high/616.png', '/data/our485/high/648.png', '/data/our485/high/38.png', '/data/our485/high/710.png', '/data/our485/high/91.png', '/data/our485/high/143.png', '/data/our485/high/237.png', '/data/our485/high/89.png', '/data/our485/high/566.png', '/data/our485/high/26.png', '/data/our485/high/678.png', '/data/our485/high/126.png', '/data/our485/high/737.png', '/data/our485/high/671.png', '/data/our485/high/139.png', '/data/our485/high/561.png', '/data/our485/high/537.png', '/data/our485/high/78.png', '/data/our485/high/470.png', '/data/our485/high/506.png', '/data/our485/high/610.png', '/data/our485/high/580.png', '/data/our485/high/501.png', '/data/our485/high/640.png', '/data/our485/high/220.png', '/data/our485/high/525.png', '/data/our485/high/35.png', '/data/our485/high/686.png', '/data/our485/high/130.png', '/data/our485/high/660.png', '/data/our485/high/50.png', '/data/our485/high/563.png', '/data/our485/high/562.png', '/data/our485/high/151.png', '/data/our485/high/154.png', '/data/our485/high/252.png', '/data/our485/high/684.png', '/data/our485/high/763.png', '/data/our485/high/204.png', '/data/our485/high/716.png', '/data/our485/high/542.png', '/data/our485/high/601.png', '/data/our485/high/512.png', '/data/our485/high/676.png', '/data/our485/high/605.png', '/data/our485/high/659.png', '/data/our485/high/261.png', '/data/our485/high/84.png', '/data/our485/high/553.png', '/data/our485/high/708.png', '/data/our485/high/480.png', '/data/our485/high/634.png', '/data/our485/high/103.png', '/data/our485/high/604.png', '/data/our485/high/527.png', '/data/our485/high/102.png', '/data/our485/high/460.png', '/data/our485/high/167.png', '/data/our485/high/494.png', '/data/our485/high/196.png', '/data/our485/high/471.png', '/data/our485/high/136.png', '/data/our485/high/138.png', '/data/our485/high/97.png', '/data/our485/high/515.png', '/data/our485/high/120.png', '/data/our485/high/259.png', '/data/our485/high/57.png', '/data/our485/high/180.png', '/data/our485/high/651.png', '/data/our485/high/774.png', '/data/our485/high/187.png', '/data/our485/high/119.png', '/data/our485/high/625.png', '/data/our485/high/675.png', '/data/our485/high/689.png', '/data/our485/high/39.png', '/data/our485/high/759.png', '/data/our485/high/726.png', '/data/our485/high/588.png', '/data/our485/high/110.png', '/data/our485/high/647.png', '/data/our485/high/505.png', '/data/our485/high/174.png', '/data/our485/high/552.png', '/data/our485/high/546.png', '/data/our485/high/740.png', '/data/our485/high/92.png', '/data/our485/high/125.png', '/data/our485/high/718.png', '/data/our485/high/64.png', '/data/our485/high/95.png', '/data/our485/high/530.png', '/data/our485/high/52.png', '/data/our485/high/193.png', '/data/our485/high/596.png', '/data/our485/high/229.png', '/data/our485/high/88.png', '/data/our485/high/535.png', '/data/our485/high/592.png', '/data/our485/high/600.png', '/data/our485/high/615.png', '/data/our485/high/74.png', '/data/our485/high/508.png', '/data/our485/high/670.png', '/data/our485/high/544.png', '/data/our485/high/597.png', '/data/our485/high/524.png', '/data/our485/high/727.png', '/data/our485/high/472.png', '/data/our485/high/172.png', '/data/our485/high/711.png', '/data/our485/high/42.png', '/data/our485/high/502.png', '/data/our485/high/766.png', '/data/our485/high/624.png', '/data/our485/high/628.png', '/data/our485/high/598.png', '/data/our485/high/233.png', '/data/our485/high/210.png', '/data/our485/high/654.png', '/data/our485/high/202.png', '/data/our485/high/122.png', '/data/our485/high/15.png', '/data/our485/high/162.png', '/data/our485/high/342.png', '/data/our485/high/142.png', '/data/our485/high/496.png', '/data/our485/high/528.png', '/data/our485/high/523.png', '/data/our485/high/556.png', '/data/our485/high/517.png', '/data/our485/high/677.png', '/data/our485/high/83.png', '/data/our485/high/36.png', '/data/our485/high/56.png', '/data/our485/high/482.png', '/data/our485/high/576.png', '/data/our485/high/623.png', '/data/our485/high/612.png', '/data/our485/high/679.png', '/data/our485/high/141.png', '/data/our485/high/783.png', '/data/our485/high/777.png', '/data/our485/high/114.png', '/data/our485/high/779.png', '/data/our485/high/724.png', '/data/our485/high/770.png', '/data/our485/high/626.png', '/data/our485/high/621.png', '/data/our485/high/543.png', '/data/our485/high/591.png', '/data/our485/high/693.png', '/data/our485/high/10.png', '/data/our485/high/195.png', '/data/our485/high/725.png', '/data/our485/high/478.png', '/data/our485/high/101.png', '/data/our485/high/239.png', '/data/our485/high/714.png', '/data/our485/high/687.png', '/data/our485/high/533.png', '/data/our485/high/638.png', '/data/our485/high/2.png', '/data/our485/high/62.png', '/data/our485/high/219.png', '/data/our485/high/33.png', '/data/our485/high/212.png', '/data/our485/high/250.png', '/data/our485/high/683.png', '/data/our485/high/641.png', '/data/our485/high/699.png', '/data/our485/high/228.png', '/data/our485/high/16.png', '/data/our485/high/646.png', '/data/our485/high/761.png', '/data/our485/high/661.png', '/data/our485/high/227.png', '/data/our485/high/262.png', '/data/our485/high/694.png', '/data/our485/high/760.png', '/data/our485/high/545.png', '/data/our485/high/5.png', '/data/our485/high/606.png', '/data/our485/high/539.png', '/data/our485/high/682.png', '/data/our485/high/587.png', '/data/our485/high/653.png', '/data/our485/high/99.png', '/data/our485/high/59.png', '/data/our485/high/94.png', '/data/our485/high/263.png', '/data/our485/high/209.png', '/data/our485/high/176.png', '/data/our485/high/691.png', '/data/our485/high/617.png', '/data/our485/high/490.png', '/data/our485/high/750.png', '/data/our485/high/567.png', '/data/our485/high/131.png', '/data/our485/high/25.png', '/data/our485/high/17.png', '/data/our485/high/526.png', '/data/our485/high/736.png', '/data/our485/high/751.png', '/data/our485/high/782.png', '/data/our485/high/614.png', '/data/our485/high/47.png', '/data/our485/high/551.png', '/data/our485/high/713.png', '/data/our485/high/215.png', '/data/our485/high/477.png', '/data/our485/high/593.png', '/data/our485/high/644.png', '/data/our485/high/744.png', '/data/our485/high/595.png', '/data/our485/high/781.png', '/data/our485/high/191.png', '/data/our485/high/159.png', '/data/our485/high/703.png', '/data/our485/high/123.png', '/data/our485/high/531.png', '/data/our485/high/488.png', '/data/our485/high/189.png', '/data/our485/high/484.png', '/data/our485/high/43.png', '/data/our485/high/200.png', '/data/our485/high/254.png', '/data/our485/high/93.png', '/data/our485/high/112.png', '/data/our485/high/495.png', '/data/our485/high/540.png', '/data/our485/high/719.png', '/data/our485/high/570.png', '/data/our485/high/258.png', '/data/our485/high/701.png', '/data/our485/high/86.png', '/data/our485/high/489.png', '/data/our485/high/743.png', '/data/our485/high/609.png', '/data/our485/high/538.png', '/data/our485/high/658.png', '/data/our485/high/225.png', '/data/our485/high/135.png', '/data/our485/high/734.png', '/data/our485/high/733.png', '/data/our485/high/132.png', '/data/our485/high/128.png', '/data/our485/high/586.png', '/data/our485/high/565.png', '/data/our485/high/560.png', '/data/our485/high/87.png', '/data/our485/high/788.png', '/data/our485/high/731.png', '/data/our485/high/61.png', '/data/our485/high/474.png', '/data/our485/high/739.png', '/data/our485/high/772.png', '/data/our485/high/124.png', '/data/our485/high/28.png', '/data/our485/high/690.png', '/data/our485/high/121.png', '/data/our485/high/54.png', '/data/our485/high/704.png', '/data/our485/high/662.png', '/data/our485/high/104.png', '/data/our485/high/468.png', '/data/our485/high/260.png', '/data/our485/high/564.png', '/data/our485/high/58.png', '/data/our485/high/152.png', '/data/our485/high/183.png', '/data/our485/high/500.png', '/data/our485/high/633.png', '/data/our485/high/664.png', '/data/our485/high/188.png', '/data/our485/high/243.png', '/data/our485/high/240.png', '/data/our485/high/762.png', '/data/our485/high/481.png', '/data/our485/high/244.png', '/data/our485/high/53.png', '/data/our485/high/157.png', '/data/our485/high/160.png', '/data/our485/high/649.png', '/data/our485/high/729.png', '/data/our485/high/186.png', '/data/our485/high/100.png', '/data/our485/high/787.png', '/data/our485/high/144.png', '/data/our485/high/247.png', '/data/our485/high/201.png', '/data/our485/high/758.png', '/data/our485/high/127.png', '/data/our485/high/511.png', '/data/our485/high/709.png', '/data/our485/high/67.png', '/data/our485/high/712.png', '/data/our485/high/173.png', '/data/our485/high/81.png', '/data/our485/high/680.png', '/data/our485/high/69.png', '/data/our485/high/611.png', '/data/our485/high/573.png', '/data/our485/high/674.png', '/data/our485/high/118.png', '/data/our485/high/504.png', '/data/our485/high/572.png', '/data/our485/high/68.png', '/data/our485/high/70.png', '/data/our485/high/730.png', '/data/our485/high/668.png', '/data/our485/high/6.png', '/data/our485/high/698.png', '/data/our485/high/149.png', '/data/our485/high/238.png', '/data/our485/high/492.png', '/data/our485/high/9.png', '/data/our485/high/63.png', '/data/our485/high/784.png', '/data/our485/high/745.png', '/data/our485/high/499.png', '/data/our485/high/555.png', '/data/our485/high/769.png', '/data/our485/high/248.png', '/data/our485/high/450.png', '/data/our485/high/497.png', '/data/our485/high/715.png', '/data/our485/high/235.png', '/data/our485/high/73.png', '/data/our485/high/569.png', '/data/our485/high/550.png', '/data/our485/high/330.png', '/data/our485/high/105.png', '/data/our485/high/231.png', '/data/our485/high/583.png', '/data/our485/high/40.png', '/data/our485/high/76.png', '/data/our485/high/720.png', '/data/our485/high/667.png', '/data/our485/high/476.png', '/data/our485/high/265.png', '/data/our485/high/568.png', '/data/our485/high/199.png', '/data/our485/high/13.png', '/data/our485/high/116.png', '/data/our485/high/613.png', '/data/our485/high/738.png', '/data/our485/high/251.png', '/data/our485/high/681.png', '/data/our485/high/700.png', '/data/our485/high/185.png', '/data/our485/high/507.png', '/data/our485/high/487.png', '/data/our485/high/717.png', '/data/our485/high/643.png', '/data/our485/high/140.png', '/data/our485/high/18.png', '/data/our485/high/75.png', '/data/our485/high/207.png', '/data/our485/high/629.png', '/data/our485/high/575.png', '/data/our485/high/115.png', '/data/our485/high/96.png', '/data/our485/high/230.png', '/data/our485/high/203.png', '/data/our485/high/82.png', '/data/our485/high/558.png', '/data/our485/high/771.png', '/data/our485/high/117.png', '/data/our485/high/21.png', '/data/our485/high/532.png', '/data/our485/high/696.png', '/data/our485/high/113.png', '/data/our485/high/776.png', '/data/our485/high/479.png', '/data/our485/high/253.png', '/data/our485/high/213.png', '/data/our485/high/98.png', '/data/our485/high/622.png', '/data/our485/high/594.png', '/data/our485/high/12.png', '/data/our485/high/585.png', '/data/our485/high/267.png', '/data/our485/high/559.png', '/data/our485/high/216.png', '/data/our485/high/645.png', '/data/our485/high/198.png', '/data/our485/high/137.png', '/data/our485/high/548.png', '/data/our485/high/469.png', '/data/our485/high/608.png', '/data/our485/high/194.png', '/data/our485/high/498.png', '/data/our485/high/522.png', '/data/our485/high/785.png', '/data/our485/high/746.png', '/data/our485/high/639.png', '/data/our485/high/169.png', '/data/our485/high/752.png', '/data/our485/high/529.png', '/data/our485/high/728.png', '/data/our485/high/171.png', '/data/our485/high/222.png', '/data/our485/high/147.png', '/data/our485/high/789.png', '/data/our485/high/464.png', '/data/our485/high/206.png', '/data/our485/high/637.png', '/data/our485/high/549.png', '/data/our485/high/473.png', '/data/our485/high/541.png', '/data/our485/high/328.png', '/data/our485/high/702.png', '/data/our485/high/264.png', '/data/our485/high/655.png', '/data/our485/high/150.png', '/data/our485/high/51.png', '/data/our485/high/722.png', '/data/our485/high/80.png', '/data/our485/high/650.png', '/data/our485/high/579.png', '/data/our485/high/485.png', '/data/our485/high/77.png', '/data/our485/high/685.png', '/data/our485/high/578.png', '/data/our485/high/627.png', '/data/our485/high/109.png', '/data/our485/high/491.png', '/data/our485/high/24.png', '/data/our485/high/574.png', '/data/our485/high/175.png', '/data/our485/high/534.png', '/data/our485/high/695.png', '/data/our485/high/129.png', '/data/our485/high/145.png', '/data/our485/high/757.png', '/data/our485/high/211.png', '/data/our485/high/692.png', '/data/our485/high/765.png', '/data/our485/high/666.png', '/data/our485/high/45.png', '/data/our485/high/723.png', '/data/our485/high/764.png', '/data/our485/high/697.png', '/data/our485/high/663.png', '/data/our485/high/48.png', '/data/our485/high/688.png']
+[ DEBUG   ] (2026-03-14 15:05:11.831206) low_paths = ['/data/our485/low/106.png', '/data/our485/low/483.png', '/data/our485/low/642.png', '/data/our485/low/236.png', '/data/our485/low/44.png', '/data/our485/low/242.png', '/data/our485/low/775.png', '/data/our485/low/773.png', '/data/our485/low/590.png', '/data/our485/low/786.png', '/data/our485/low/475.png', '/data/our485/low/571.png', '/data/our485/low/557.png', '/data/our485/low/249.png', '/data/our485/low/732.png', '/data/our485/low/241.png', '/data/our485/low/735.png', '/data/our485/low/514.png', '/data/our485/low/107.png', '/data/our485/low/246.png', '/data/our485/low/344.png', '/data/our485/low/630.png', '/data/our485/low/747.png', '/data/our485/low/60.png', '/data/our485/low/27.png', '/data/our485/low/554.png', '/data/our485/low/232.png', '/data/our485/low/721.png', '/data/our485/low/46.png', '/data/our485/low/741.png', '/data/our485/low/14.png', '/data/our485/low/257.png', '/data/our485/low/486.png', '/data/our485/low/221.png', '/data/our485/low/607.png', '/data/our485/low/620.png', '/data/our485/low/184.png', '/data/our485/low/616.png', '/data/our485/low/648.png', '/data/our485/low/38.png', '/data/our485/low/710.png', '/data/our485/low/91.png', '/data/our485/low/143.png', '/data/our485/low/237.png', '/data/our485/low/89.png', '/data/our485/low/566.png', '/data/our485/low/26.png', '/data/our485/low/678.png', '/data/our485/low/126.png', '/data/our485/low/737.png', '/data/our485/low/671.png', '/data/our485/low/139.png', '/data/our485/low/561.png', '/data/our485/low/537.png', '/data/our485/low/78.png', '/data/our485/low/470.png', '/data/our485/low/506.png', '/data/our485/low/610.png', '/data/our485/low/580.png', '/data/our485/low/501.png', '/data/our485/low/640.png', '/data/our485/low/220.png', '/data/our485/low/525.png', '/data/our485/low/35.png', '/data/our485/low/686.png', '/data/our485/low/130.png', '/data/our485/low/660.png', '/data/our485/low/50.png', '/data/our485/low/563.png', '/data/our485/low/562.png', '/data/our485/low/151.png', '/data/our485/low/154.png', '/data/our485/low/252.png', '/data/our485/low/684.png', '/data/our485/low/763.png', '/data/our485/low/204.png', '/data/our485/low/716.png', '/data/our485/low/542.png', '/data/our485/low/601.png', '/data/our485/low/512.png', '/data/our485/low/676.png', '/data/our485/low/605.png', '/data/our485/low/659.png', '/data/our485/low/261.png', '/data/our485/low/84.png', '/data/our485/low/553.png', '/data/our485/low/708.png', '/data/our485/low/480.png', '/data/our485/low/634.png', '/data/our485/low/103.png', '/data/our485/low/604.png', '/data/our485/low/527.png', '/data/our485/low/102.png', '/data/our485/low/460.png', '/data/our485/low/167.png', '/data/our485/low/494.png', '/data/our485/low/196.png', '/data/our485/low/471.png', '/data/our485/low/136.png', '/data/our485/low/138.png', '/data/our485/low/97.png', '/data/our485/low/515.png', '/data/our485/low/120.png', '/data/our485/low/259.png', '/data/our485/low/57.png', '/data/our485/low/180.png', '/data/our485/low/651.png', '/data/our485/low/774.png', '/data/our485/low/187.png', '/data/our485/low/119.png', '/data/our485/low/625.png', '/data/our485/low/675.png', '/data/our485/low/689.png', '/data/our485/low/39.png', '/data/our485/low/759.png', '/data/our485/low/726.png', '/data/our485/low/588.png', '/data/our485/low/110.png', '/data/our485/low/647.png', '/data/our485/low/505.png', '/data/our485/low/174.png', '/data/our485/low/552.png', '/data/our485/low/546.png', '/data/our485/low/740.png', '/data/our485/low/92.png', '/data/our485/low/125.png', '/data/our485/low/718.png', '/data/our485/low/64.png', '/data/our485/low/95.png', '/data/our485/low/530.png', '/data/our485/low/52.png', '/data/our485/low/193.png', '/data/our485/low/596.png', '/data/our485/low/229.png', '/data/our485/low/88.png', '/data/our485/low/535.png', '/data/our485/low/592.png', '/data/our485/low/600.png', '/data/our485/low/615.png', '/data/our485/low/74.png', '/data/our485/low/508.png', '/data/our485/low/670.png', '/data/our485/low/544.png', '/data/our485/low/597.png', '/data/our485/low/524.png', '/data/our485/low/727.png', '/data/our485/low/472.png', '/data/our485/low/172.png', '/data/our485/low/711.png', '/data/our485/low/42.png', '/data/our485/low/502.png', '/data/our485/low/766.png', '/data/our485/low/624.png', '/data/our485/low/628.png', '/data/our485/low/598.png', '/data/our485/low/233.png', '/data/our485/low/210.png', '/data/our485/low/654.png', '/data/our485/low/202.png', '/data/our485/low/122.png', '/data/our485/low/15.png', '/data/our485/low/162.png', '/data/our485/low/342.png', '/data/our485/low/142.png', '/data/our485/low/496.png', '/data/our485/low/528.png', '/data/our485/low/523.png', '/data/our485/low/556.png', '/data/our485/low/517.png', '/data/our485/low/677.png', '/data/our485/low/83.png', '/data/our485/low/36.png', '/data/our485/low/56.png', '/data/our485/low/482.png', '/data/our485/low/576.png', '/data/our485/low/623.png', '/data/our485/low/612.png', '/data/our485/low/679.png', '/data/our485/low/141.png', '/data/our485/low/783.png', '/data/our485/low/777.png', '/data/our485/low/114.png', '/data/our485/low/779.png', '/data/our485/low/724.png', '/data/our485/low/770.png', '/data/our485/low/626.png', '/data/our485/low/621.png', '/data/our485/low/543.png', '/data/our485/low/591.png', '/data/our485/low/693.png', '/data/our485/low/10.png', '/data/our485/low/195.png', '/data/our485/low/725.png', '/data/our485/low/478.png', '/data/our485/low/101.png', '/data/our485/low/239.png', '/data/our485/low/714.png', '/data/our485/low/687.png', '/data/our485/low/533.png', '/data/our485/low/638.png', '/data/our485/low/2.png', '/data/our485/low/62.png', '/data/our485/low/219.png', '/data/our485/low/33.png', '/data/our485/low/212.png', '/data/our485/low/250.png', '/data/our485/low/683.png', '/data/our485/low/641.png', '/data/our485/low/699.png', '/data/our485/low/228.png', '/data/our485/low/16.png', '/data/our485/low/646.png', '/data/our485/low/761.png', '/data/our485/low/661.png', '/data/our485/low/227.png', '/data/our485/low/262.png', '/data/our485/low/694.png', '/data/our485/low/760.png', '/data/our485/low/545.png', '/data/our485/low/5.png', '/data/our485/low/606.png', '/data/our485/low/539.png', '/data/our485/low/682.png', '/data/our485/low/587.png', '/data/our485/low/653.png', '/data/our485/low/99.png', '/data/our485/low/59.png', '/data/our485/low/94.png', '/data/our485/low/263.png', '/data/our485/low/209.png', '/data/our485/low/176.png', '/data/our485/low/691.png', '/data/our485/low/617.png', '/data/our485/low/490.png', '/data/our485/low/750.png', '/data/our485/low/567.png', '/data/our485/low/131.png', '/data/our485/low/25.png', '/data/our485/low/17.png', '/data/our485/low/526.png', '/data/our485/low/736.png', '/data/our485/low/751.png', '/data/our485/low/782.png', '/data/our485/low/614.png', '/data/our485/low/47.png', '/data/our485/low/551.png', '/data/our485/low/713.png', '/data/our485/low/215.png', '/data/our485/low/477.png', '/data/our485/low/593.png', '/data/our485/low/644.png', '/data/our485/low/744.png', '/data/our485/low/595.png', '/data/our485/low/781.png', '/data/our485/low/191.png', '/data/our485/low/159.png', '/data/our485/low/703.png', '/data/our485/low/123.png', '/data/our485/low/531.png', '/data/our485/low/488.png', '/data/our485/low/189.png', '/data/our485/low/484.png', '/data/our485/low/43.png', '/data/our485/low/200.png', '/data/our485/low/254.png', '/data/our485/low/93.png', '/data/our485/low/112.png', '/data/our485/low/495.png', '/data/our485/low/540.png', '/data/our485/low/719.png', '/data/our485/low/570.png', '/data/our485/low/258.png', '/data/our485/low/701.png', '/data/our485/low/86.png', '/data/our485/low/489.png', '/data/our485/low/743.png', '/data/our485/low/609.png', '/data/our485/low/538.png', '/data/our485/low/658.png', '/data/our485/low/225.png', '/data/our485/low/135.png', '/data/our485/low/734.png', '/data/our485/low/733.png', '/data/our485/low/132.png', '/data/our485/low/128.png', '/data/our485/low/586.png', '/data/our485/low/565.png', '/data/our485/low/560.png', '/data/our485/low/87.png', '/data/our485/low/788.png', '/data/our485/low/731.png', '/data/our485/low/61.png', '/data/our485/low/474.png', '/data/our485/low/739.png', '/data/our485/low/772.png', '/data/our485/low/124.png', '/data/our485/low/28.png', '/data/our485/low/690.png', '/data/our485/low/121.png', '/data/our485/low/54.png', '/data/our485/low/704.png', '/data/our485/low/662.png', '/data/our485/low/104.png', '/data/our485/low/468.png', '/data/our485/low/260.png', '/data/our485/low/564.png', '/data/our485/low/58.png', '/data/our485/low/152.png', '/data/our485/low/183.png', '/data/our485/low/500.png', '/data/our485/low/633.png', '/data/our485/low/664.png', '/data/our485/low/188.png', '/data/our485/low/243.png', '/data/our485/low/240.png', '/data/our485/low/762.png', '/data/our485/low/481.png', '/data/our485/low/244.png', '/data/our485/low/53.png', '/data/our485/low/157.png', '/data/our485/low/160.png', '/data/our485/low/649.png', '/data/our485/low/729.png', '/data/our485/low/186.png', '/data/our485/low/100.png', '/data/our485/low/787.png', '/data/our485/low/144.png', '/data/our485/low/247.png', '/data/our485/low/201.png', '/data/our485/low/758.png', '/data/our485/low/127.png', '/data/our485/low/511.png', '/data/our485/low/709.png', '/data/our485/low/67.png', '/data/our485/low/712.png', '/data/our485/low/173.png', '/data/our485/low/81.png', '/data/our485/low/680.png', '/data/our485/low/69.png', '/data/our485/low/611.png', '/data/our485/low/573.png', '/data/our485/low/674.png', '/data/our485/low/118.png', '/data/our485/low/504.png', '/data/our485/low/572.png', '/data/our485/low/68.png', '/data/our485/low/70.png', '/data/our485/low/730.png', '/data/our485/low/668.png', '/data/our485/low/6.png', '/data/our485/low/698.png', '/data/our485/low/149.png', '/data/our485/low/238.png', '/data/our485/low/492.png', '/data/our485/low/9.png', '/data/our485/low/63.png', '/data/our485/low/784.png', '/data/our485/low/745.png', '/data/our485/low/499.png', '/data/our485/low/555.png', '/data/our485/low/769.png', '/data/our485/low/248.png', '/data/our485/low/450.png', '/data/our485/low/497.png', '/data/our485/low/715.png', '/data/our485/low/235.png', '/data/our485/low/73.png', '/data/our485/low/569.png', '/data/our485/low/550.png', '/data/our485/low/330.png', '/data/our485/low/105.png', '/data/our485/low/231.png', '/data/our485/low/583.png', '/data/our485/low/40.png', '/data/our485/low/76.png', '/data/our485/low/720.png', '/data/our485/low/667.png', '/data/our485/low/476.png', '/data/our485/low/265.png', '/data/our485/low/568.png', '/data/our485/low/199.png', '/data/our485/low/13.png', '/data/our485/low/116.png', '/data/our485/low/613.png', '/data/our485/low/738.png', '/data/our485/low/251.png', '/data/our485/low/681.png', '/data/our485/low/700.png', '/data/our485/low/185.png', '/data/our485/low/507.png', '/data/our485/low/487.png', '/data/our485/low/717.png', '/data/our485/low/643.png', '/data/our485/low/140.png', '/data/our485/low/18.png', '/data/our485/low/75.png', '/data/our485/low/207.png', '/data/our485/low/629.png', '/data/our485/low/575.png', '/data/our485/low/115.png', '/data/our485/low/96.png', '/data/our485/low/230.png', '/data/our485/low/203.png', '/data/our485/low/82.png', '/data/our485/low/558.png', '/data/our485/low/771.png', '/data/our485/low/117.png', '/data/our485/low/21.png', '/data/our485/low/532.png', '/data/our485/low/696.png', '/data/our485/low/113.png', '/data/our485/low/776.png', '/data/our485/low/479.png', '/data/our485/low/253.png', '/data/our485/low/213.png', '/data/our485/low/98.png', '/data/our485/low/622.png', '/data/our485/low/594.png', '/data/our485/low/12.png', '/data/our485/low/585.png', '/data/our485/low/267.png', '/data/our485/low/559.png', '/data/our485/low/216.png', '/data/our485/low/645.png', '/data/our485/low/198.png', '/data/our485/low/137.png', '/data/our485/low/548.png', '/data/our485/low/469.png', '/data/our485/low/608.png', '/data/our485/low/194.png', '/data/our485/low/498.png', '/data/our485/low/522.png', '/data/our485/low/785.png', '/data/our485/low/746.png', '/data/our485/low/639.png', '/data/our485/low/169.png', '/data/our485/low/752.png', '/data/our485/low/529.png', '/data/our485/low/728.png', '/data/our485/low/171.png', '/data/our485/low/222.png', '/data/our485/low/147.png', '/data/our485/low/789.png', '/data/our485/low/464.png', '/data/our485/low/206.png', '/data/our485/low/637.png', '/data/our485/low/549.png', '/data/our485/low/473.png', '/data/our485/low/541.png', '/data/our485/low/328.png', '/data/our485/low/702.png', '/data/our485/low/264.png', '/data/our485/low/655.png', '/data/our485/low/150.png', '/data/our485/low/51.png', '/data/our485/low/722.png', '/data/our485/low/80.png', '/data/our485/low/650.png', '/data/our485/low/579.png', '/data/our485/low/485.png', '/data/our485/low/77.png', '/data/our485/low/685.png', '/data/our485/low/578.png', '/data/our485/low/627.png', '/data/our485/low/109.png', '/data/our485/low/491.png', '/data/our485/low/24.png', '/data/our485/low/574.png', '/data/our485/low/175.png', '/data/our485/low/534.png', '/data/our485/low/695.png', '/data/our485/low/129.png', '/data/our485/low/145.png', '/data/our485/low/757.png', '/data/our485/low/211.png', '/data/our485/low/692.png', '/data/our485/low/765.png', '/data/our485/low/666.png', '/data/our485/low/45.png', '/data/our485/low/723.png', '/data/our485/low/764.png', '/data/our485/low/697.png', '/data/our485/low/663.png', '/data/our485/low/48.png', '/data/our485/low/688.png']
+[ DEBUG   ] (2026-03-14 15:05:31.202337) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:05:33.797544) Qwen score: 6.386816024780273 for img[0]
+[ DEBUG   ] (2026-03-14 15:05:36.294893) Qwen score: 6.398464202880859 for img[1]
+[ DEBUG   ] (2026-03-14 15:05:36.295071) Qwen Score: 6.392640113830566
+[ DEBUG   ] (2026-03-14 15:05:36.295181) Loss_Decom: 0.04043351113796234, Loss_Relight: 0.22150251269340515
+[ DEBUG   ] (2026-03-14 15:05:40.875028) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:05:43.279644) Qwen score: 6.90858268737793 for img[0]
+[ DEBUG   ] (2026-03-14 15:05:45.613835) Qwen score: 6.470573425292969 for img[1]
+[ DEBUG   ] (2026-03-14 15:05:45.613971) Qwen Score: 6.689578056335449
+[ DEBUG   ] (2026-03-14 15:05:45.657931) Loss_Decom: 0.04487191140651703, Loss_Relight: 0.1408497393131256
+[ DEBUG   ] (2026-03-14 15:05:50.246322) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:05:52.699711) Qwen score: 6.359749794006348 for img[0]
+[ DEBUG   ] (2026-03-14 15:05:54.932910) Qwen score: 6.934701919555664 for img[1]
+[ DEBUG   ] (2026-03-14 15:05:54.933037) Qwen Score: 6.647225856781006
+[ DEBUG   ] (2026-03-14 15:05:54.945913) Loss_Decom: 0.02771149016916752, Loss_Relight: 0.26575592160224915
+[ DEBUG   ] (2026-03-14 15:05:59.403803) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:06:01.786771) Qwen score: 7.034963607788086 for img[0]
+[ DEBUG   ] (2026-03-14 15:06:04.038918) Qwen score: 6.584417343139648 for img[1]
+[ DEBUG   ] (2026-03-14 15:06:04.039051) Qwen Score: 6.809690475463867
+[ DEBUG   ] (2026-03-14 15:06:04.043118) Loss_Decom: 0.032229602336883545, Loss_Relight: 0.29466378688812256
+[ DEBUG   ] (2026-03-14 15:06:08.781663) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:06:11.749074) Qwen score: 6.574934959411621 for img[0]
+[ DEBUG   ] (2026-03-14 15:06:15.834433) Qwen score: 6.37447452545166 for img[1]
+[ DEBUG   ] (2026-03-14 15:06:15.834557) Qwen Score: 6.474704742431641
+[ DEBUG   ] (2026-03-14 15:06:15.838305) Loss_Decom: 0.031639471650123596, Loss_Relight: 0.16618290543556213
+[ DEBUG   ] (2026-03-14 15:06:20.598390) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:06:23.001368) Qwen score: 6.83409309387207 for img[0]
+[ DEBUG   ] (2026-03-14 15:06:26.672298) Qwen score: 5.805459022521973 for img[1]
+[ DEBUG   ] (2026-03-14 15:06:26.672569) Qwen Score: 6.3197760581970215
+[ DEBUG   ] (2026-03-14 15:06:26.681315) Loss_Decom: 0.03233032673597336, Loss_Relight: 0.19356217980384827
+[ DEBUG   ] (2026-03-14 15:06:31.887895) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:06:34.467308) Qwen score: 6.2324442863464355 for img[0]
+[ DEBUG   ] (2026-03-14 15:06:36.940655) Qwen score: 6.490954399108887 for img[1]
+[ DEBUG   ] (2026-03-14 15:06:36.940799) Qwen Score: 6.361699104309082
+[ DEBUG   ] (2026-03-14 15:06:36.944822) Loss_Decom: 0.021242478862404823, Loss_Relight: 0.1992354840040207
+[ DEBUG   ] (2026-03-14 15:06:43.625658) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:06:46.738272) Qwen score: 6.115453243255615 for img[0]
+[ DEBUG   ] (2026-03-14 15:06:50.910033) Qwen score: 6.456480026245117 for img[1]
+[ DEBUG   ] (2026-03-14 15:06:50.910477) Qwen Score: 6.285966873168945
+[ DEBUG   ] (2026-03-14 15:06:50.951737) Loss_Decom: 0.04626178368926048, Loss_Relight: 0.24792027473449707
+[ DEBUG   ] (2026-03-14 15:06:55.308266) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:06:57.514096) Qwen score: 5.4073028564453125 for img[0]
+[ DEBUG   ] (2026-03-14 15:06:59.656885) Qwen score: 6.572236061096191 for img[1]
+[ DEBUG   ] (2026-03-14 15:06:59.657011) Qwen Score: 5.989769458770752
+[ DEBUG   ] (2026-03-14 15:06:59.661026) Loss_Decom: 0.04345302656292915, Loss_Relight: 0.19045959413051605
+[ DEBUG   ] (2026-03-14 15:07:05.409811) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:07:07.667295) Qwen score: 6.669342994689941 for img[0]
+[ DEBUG   ] (2026-03-14 15:07:09.944138) Qwen score: 6.94066047668457 for img[1]
+[ DEBUG   ] (2026-03-14 15:07:09.944271) Qwen Score: 6.805001735687256
+[ DEBUG   ] (2026-03-14 15:07:09.959350) Loss_Decom: 0.03619915992021561, Loss_Relight: 0.24798697233200073
+[ DEBUG   ] (2026-03-14 15:07:14.394748) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:07:16.750946) Qwen score: 5.944587707519531 for img[0]
+[ DEBUG   ] (2026-03-14 15:07:19.035703) Qwen score: 6.399934768676758 for img[1]
+[ DEBUG   ] (2026-03-14 15:07:19.035844) Qwen Score: 6.1722612380981445
+[ DEBUG   ] (2026-03-14 15:07:19.039880) Loss_Decom: 0.032432105392217636, Loss_Relight: 0.17281082272529602
+[ DEBUG   ] (2026-03-14 15:07:23.547609) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:07:25.900813) Qwen score: 6.130274772644043 for img[0]
+[ DEBUG   ] (2026-03-14 15:07:28.158125) Qwen score: 6.539957046508789 for img[1]
+[ DEBUG   ] (2026-03-14 15:07:28.158267) Qwen Score: 6.335115909576416
+[ DEBUG   ] (2026-03-14 15:07:28.172086) Loss_Decom: 0.0340527668595314, Loss_Relight: 0.18164774775505066
+[ DEBUG   ] (2026-03-14 15:07:32.598342) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:07:34.931668) Qwen score: 5.917897701263428 for img[0]
+[ DEBUG   ] (2026-03-14 15:07:39.301712) Qwen score: 6.447416305541992 for img[1]
+[ DEBUG   ] (2026-03-14 15:07:39.301864) Qwen Score: 6.182657241821289
+[ DEBUG   ] (2026-03-14 15:07:39.306034) Loss_Decom: 0.0322357602417469, Loss_Relight: 0.19169911742210388
+[ DEBUG   ] (2026-03-14 15:07:44.409237) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:07:46.952590) Qwen score: 7.061166763305664 for img[0]
+[ DEBUG   ] (2026-03-14 15:07:49.822812) Qwen score: 5.253138065338135 for img[1]
+[ DEBUG   ] (2026-03-14 15:07:49.822987) Qwen Score: 6.15715217590332
+[ DEBUG   ] (2026-03-14 15:07:49.826835) Loss_Decom: 0.04985688254237175, Loss_Relight: 0.21875911951065063
+[ DEBUG   ] (2026-03-14 15:07:54.533048) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:07:56.875595) Qwen score: 6.030472755432129 for img[0]
+[ DEBUG   ] (2026-03-14 15:08:00.611688) Qwen score: 5.432406425476074 for img[1]
+[ DEBUG   ] (2026-03-14 15:08:00.611813) Qwen Score: 5.731439590454102
+[ DEBUG   ] (2026-03-14 15:08:00.615961) Loss_Decom: 0.04125949740409851, Loss_Relight: 0.2107141613960266
+[ DEBUG   ] (2026-03-14 15:08:06.889545) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:08:11.749180) Qwen score: 7.075440883636475 for img[0]
+[ DEBUG   ] (2026-03-14 15:08:16.552661) Qwen score: 6.837216377258301 for img[1]
+[ DEBUG   ] (2026-03-14 15:08:16.553070) Qwen Score: 6.956328392028809
+[ DEBUG   ] (2026-03-14 15:08:16.579121) Loss_Decom: 0.03426225110888481, Loss_Relight: 0.26322486996650696
+[ DEBUG   ] (2026-03-14 15:08:24.049932) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:08:28.324935) Qwen score: 6.473992347717285 for img[0]
+[ DEBUG   ] (2026-03-14 15:08:32.831376) Qwen score: 6.104084014892578 for img[1]
+[ DEBUG   ] (2026-03-14 15:08:32.831637) Qwen Score: 6.289038181304932
+[ DEBUG   ] (2026-03-14 15:08:32.838978) Loss_Decom: 0.0414561852812767, Loss_Relight: 0.20428946614265442
+[ DEBUG   ] (2026-03-14 15:08:38.528196) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:08:41.453101) Qwen score: 6.056870460510254 for img[0]
+[ DEBUG   ] (2026-03-14 15:08:43.755881) Qwen score: 5.1893310546875 for img[1]
+[ DEBUG   ] (2026-03-14 15:08:43.756016) Qwen Score: 5.623100757598877
+[ DEBUG   ] (2026-03-14 15:08:43.765050) Loss_Decom: 0.04468018561601639, Loss_Relight: 0.30126824975013733
+[ DEBUG   ] (2026-03-14 15:08:52.071725) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:08:56.750839) Qwen score: 6.5930938720703125 for img[0]
+[ DEBUG   ] (2026-03-14 15:09:02.576381) Qwen score: 6.182516574859619 for img[1]
+[ DEBUG   ] (2026-03-14 15:09:02.576728) Qwen Score: 6.387804985046387
+[ DEBUG   ] (2026-03-14 15:09:02.586839) Loss_Decom: 0.0399557463824749, Loss_Relight: 0.1705409586429596
+[ DEBUG   ] (2026-03-14 15:09:08.204361) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:09:10.460603) Qwen score: 6.765683174133301 for img[0]
+[ DEBUG   ] (2026-03-14 15:09:12.809187) Qwen score: 7.013036251068115 for img[1]
+[ DEBUG   ] (2026-03-14 15:09:12.809321) Qwen Score: 6.889359474182129
+[ DEBUG   ] (2026-03-14 15:09:12.818356) Loss_Decom: 0.030049452558159828, Loss_Relight: 0.1528785228729248
+[ DEBUG   ] (2026-03-14 15:09:17.386412) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:09:19.808993) Qwen score: 6.046825408935547 for img[0]
+[ DEBUG   ] (2026-03-14 15:09:22.276026) Qwen score: 5.75844669342041 for img[1]
+[ DEBUG   ] (2026-03-14 15:09:22.276196) Qwen Score: 5.9026360511779785
+[ DEBUG   ] (2026-03-14 15:09:22.280584) Loss_Decom: 0.03690493479371071, Loss_Relight: 0.16870172321796417
+[ DEBUG   ] (2026-03-14 15:09:27.162721) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:09:29.682565) Qwen score: 7.052798748016357 for img[0]
+[ DEBUG   ] (2026-03-14 15:09:32.271995) Qwen score: 6.136909484863281 for img[1]
+[ DEBUG   ] (2026-03-14 15:09:32.272150) Qwen Score: 6.594854354858398
+[ DEBUG   ] (2026-03-14 15:09:32.286618) Loss_Decom: 0.042334411293268204, Loss_Relight: 0.1779668629169464
+[ DEBUG   ] (2026-03-14 15:09:37.455172) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:09:40.125169) Qwen score: 6.125622272491455 for img[0]
+[ DEBUG   ] (2026-03-14 15:09:42.818050) Qwen score: 6.884099006652832 for img[1]
+[ DEBUG   ] (2026-03-14 15:09:42.818208) Qwen Score: 6.504860877990723
+[ DEBUG   ] (2026-03-14 15:09:42.822828) Loss_Decom: 0.029523013159632683, Loss_Relight: 0.17697232961654663
+[ DEBUG   ] (2026-03-14 15:09:48.417986) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:09:51.324020) Qwen score: 6.823263168334961 for img[0]
+[ DEBUG   ] (2026-03-14 15:09:54.179320) Qwen score: 6.343089580535889 for img[1]
+[ DEBUG   ] (2026-03-14 15:09:54.179494) Qwen Score: 6.583176612854004
+[ DEBUG   ] (2026-03-14 15:09:54.184427) Loss_Decom: 0.04434465616941452, Loss_Relight: 0.24051672220230103
+[ DEBUG   ] (2026-03-14 15:09:59.718511) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:10:02.483811) Qwen score: 6.04674768447876 for img[0]
+[ DEBUG   ] (2026-03-14 15:10:05.203872) Qwen score: 6.2169575691223145 for img[1]
+[ DEBUG   ] (2026-03-14 15:10:05.204041) Qwen Score: 6.131852626800537
+[ DEBUG   ] (2026-03-14 15:10:05.209054) Loss_Decom: 0.038819413632154465, Loss_Relight: 0.22932866215705872
+[ DEBUG   ] (2026-03-14 15:10:10.818144) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:10:13.705571) Qwen score: 6.365806579589844 for img[0]
+[ DEBUG   ] (2026-03-14 15:10:16.569295) Qwen score: 6.692790985107422 for img[1]
+[ DEBUG   ] (2026-03-14 15:10:16.569524) Qwen Score: 6.529298782348633
+[ DEBUG   ] (2026-03-14 15:10:16.575534) Loss_Decom: 0.043613117188215256, Loss_Relight: 0.21157489717006683
+[ DEBUG   ] (2026-03-14 15:10:22.096084) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:10:24.933842) Qwen score: 6.670493125915527 for img[0]
+[ DEBUG   ] (2026-03-14 15:10:27.884856) Qwen score: 5.175151824951172 for img[1]
+[ DEBUG   ] (2026-03-14 15:10:27.885046) Qwen Score: 5.92282247543335
+[ DEBUG   ] (2026-03-14 15:10:27.890322) Loss_Decom: 0.03701476752758026, Loss_Relight: 0.19900299608707428
+[ DEBUG   ] (2026-03-14 15:10:33.586593) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:10:36.441269) Qwen score: 6.512938499450684 for img[0]
+[ DEBUG   ] (2026-03-14 15:10:39.203331) Qwen score: 6.800137519836426 for img[1]
+[ DEBUG   ] (2026-03-14 15:10:39.203503) Qwen Score: 6.656538009643555
+[ DEBUG   ] (2026-03-14 15:10:39.208099) Loss_Decom: 0.03311990201473236, Loss_Relight: 0.17370343208312988
+[ DEBUG   ] (2026-03-14 15:10:44.911178) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:10:47.837203) Qwen score: 6.3729248046875 for img[0]
+[ DEBUG   ] (2026-03-14 15:10:50.686229) Qwen score: 5.717780590057373 for img[1]
+[ DEBUG   ] (2026-03-14 15:10:50.686431) Qwen Score: 6.045352935791016
+[ DEBUG   ] (2026-03-14 15:10:50.691503) Loss_Decom: 0.046452488750219345, Loss_Relight: 0.23676258325576782
+[ DEBUG   ] (2026-03-14 15:10:56.135231) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:10:58.870735) Qwen score: 7.0173234939575195 for img[0]
+[ DEBUG   ] (2026-03-14 15:11:01.652125) Qwen score: 6.002363681793213 for img[1]
+[ DEBUG   ] (2026-03-14 15:11:01.652282) Qwen Score: 6.509843826293945
+[ DEBUG   ] (2026-03-14 15:11:01.657202) Loss_Decom: 0.029907654970884323, Loss_Relight: 0.2219211459159851
+[ DEBUG   ] (2026-03-14 15:11:07.229473) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:11:10.009961) Qwen score: 6.185654640197754 for img[0]
+[ DEBUG   ] (2026-03-14 15:11:12.887360) Qwen score: 7.015810012817383 for img[1]
+[ DEBUG   ] (2026-03-14 15:11:12.887515) Qwen Score: 6.600732326507568
+[ DEBUG   ] (2026-03-14 15:11:12.902295) Loss_Decom: 0.03183421492576599, Loss_Relight: 0.2444155216217041
+[ DEBUG   ] (2026-03-14 15:11:18.258008) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:11:21.054785) Qwen score: 6.3915534019470215 for img[0]
+[ DEBUG   ] (2026-03-14 15:11:23.848026) Qwen score: 6.634332656860352 for img[1]
+[ DEBUG   ] (2026-03-14 15:11:23.848185) Qwen Score: 6.512943267822266
+[ DEBUG   ] (2026-03-14 15:11:23.852890) Loss_Decom: 0.028723018243908882, Loss_Relight: 0.21100449562072754
+[ DEBUG   ] (2026-03-14 15:11:29.272583) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:11:33.868625) Qwen score: 6.139883041381836 for img[0]
+[ DEBUG   ] (2026-03-14 15:11:38.025710) Qwen score: 5.4312639236450195 for img[1]
+[ DEBUG   ] (2026-03-14 15:11:38.025879) Qwen Score: 5.785573482513428
+[ DEBUG   ] (2026-03-14 15:11:38.030548) Loss_Decom: 0.03995058313012123, Loss_Relight: 0.22281652688980103
+[ DEBUG   ] (2026-03-14 15:11:46.282327) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:11:49.250844) Qwen score: 5.96334981918335 for img[0]
+[ DEBUG   ] (2026-03-14 15:11:52.005580) Qwen score: 7.167420864105225 for img[1]
+[ DEBUG   ] (2026-03-14 15:11:52.005753) Qwen Score: 6.565385341644287
+[ DEBUG   ] (2026-03-14 15:11:52.021415) Loss_Decom: 0.02370026521384716, Loss_Relight: 0.2019275426864624
+[ DEBUG   ] (2026-03-14 15:11:57.568159) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:12:00.353435) Qwen score: 6.4754533767700195 for img[0]
+[ DEBUG   ] (2026-03-14 15:12:03.088525) Qwen score: 6.586960792541504 for img[1]
+[ DEBUG   ] (2026-03-14 15:12:03.088697) Qwen Score: 6.531207084655762
+[ DEBUG   ] (2026-03-14 15:12:03.093584) Loss_Decom: 0.04654328152537346, Loss_Relight: 0.30017930269241333
+[ DEBUG   ] (2026-03-14 15:12:08.505501) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:12:11.275765) Qwen score: 6.2717671394348145 for img[0]
+[ DEBUG   ] (2026-03-14 15:12:13.928143) Qwen score: 6.863006591796875 for img[1]
+[ DEBUG   ] (2026-03-14 15:12:13.928287) Qwen Score: 6.567386627197266
+[ DEBUG   ] (2026-03-14 15:12:13.938313) Loss_Decom: 0.03012256696820259, Loss_Relight: 0.16975140571594238
+[ DEBUG   ] (2026-03-14 15:12:19.477395) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:12:22.222444) Qwen score: 6.089969158172607 for img[0]
+[ DEBUG   ] (2026-03-14 15:12:25.042279) Qwen score: 6.825370788574219 for img[1]
+[ DEBUG   ] (2026-03-14 15:12:25.042446) Qwen Score: 6.457670211791992
+[ DEBUG   ] (2026-03-14 15:12:25.046729) Loss_Decom: 0.026844266802072525, Loss_Relight: 0.21103158593177795
+[ DEBUG   ] (2026-03-14 15:12:30.508028) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:12:33.265570) Qwen score: 6.478315353393555 for img[0]
+[ DEBUG   ] (2026-03-14 15:12:36.075149) Qwen score: 6.580105781555176 for img[1]
+[ DEBUG   ] (2026-03-14 15:12:36.075308) Qwen Score: 6.529210567474365
+[ DEBUG   ] (2026-03-14 15:12:36.084076) Loss_Decom: 0.03450598940253258, Loss_Relight: 0.31868207454681396
+[ DEBUG   ] (2026-03-14 15:12:41.544064) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:12:44.455886) Qwen score: 6.545851230621338 for img[0]
+[ DEBUG   ] (2026-03-14 15:12:47.168800) Qwen score: 6.467264652252197 for img[1]
+[ DEBUG   ] (2026-03-14 15:12:47.168972) Qwen Score: 6.506557941436768
+[ DEBUG   ] (2026-03-14 15:12:47.173681) Loss_Decom: 0.02607135660946369, Loss_Relight: 0.18987077474594116
+[ DEBUG   ] (2026-03-14 15:12:52.732695) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:12:55.595775) Qwen score: 6.236347675323486 for img[0]
+[ DEBUG   ] (2026-03-14 15:12:58.439968) Qwen score: 6.167947769165039 for img[1]
+[ DEBUG   ] (2026-03-14 15:12:58.440119) Qwen Score: 6.202147483825684
+[ DEBUG   ] (2026-03-14 15:12:58.444758) Loss_Decom: 0.032937534153461456, Loss_Relight: 0.1818084865808487
+[ DEBUG   ] (2026-03-14 15:13:04.025215) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:13:06.851459) Qwen score: 6.4828081130981445 for img[0]
+[ DEBUG   ] (2026-03-14 15:13:09.619715) Qwen score: 6.053305625915527 for img[1]
+[ DEBUG   ] (2026-03-14 15:13:09.619862) Qwen Score: 6.268056869506836
+[ DEBUG   ] (2026-03-14 15:13:09.624250) Loss_Decom: 0.030212359502911568, Loss_Relight: 0.3213394284248352
+[ DEBUG   ] (2026-03-14 15:13:18.652099) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:13:21.843036) Qwen score: 6.523045539855957 for img[0]
+[ DEBUG   ] (2026-03-14 15:13:24.748756) Qwen score: 6.45304012298584 for img[1]
+[ DEBUG   ] (2026-03-14 15:13:24.748928) Qwen Score: 6.488042831420898
+[ DEBUG   ] (2026-03-14 15:13:24.760704) Loss_Decom: 0.032543424516916275, Loss_Relight: 0.22274094820022583
+[ DEBUG   ] (2026-03-14 15:13:30.243382) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:13:33.175372) Qwen score: 6.764755725860596 for img[0]
+[ DEBUG   ] (2026-03-14 15:13:36.080705) Qwen score: 6.189640998840332 for img[1]
+[ DEBUG   ] (2026-03-14 15:13:36.080877) Qwen Score: 6.477198600769043
+[ DEBUG   ] (2026-03-14 15:13:36.085378) Loss_Decom: 0.0367225743830204, Loss_Relight: 0.2162589132785797
+[ DEBUG   ] (2026-03-14 15:13:41.514990) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:13:44.479082) Qwen score: 6.828909873962402 for img[0]
+[ DEBUG   ] (2026-03-14 15:13:47.356848) Qwen score: 5.895257949829102 for img[1]
+[ DEBUG   ] (2026-03-14 15:13:47.356990) Qwen Score: 6.362083911895752
+[ DEBUG   ] (2026-03-14 15:13:47.361473) Loss_Decom: 0.027186091989278793, Loss_Relight: 0.18082602322101593
+[ DEBUG   ] (2026-03-14 15:13:52.795373) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:13:55.584410) Qwen score: 6.687374114990234 for img[0]
+[ DEBUG   ] (2026-03-14 15:13:58.495583) Qwen score: 6.616334915161133 for img[1]
+[ DEBUG   ] (2026-03-14 15:13:58.495748) Qwen Score: 6.651854515075684
+[ DEBUG   ] (2026-03-14 15:13:58.500118) Loss_Decom: 0.029385842382907867, Loss_Relight: 0.26535624265670776
+[ DEBUG   ] (2026-03-14 15:14:03.928172) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:14:06.666935) Qwen score: 6.485428810119629 for img[0]
+[ DEBUG   ] (2026-03-14 15:14:09.462929) Qwen score: 6.395109176635742 for img[1]
+[ DEBUG   ] (2026-03-14 15:14:09.463096) Qwen Score: 6.4402689933776855
+[ DEBUG   ] (2026-03-14 15:14:09.467990) Loss_Decom: 0.03334221988916397, Loss_Relight: 0.2138088047504425
+[ DEBUG   ] (2026-03-14 15:14:14.961069) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:14:17.787119) Qwen score: 6.523097038269043 for img[0]
+[ DEBUG   ] (2026-03-14 15:14:20.534202) Qwen score: 6.120478630065918 for img[1]
+[ DEBUG   ] (2026-03-14 15:14:20.534345) Qwen Score: 6.3217878341674805
+[ DEBUG   ] (2026-03-14 15:14:20.538812) Loss_Decom: 0.026144739240407944, Loss_Relight: 0.39124003052711487
+[ DEBUG   ] (2026-03-14 15:14:26.039999) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:14:28.875062) Qwen score: 6.849035739898682 for img[0]
+[ DEBUG   ] (2026-03-14 15:14:31.710984) Qwen score: 6.004162311553955 for img[1]
+[ DEBUG   ] (2026-03-14 15:14:31.711155) Qwen Score: 6.426599025726318
+[ DEBUG   ] (2026-03-14 15:14:31.715983) Loss_Decom: 0.03449379652738571, Loss_Relight: 0.34873443841934204
+[ DEBUG   ] (2026-03-14 15:14:37.073350) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:14:39.961519) Qwen score: 6.658095359802246 for img[0]
+[ DEBUG   ] (2026-03-14 15:14:42.884599) Qwen score: 5.16351318359375 for img[1]
+[ DEBUG   ] (2026-03-14 15:14:42.884742) Qwen Score: 5.910804271697998
+[ DEBUG   ] (2026-03-14 15:14:42.889399) Loss_Decom: 0.03589622303843498, Loss_Relight: 0.1678774654865265
+[ DEBUG   ] (2026-03-14 15:14:48.470725) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:14:51.282235) Qwen score: 6.57627010345459 for img[0]
+[ DEBUG   ] (2026-03-14 15:14:54.026906) Qwen score: 5.43385124206543 for img[1]
+[ DEBUG   ] (2026-03-14 15:14:54.027088) Qwen Score: 6.00506067276001
+[ DEBUG   ] (2026-03-14 15:14:54.031519) Loss_Decom: 0.030263837426900864, Loss_Relight: 0.19840142130851746
+[ DEBUG   ] (2026-03-14 15:14:59.461146) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:15:02.417788) Qwen score: 5.983628273010254 for img[0]
+[ DEBUG   ] (2026-03-14 15:15:05.165696) Qwen score: 6.178976058959961 for img[1]
+[ DEBUG   ] (2026-03-14 15:15:05.165860) Qwen Score: 6.081302165985107
+[ DEBUG   ] (2026-03-14 15:15:05.177098) Loss_Decom: 0.02820635586977005, Loss_Relight: 0.19367602467536926
+[ DEBUG   ] (2026-03-14 15:15:10.465039) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:15:13.141400) Qwen score: 6.400464057922363 for img[0]
+[ DEBUG   ] (2026-03-14 15:15:15.947840) Qwen score: 6.111081600189209 for img[1]
+[ DEBUG   ] (2026-03-14 15:15:15.948036) Qwen Score: 6.255772590637207
+[ DEBUG   ] (2026-03-14 15:15:15.953273) Loss_Decom: 0.023642612621188164, Loss_Relight: 0.1998564749956131
+[ DEBUG   ] (2026-03-14 15:15:21.220878) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:15:23.942782) Qwen score: 7.074469089508057 for img[0]
+[ DEBUG   ] (2026-03-14 15:15:26.732125) Qwen score: 5.743929862976074 for img[1]
+[ DEBUG   ] (2026-03-14 15:15:26.732264) Qwen Score: 6.4091997146606445
+[ DEBUG   ] (2026-03-14 15:15:26.736810) Loss_Decom: 0.04757263883948326, Loss_Relight: 0.16987106204032898
+[ DEBUG   ] (2026-03-14 15:15:32.293406) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:15:35.187705) Qwen score: 5.992049217224121 for img[0]
+[ DEBUG   ] (2026-03-14 15:15:38.058919) Qwen score: 6.409013271331787 for img[1]
+[ DEBUG   ] (2026-03-14 15:15:38.059078) Qwen Score: 6.200531005859375
+[ DEBUG   ] (2026-03-14 15:15:38.063973) Loss_Decom: 0.03855414688587189, Loss_Relight: 0.3776805102825165
+[ DEBUG   ] (2026-03-14 15:15:43.419834) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:15:46.221667) Qwen score: 6.1781721115112305 for img[0]
+[ DEBUG   ] (2026-03-14 15:15:49.005262) Qwen score: 6.6997480392456055 for img[1]
+[ DEBUG   ] (2026-03-14 15:15:49.005408) Qwen Score: 6.438960075378418
+[ DEBUG   ] (2026-03-14 15:15:49.017108) Loss_Decom: 0.03613873943686485, Loss_Relight: 0.30377495288848877
+[ DEBUG   ] (2026-03-14 15:15:54.497486) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:15:57.413622) Qwen score: 6.246973514556885 for img[0]
+[ DEBUG   ] (2026-03-14 15:16:00.291988) Qwen score: 6.427896022796631 for img[1]
+[ DEBUG   ] (2026-03-14 15:16:00.292167) Qwen Score: 6.337434768676758
+[ DEBUG   ] (2026-03-14 15:16:00.296804) Loss_Decom: 0.03420199081301689, Loss_Relight: 0.2412559688091278
+[ DEBUG   ] (2026-03-14 15:16:05.804362) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:16:08.701227) Qwen score: 6.7994513511657715 for img[0]
+[ DEBUG   ] (2026-03-14 15:16:11.445452) Qwen score: 6.780160903930664 for img[1]
+[ DEBUG   ] (2026-03-14 15:16:11.445616) Qwen Score: 6.789806365966797
+[ DEBUG   ] (2026-03-14 15:16:11.450246) Loss_Decom: 0.040861576795578, Loss_Relight: 0.24531710147857666
+[ DEBUG   ] (2026-03-14 15:16:16.975931) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:16:19.873644) Qwen score: 6.560995101928711 for img[0]
+[ DEBUG   ] (2026-03-14 15:16:22.732379) Qwen score: 6.561758041381836 for img[1]
+[ DEBUG   ] (2026-03-14 15:16:22.732573) Qwen Score: 6.561376571655273
+[ DEBUG   ] (2026-03-14 15:16:22.737275) Loss_Decom: 0.022831132635474205, Loss_Relight: 0.28102150559425354
+[ DEBUG   ] (2026-03-14 15:16:28.174430) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:16:31.047342) Qwen score: 5.547122478485107 for img[0]
+[ DEBUG   ] (2026-03-14 15:16:33.785984) Qwen score: 6.208229064941406 for img[1]
+[ DEBUG   ] (2026-03-14 15:16:33.786139) Qwen Score: 5.877676010131836
+[ DEBUG   ] (2026-03-14 15:16:33.790783) Loss_Decom: 0.029472215101122856, Loss_Relight: 0.16646432876586914
+[ DEBUG   ] (2026-03-14 15:16:39.120019) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:16:42.003516) Qwen score: 5.889272689819336 for img[0]
+[ DEBUG   ] (2026-03-14 15:16:44.837076) Qwen score: 6.939490795135498 for img[1]
+[ DEBUG   ] (2026-03-14 15:16:44.837219) Qwen Score: 6.414381980895996
+[ DEBUG   ] (2026-03-14 15:16:44.841881) Loss_Decom: 0.03060603141784668, Loss_Relight: 0.25406110286712646
+[ DEBUG   ] (2026-03-14 15:16:50.332190) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:16:53.224899) Qwen score: 6.328800678253174 for img[0]
+[ DEBUG   ] (2026-03-14 15:16:56.185858) Qwen score: 6.385735511779785 for img[1]
+[ DEBUG   ] (2026-03-14 15:16:56.186013) Qwen Score: 6.357268333435059
+[ DEBUG   ] (2026-03-14 15:16:56.190651) Loss_Decom: 0.03457503765821457, Loss_Relight: 0.25752460956573486
+[ DEBUG   ] (2026-03-14 15:17:01.455286) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:17:04.286743) Qwen score: 6.174065113067627 for img[0]
+[ DEBUG   ] (2026-03-14 15:17:06.974160) Qwen score: 6.322688102722168 for img[1]
+[ DEBUG   ] (2026-03-14 15:17:06.974318) Qwen Score: 6.248376846313477
+[ DEBUG   ] (2026-03-14 15:17:06.980032) Loss_Decom: 0.022083884105086327, Loss_Relight: 0.279649019241333
+[ DEBUG   ] (2026-03-14 15:17:12.374086) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:17:15.228651) Qwen score: 6.245054721832275 for img[0]
+[ DEBUG   ] (2026-03-14 15:17:17.973344) Qwen score: 6.430635452270508 for img[1]
+[ DEBUG   ] (2026-03-14 15:17:17.973492) Qwen Score: 6.3378448486328125
+[ DEBUG   ] (2026-03-14 15:17:17.978618) Loss_Decom: 0.03627226501703262, Loss_Relight: 0.245738685131073
+[ DEBUG   ] (2026-03-14 15:17:23.435075) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:17:26.370095) Qwen score: 7.198725700378418 for img[0]
+[ DEBUG   ] (2026-03-14 15:17:29.136485) Qwen score: 6.7670578956604 for img[1]
+[ DEBUG   ] (2026-03-14 15:17:29.136645) Qwen Score: 6.982892036437988
+[ DEBUG   ] (2026-03-14 15:17:29.147085) Loss_Decom: 0.034543272107839584, Loss_Relight: 0.3812881410121918
+[ DEBUG   ] (2026-03-14 15:17:34.640087) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:17:37.528969) Qwen score: 5.974088191986084 for img[0]
+[ DEBUG   ] (2026-03-14 15:17:40.312927) Qwen score: 6.067763328552246 for img[1]
+[ DEBUG   ] (2026-03-14 15:17:40.313184) Qwen Score: 6.020925521850586
+[ DEBUG   ] (2026-03-14 15:17:40.318998) Loss_Decom: 0.040150947868824005, Loss_Relight: 0.2539454996585846
+[ DEBUG   ] (2026-03-14 15:17:45.698658) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:17:48.450686) Qwen score: 5.4420318603515625 for img[0]
+[ DEBUG   ] (2026-03-14 15:17:51.081191) Qwen score: 6.24265193939209 for img[1]
+[ DEBUG   ] (2026-03-14 15:17:51.081346) Qwen Score: 5.842341899871826
+[ DEBUG   ] (2026-03-14 15:17:51.085933) Loss_Decom: 0.030965572223067284, Loss_Relight: 0.16029950976371765
+[ DEBUG   ] (2026-03-14 15:17:56.549627) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:17:59.505968) Qwen score: 5.187203407287598 for img[0]
+[ DEBUG   ] (2026-03-14 15:18:02.265014) Qwen score: 5.852996826171875 for img[1]
+[ DEBUG   ] (2026-03-14 15:18:02.265165) Qwen Score: 5.520100116729736
+[ DEBUG   ] (2026-03-14 15:18:02.270009) Loss_Decom: 0.04663249850273132, Loss_Relight: 0.21644729375839233
+[ DEBUG   ] (2026-03-14 15:18:07.643748) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:18:10.463087) Qwen score: 6.115233421325684 for img[0]
+[ DEBUG   ] (2026-03-14 15:18:13.203062) Qwen score: 6.690786361694336 for img[1]
+[ DEBUG   ] (2026-03-14 15:18:13.203218) Qwen Score: 6.40300989151001
+[ DEBUG   ] (2026-03-14 15:18:13.207939) Loss_Decom: 0.029928721487522125, Loss_Relight: 0.18298789858818054
+[ DEBUG   ] (2026-03-14 15:18:18.765632) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:18:21.702944) Qwen score: 5.611392021179199 for img[0]
+[ DEBUG   ] (2026-03-14 15:18:24.565403) Qwen score: 6.369589805603027 for img[1]
+[ DEBUG   ] (2026-03-14 15:18:24.565573) Qwen Score: 5.990490913391113
+[ DEBUG   ] (2026-03-14 15:18:24.570452) Loss_Decom: 0.03855518251657486, Loss_Relight: 0.20247261226177216
+[ DEBUG   ] (2026-03-14 15:18:30.052776) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:18:32.906622) Qwen score: 6.428553581237793 for img[0]
+[ DEBUG   ] (2026-03-14 15:18:35.685003) Qwen score: 7.022091388702393 for img[1]
+[ DEBUG   ] (2026-03-14 15:18:35.685164) Qwen Score: 6.725322723388672
+[ DEBUG   ] (2026-03-14 15:18:35.696845) Loss_Decom: 0.026684124022722244, Loss_Relight: 0.23790842294692993
+[ DEBUG   ] (2026-03-14 15:18:41.075611) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:18:43.944692) Qwen score: 6.031851291656494 for img[0]
+[ DEBUG   ] (2026-03-14 15:18:46.704164) Qwen score: 6.125298023223877 for img[1]
+[ DEBUG   ] (2026-03-14 15:18:46.704327) Qwen Score: 6.0785746574401855
+[ DEBUG   ] (2026-03-14 15:18:46.709105) Loss_Decom: 0.03503996133804321, Loss_Relight: 0.17877718806266785
+[ DEBUG   ] (2026-03-14 15:18:52.198858) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:18:55.187687) Qwen score: 6.370859622955322 for img[0]
+[ DEBUG   ] (2026-03-14 15:18:57.968276) Qwen score: 6.4494524002075195 for img[1]
+[ DEBUG   ] (2026-03-14 15:18:57.968451) Qwen Score: 6.41015625
+[ DEBUG   ] (2026-03-14 15:18:57.973253) Loss_Decom: 0.03275570273399353, Loss_Relight: 0.2501717209815979
+[ DEBUG   ] (2026-03-14 15:19:03.494911) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:19:06.344655) Qwen score: 6.196959018707275 for img[0]
+[ DEBUG   ] (2026-03-14 15:19:09.140712) Qwen score: 6.199109077453613 for img[1]
+[ DEBUG   ] (2026-03-14 15:19:09.140867) Qwen Score: 6.198034286499023
+[ DEBUG   ] (2026-03-14 15:19:09.145480) Loss_Decom: 0.041596945375204086, Loss_Relight: 0.2563486695289612
+[ DEBUG   ] (2026-03-14 15:19:14.618996) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:19:17.562585) Qwen score: 6.465167045593262 for img[0]
+[ DEBUG   ] (2026-03-14 15:19:20.340391) Qwen score: 6.6104278564453125 for img[1]
+[ DEBUG   ] (2026-03-14 15:19:20.340526) Qwen Score: 6.537797451019287
+[ DEBUG   ] (2026-03-14 15:19:20.345160) Loss_Decom: 0.03666485473513603, Loss_Relight: 0.24992400407791138
+[ DEBUG   ] (2026-03-14 15:19:25.772399) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:19:28.625597) Qwen score: 6.632062911987305 for img[0]
+[ DEBUG   ] (2026-03-14 15:19:31.429986) Qwen score: 7.087535858154297 for img[1]
+[ DEBUG   ] (2026-03-14 15:19:31.430159) Qwen Score: 6.859799385070801
+[ DEBUG   ] (2026-03-14 15:19:31.435072) Loss_Decom: 0.0307720135897398, Loss_Relight: 0.15895594656467438
+[ DEBUG   ] (2026-03-14 15:19:36.892885) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:19:39.839115) Qwen score: 6.341213226318359 for img[0]
+[ DEBUG   ] (2026-03-14 15:19:42.678007) Qwen score: 6.306196212768555 for img[1]
+[ DEBUG   ] (2026-03-14 15:19:42.678177) Qwen Score: 6.323704719543457
+[ DEBUG   ] (2026-03-14 15:19:42.682528) Loss_Decom: 0.039436809718608856, Loss_Relight: 0.22393649816513062
+[ DEBUG   ] (2026-03-14 15:19:48.004789) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:19:50.849572) Qwen score: 6.696690082550049 for img[0]
+[ DEBUG   ] (2026-03-14 15:19:53.523920) Qwen score: 6.851022720336914 for img[1]
+[ DEBUG   ] (2026-03-14 15:19:53.524100) Qwen Score: 6.773856163024902
+[ DEBUG   ] (2026-03-14 15:19:53.537751) Loss_Decom: 0.023536495864391327, Loss_Relight: 0.2065436840057373
+[ DEBUG   ] (2026-03-14 15:19:58.912101) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:20:01.754114) Qwen score: 6.676392555236816 for img[0]
+[ DEBUG   ] (2026-03-14 15:20:04.509208) Qwen score: 6.371609687805176 for img[1]
+[ DEBUG   ] (2026-03-14 15:20:04.509391) Qwen Score: 6.524001121520996
+[ DEBUG   ] (2026-03-14 15:20:04.514025) Loss_Decom: 0.04826422035694122, Loss_Relight: 0.19152510166168213
+[ DEBUG   ] (2026-03-14 15:20:09.835639) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:20:12.613715) Qwen score: 6.541342735290527 for img[0]
+[ DEBUG   ] (2026-03-14 15:20:15.381178) Qwen score: 6.792801856994629 for img[1]
+[ DEBUG   ] (2026-03-14 15:20:15.381334) Qwen Score: 6.667072296142578
+[ DEBUG   ] (2026-03-14 15:20:15.385905) Loss_Decom: 0.0377938412129879, Loss_Relight: 0.28101927042007446
+[ DEBUG   ] (2026-03-14 15:20:20.915748) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:20:23.843488) Qwen score: 6.94096565246582 for img[0]
+[ DEBUG   ] (2026-03-14 15:20:26.679312) Qwen score: 6.817019939422607 for img[1]
+[ DEBUG   ] (2026-03-14 15:20:26.679462) Qwen Score: 6.878993034362793
+[ DEBUG   ] (2026-03-14 15:20:26.683920) Loss_Decom: 0.04561387002468109, Loss_Relight: 0.2191706895828247
+[ DEBUG   ] (2026-03-14 15:20:32.110236) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:20:34.928699) Qwen score: 5.757059574127197 for img[0]
+[ DEBUG   ] (2026-03-14 15:20:37.758608) Qwen score: 6.245133876800537 for img[1]
+[ DEBUG   ] (2026-03-14 15:20:37.758757) Qwen Score: 6.001096725463867
+[ DEBUG   ] (2026-03-14 15:20:37.764251) Loss_Decom: 0.036626916378736496, Loss_Relight: 0.2366703599691391
+[ DEBUG   ] (2026-03-14 15:20:43.319572) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:20:46.291471) Qwen score: 6.088013648986816 for img[0]
+[ DEBUG   ] (2026-03-14 15:20:48.990082) Qwen score: 6.285066604614258 for img[1]
+[ DEBUG   ] (2026-03-14 15:20:48.990239) Qwen Score: 6.186540126800537
+[ DEBUG   ] (2026-03-14 15:20:49.001790) Loss_Decom: 0.0488007552921772, Loss_Relight: 0.2544901669025421
+[ DEBUG   ] (2026-03-14 15:20:54.578928) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:20:57.425910) Qwen score: 5.314153671264648 for img[0]
+[ DEBUG   ] (2026-03-14 15:21:00.212313) Qwen score: 5.525355339050293 for img[1]
+[ DEBUG   ] (2026-03-14 15:21:00.212453) Qwen Score: 5.419754505157471
+[ DEBUG   ] (2026-03-14 15:21:00.217718) Loss_Decom: 0.030383596196770668, Loss_Relight: 0.1806831657886505
+[ DEBUG   ] (2026-03-14 15:21:05.619231) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:21:08.472942) Qwen score: 6.684185981750488 for img[0]
+[ DEBUG   ] (2026-03-14 15:21:11.240361) Qwen score: 6.348617076873779 for img[1]
+[ DEBUG   ] (2026-03-14 15:21:11.240507) Qwen Score: 6.516401290893555
+[ DEBUG   ] (2026-03-14 15:21:11.244783) Loss_Decom: 0.02960014156997204, Loss_Relight: 0.2987179756164551
+[ DEBUG   ] (2026-03-14 15:21:16.686253) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:21:19.554368) Qwen score: 6.435179710388184 for img[0]
+[ DEBUG   ] (2026-03-14 15:21:22.407871) Qwen score: 6.481142520904541 for img[1]
+[ DEBUG   ] (2026-03-14 15:21:22.408010) Qwen Score: 6.458161354064941
+[ DEBUG   ] (2026-03-14 15:21:22.419027) Loss_Decom: 0.023340636864304543, Loss_Relight: 0.18915900588035583
+[ DEBUG   ] (2026-03-14 15:21:27.765226) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:21:30.690277) Qwen score: 6.598931789398193 for img[0]
+[ DEBUG   ] (2026-03-14 15:21:33.437882) Qwen score: 6.5565032958984375 for img[1]
+[ DEBUG   ] (2026-03-14 15:21:33.438050) Qwen Score: 6.5777177810668945
+[ DEBUG   ] (2026-03-14 15:21:33.442231) Loss_Decom: 0.03203350305557251, Loss_Relight: 0.23161223530769348
+[ DEBUG   ] (2026-03-14 15:21:38.946639) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:21:41.753481) Qwen score: 6.102545261383057 for img[0]
+[ DEBUG   ] (2026-03-14 15:21:44.550313) Qwen score: 6.1967573165893555 for img[1]
+[ DEBUG   ] (2026-03-14 15:21:44.550504) Qwen Score: 6.149651527404785
+[ DEBUG   ] (2026-03-14 15:21:44.555532) Loss_Decom: 0.034249547868967056, Loss_Relight: 0.2421438843011856
+[ DEBUG   ] (2026-03-14 15:21:50.001775) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:21:52.728904) Qwen score: 6.490683555603027 for img[0]
+[ DEBUG   ] (2026-03-14 15:21:55.382795) Qwen score: 6.735451698303223 for img[1]
+[ DEBUG   ] (2026-03-14 15:21:55.382959) Qwen Score: 6.613067626953125
+[ DEBUG   ] (2026-03-14 15:21:55.387655) Loss_Decom: 0.030034614726901054, Loss_Relight: 0.2013373076915741
+[ DEBUG   ] (2026-03-14 15:22:01.002270) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:22:03.864739) Qwen score: 6.113407135009766 for img[0]
+[ DEBUG   ] (2026-03-14 15:22:06.521556) Qwen score: 6.802022933959961 for img[1]
+[ DEBUG   ] (2026-03-14 15:22:06.521721) Qwen Score: 6.457715034484863
+[ DEBUG   ] (2026-03-14 15:22:06.533979) Loss_Decom: 0.047103382647037506, Loss_Relight: 0.15259774029254913
+[ DEBUG   ] (2026-03-14 15:22:11.989106) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:22:14.752383) Qwen score: 6.829354286193848 for img[0]
+[ DEBUG   ] (2026-03-14 15:22:17.454962) Qwen score: 5.9510931968688965 for img[1]
+[ DEBUG   ] (2026-03-14 15:22:17.455127) Qwen Score: 6.390223503112793
+[ DEBUG   ] (2026-03-14 15:22:17.465398) Loss_Decom: 0.028296833857893944, Loss_Relight: 0.2787533700466156
+[ DEBUG   ] (2026-03-14 15:22:22.954159) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:22:25.843876) Qwen score: 5.972954750061035 for img[0]
+[ DEBUG   ] (2026-03-14 15:22:28.709774) Qwen score: 6.604109764099121 for img[1]
+[ DEBUG   ] (2026-03-14 15:22:28.709918) Qwen Score: 6.288532257080078
+[ DEBUG   ] (2026-03-14 15:22:28.714481) Loss_Decom: 0.029207272455096245, Loss_Relight: 0.17770808935165405
+[ DEBUG   ] (2026-03-14 15:22:34.168076) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:22:36.928134) Qwen score: 6.370306968688965 for img[0]
+[ DEBUG   ] (2026-03-14 15:22:39.789106) Qwen score: 5.7742919921875 for img[1]
+[ DEBUG   ] (2026-03-14 15:22:39.789250) Qwen Score: 6.072299480438232
+[ DEBUG   ] (2026-03-14 15:22:39.800071) Loss_Decom: 0.03679050877690315, Loss_Relight: 0.17336317896842957
+[ DEBUG   ] (2026-03-14 15:22:45.218973) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:22:48.176125) Qwen score: 5.414726734161377 for img[0]
+[ DEBUG   ] (2026-03-14 15:22:50.899245) Qwen score: 7.149707317352295 for img[1]
+[ DEBUG   ] (2026-03-14 15:22:50.899414) Qwen Score: 6.282217025756836
+[ DEBUG   ] (2026-03-14 15:22:50.903941) Loss_Decom: 0.040066249668598175, Loss_Relight: 0.21644222736358643
+[ DEBUG   ] (2026-03-14 15:22:56.427568) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:22:59.279281) Qwen score: 6.072151184082031 for img[0]
+[ DEBUG   ] (2026-03-14 15:23:01.972658) Qwen score: 6.8946075439453125 for img[1]
+[ DEBUG   ] (2026-03-14 15:23:01.972809) Qwen Score: 6.483379364013672
+[ DEBUG   ] (2026-03-14 15:23:01.977483) Loss_Decom: 0.051697082817554474, Loss_Relight: 0.3978100121021271
+[ DEBUG   ] (2026-03-14 15:23:07.581592) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:23:10.445896) Qwen score: 6.707651138305664 for img[0]
+[ DEBUG   ] (2026-03-14 15:23:13.228822) Qwen score: 6.173279762268066 for img[1]
+[ DEBUG   ] (2026-03-14 15:23:13.229017) Qwen Score: 6.440465450286865
+[ DEBUG   ] (2026-03-14 15:23:13.233761) Loss_Decom: 0.03505418077111244, Loss_Relight: 0.2074819654226303
+[ DEBUG   ] (2026-03-14 15:23:18.671885) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:23:21.491509) Qwen score: 6.103360176086426 for img[0]
+[ DEBUG   ] (2026-03-14 15:23:24.166291) Qwen score: 6.386693954467773 for img[1]
+[ DEBUG   ] (2026-03-14 15:23:24.166428) Qwen Score: 6.2450270652771
+[ DEBUG   ] (2026-03-14 15:23:24.177643) Loss_Decom: 0.04137334227561951, Loss_Relight: 0.19811218976974487
+[ DEBUG   ] (2026-03-14 15:23:29.529236) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:23:32.317257) Qwen score: 6.3459906578063965 for img[0]
+[ DEBUG   ] (2026-03-14 15:23:35.037752) Qwen score: 5.797983169555664 for img[1]
+[ DEBUG   ] (2026-03-14 15:23:35.037907) Qwen Score: 6.071987152099609
+[ DEBUG   ] (2026-03-14 15:23:35.042399) Loss_Decom: 0.04138502851128578, Loss_Relight: 0.2463628351688385
+[ DEBUG   ] (2026-03-14 15:23:40.370291) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:23:43.181514) Qwen score: 6.183010101318359 for img[0]
+[ DEBUG   ] (2026-03-14 15:23:45.963011) Qwen score: 6.64204740524292 for img[1]
+[ DEBUG   ] (2026-03-14 15:23:45.963175) Qwen Score: 6.412528991699219
+[ DEBUG   ] (2026-03-14 15:23:45.967650) Loss_Decom: 0.04520060494542122, Loss_Relight: 0.25315558910369873
+[ DEBUG   ] (2026-03-14 15:23:51.288185) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:23:54.008678) Qwen score: 6.52032470703125 for img[0]
+[ DEBUG   ] (2026-03-14 15:23:56.727595) Qwen score: 5.545170783996582 for img[1]
+[ DEBUG   ] (2026-03-14 15:23:56.727763) Qwen Score: 6.032747745513916
+[ DEBUG   ] (2026-03-14 15:23:56.732045) Loss_Decom: 0.03710291162133217, Loss_Relight: 0.20629605650901794
+[ DEBUG   ] (2026-03-14 15:24:02.054359) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:24:04.929080) Qwen score: 6.697880268096924 for img[0]
+[ DEBUG   ] (2026-03-14 15:24:07.613114) Qwen score: 6.200157165527344 for img[1]
+[ DEBUG   ] (2026-03-14 15:24:07.613298) Qwen Score: 6.449018478393555
+[ DEBUG   ] (2026-03-14 15:24:07.617990) Loss_Decom: 0.03831510990858078, Loss_Relight: 0.14813284575939178
+[ DEBUG   ] (2026-03-14 15:24:13.151852) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:24:16.058549) Qwen score: 6.275534629821777 for img[0]
+[ DEBUG   ] (2026-03-14 15:24:18.859877) Qwen score: 6.461792469024658 for img[1]
+[ DEBUG   ] (2026-03-14 15:24:18.860036) Qwen Score: 6.368663787841797
+[ DEBUG   ] (2026-03-14 15:24:18.865275) Loss_Decom: 0.029544640332460403, Loss_Relight: 0.22236381471157074
+[ DEBUG   ] (2026-03-14 15:24:24.339990) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:24:27.165433) Qwen score: 6.047004699707031 for img[0]
+[ DEBUG   ] (2026-03-14 15:24:29.737719) Qwen score: 6.767027854919434 for img[1]
+[ DEBUG   ] (2026-03-14 15:24:29.737893) Qwen Score: 6.407016277313232
+[ DEBUG   ] (2026-03-14 15:24:29.742346) Loss_Decom: 0.03950050473213196, Loss_Relight: 0.255182147026062
+[ DEBUG   ] (2026-03-14 15:24:35.287398) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:24:38.126589) Qwen score: 6.538383483886719 for img[0]
+[ DEBUG   ] (2026-03-14 15:24:40.870836) Qwen score: 6.441715240478516 for img[1]
+[ DEBUG   ] (2026-03-14 15:24:40.871007) Qwen Score: 6.490049362182617
+[ DEBUG   ] (2026-03-14 15:24:40.875816) Loss_Decom: 0.039725154638290405, Loss_Relight: 0.22994095087051392
+[ DEBUG   ] (2026-03-14 15:24:46.503920) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:24:49.346821) Qwen score: 6.651432037353516 for img[0]
+[ DEBUG   ] (2026-03-14 15:24:52.143095) Qwen score: 5.496368885040283 for img[1]
+[ DEBUG   ] (2026-03-14 15:24:52.143236) Qwen Score: 6.07390022277832
+[ DEBUG   ] (2026-03-14 15:24:52.147690) Loss_Decom: 0.03379954397678375, Loss_Relight: 0.28266966342926025
+[ DEBUG   ] (2026-03-14 15:24:57.694804) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:25:00.491333) Qwen score: 6.122720718383789 for img[0]
+[ DEBUG   ] (2026-03-14 15:25:03.198869) Qwen score: 5.180060863494873 for img[1]
+[ DEBUG   ] (2026-03-14 15:25:03.199018) Qwen Score: 5.65139102935791
+[ DEBUG   ] (2026-03-14 15:25:03.203751) Loss_Decom: 0.03426865115761757, Loss_Relight: 0.17161111533641815
+[ DEBUG   ] (2026-03-14 15:25:08.679362) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:25:11.511728) Qwen score: 6.805709362030029 for img[0]
+[ DEBUG   ] (2026-03-14 15:25:14.334462) Qwen score: 5.573349952697754 for img[1]
+[ DEBUG   ] (2026-03-14 15:25:14.334613) Qwen Score: 6.1895294189453125
+[ DEBUG   ] (2026-03-14 15:25:14.339263) Loss_Decom: 0.03015558049082756, Loss_Relight: 0.2659442722797394
+[ DEBUG   ] (2026-03-14 15:25:19.827661) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:25:22.653487) Qwen score: 6.093962669372559 for img[0]
+[ DEBUG   ] (2026-03-14 15:25:25.419006) Qwen score: 6.102033615112305 for img[1]
+[ DEBUG   ] (2026-03-14 15:25:25.419172) Qwen Score: 6.097998142242432
+[ DEBUG   ] (2026-03-14 15:25:25.423805) Loss_Decom: 0.03684830665588379, Loss_Relight: 0.22304189205169678
+[ DEBUG   ] (2026-03-14 15:25:30.878169) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:25:33.716680) Qwen score: 6.591053485870361 for img[0]
+[ DEBUG   ] (2026-03-14 15:25:36.384001) Qwen score: 5.927699089050293 for img[1]
+[ DEBUG   ] (2026-03-14 15:25:36.384145) Qwen Score: 6.259376525878906
+[ DEBUG   ] (2026-03-14 15:25:36.388449) Loss_Decom: 0.04858697950839996, Loss_Relight: 0.2860618233680725
+[ DEBUG   ] (2026-03-14 15:25:41.836136) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:25:44.694387) Qwen score: 6.655409812927246 for img[0]
+[ DEBUG   ] (2026-03-14 15:25:47.337708) Qwen score: 6.510887622833252 for img[1]
+[ DEBUG   ] (2026-03-14 15:25:47.337873) Qwen Score: 6.583148956298828
+[ DEBUG   ] (2026-03-14 15:25:47.342328) Loss_Decom: 0.04421468451619148, Loss_Relight: 0.19409573078155518
+[ DEBUG   ] (2026-03-14 15:25:52.682417) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:25:55.393381) Qwen score: 6.5979108810424805 for img[0]
+[ DEBUG   ] (2026-03-14 15:25:58.116275) Qwen score: 6.1308746337890625 for img[1]
+[ DEBUG   ] (2026-03-14 15:25:58.116430) Qwen Score: 6.3643927574157715
+[ DEBUG   ] (2026-03-14 15:25:58.126637) Loss_Decom: 0.03745900094509125, Loss_Relight: 0.21510079503059387
+[ DEBUG   ] (2026-03-14 15:26:03.673352) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:26:06.574084) Qwen score: 6.5539703369140625 for img[0]
+[ DEBUG   ] (2026-03-14 15:26:09.290152) Qwen score: 6.097165107727051 for img[1]
+[ DEBUG   ] (2026-03-14 15:26:09.290321) Qwen Score: 6.325567722320557
+[ DEBUG   ] (2026-03-14 15:26:09.294764) Loss_Decom: 0.04368554800748825, Loss_Relight: 0.1782500147819519
+[ DEBUG   ] (2026-03-14 15:26:14.743711) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:26:17.821174) Qwen score: 6.048370361328125 for img[0]
+[ DEBUG   ] (2026-03-14 15:26:20.625508) Qwen score: 6.638530254364014 for img[1]
+[ DEBUG   ] (2026-03-14 15:26:20.625675) Qwen Score: 6.343450546264648
+[ DEBUG   ] (2026-03-14 15:26:20.630430) Loss_Decom: 0.042504169046878815, Loss_Relight: 0.24732422828674316
+[ DEBUG   ] (2026-03-14 15:26:26.197198) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:26:29.035449) Qwen score: 5.948544502258301 for img[0]
+[ DEBUG   ] (2026-03-14 15:26:31.754949) Qwen score: 6.727980613708496 for img[1]
+[ DEBUG   ] (2026-03-14 15:26:31.755095) Qwen Score: 6.338262557983398
+[ DEBUG   ] (2026-03-14 15:26:31.765588) Loss_Decom: 0.03497041389346123, Loss_Relight: 0.36736735701560974
+[ DEBUG   ] (2026-03-14 15:26:37.273492) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:26:40.048820) Qwen score: 6.2433013916015625 for img[0]
+[ DEBUG   ] (2026-03-14 15:26:42.759048) Qwen score: 6.375515937805176 for img[1]
+[ DEBUG   ] (2026-03-14 15:26:42.759202) Qwen Score: 6.309408664703369
+[ DEBUG   ] (2026-03-14 15:26:42.763408) Loss_Decom: 0.040888164192438126, Loss_Relight: 0.22362437844276428
+[ DEBUG   ] (2026-03-14 15:26:48.217141) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:26:51.015629) Qwen score: 6.125495910644531 for img[0]
+[ DEBUG   ] (2026-03-14 15:26:53.836428) Qwen score: 6.009349822998047 for img[1]
+[ DEBUG   ] (2026-03-14 15:26:53.836612) Qwen Score: 6.067422866821289
+[ DEBUG   ] (2026-03-14 15:26:53.841381) Loss_Decom: 0.038862984627485275, Loss_Relight: 0.20999675989151
+[ DEBUG   ] (2026-03-14 15:26:59.393441) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:27:02.255962) Qwen score: 6.537520408630371 for img[0]
+[ DEBUG   ] (2026-03-14 15:27:04.990206) Qwen score: 6.886042594909668 for img[1]
+[ DEBUG   ] (2026-03-14 15:27:04.990361) Qwen Score: 6.7117815017700195
+[ DEBUG   ] (2026-03-14 15:27:04.994598) Loss_Decom: 0.026092706248164177, Loss_Relight: 0.2189588099718094
+[ DEBUG   ] (2026-03-14 15:27:10.531549) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:27:13.341091) Qwen score: 6.591892719268799 for img[0]
+[ DEBUG   ] (2026-03-14 15:27:16.168611) Qwen score: 6.555903434753418 for img[1]
+[ DEBUG   ] (2026-03-14 15:27:16.168760) Qwen Score: 6.5738983154296875
+[ DEBUG   ] (2026-03-14 15:27:16.173518) Loss_Decom: 0.0299533698707819, Loss_Relight: 0.19164353609085083
+[ DEBUG   ] (2026-03-14 15:27:21.617171) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:27:24.420008) Qwen score: 6.227054595947266 for img[0]
+[ DEBUG   ] (2026-03-14 15:27:27.122006) Qwen score: 7.0634355545043945 for img[1]
+[ DEBUG   ] (2026-03-14 15:27:27.122176) Qwen Score: 6.64524507522583
+[ DEBUG   ] (2026-03-14 15:27:27.126611) Loss_Decom: 0.03301282972097397, Loss_Relight: 0.31751522421836853
+[ DEBUG   ] (2026-03-14 15:27:32.600150) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:27:35.353429) Qwen score: 6.820956230163574 for img[0]
+[ DEBUG   ] (2026-03-14 15:27:38.026064) Qwen score: 7.042705535888672 for img[1]
+[ DEBUG   ] (2026-03-14 15:27:38.026225) Qwen Score: 6.931830883026123
+[ DEBUG   ] (2026-03-14 15:27:38.030690) Loss_Decom: 0.034414131194353104, Loss_Relight: 0.3288848400115967
+[ DEBUG   ] (2026-03-14 15:27:43.505162) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:27:46.381495) Qwen score: 5.352116107940674 for img[0]
+[ DEBUG   ] (2026-03-14 15:27:49.020906) Qwen score: 6.6705827713012695 for img[1]
+[ DEBUG   ] (2026-03-14 15:27:49.021062) Qwen Score: 6.011349678039551
+[ DEBUG   ] (2026-03-14 15:27:49.025376) Loss_Decom: 0.03153432905673981, Loss_Relight: 0.19287028908729553
+[ DEBUG   ] (2026-03-14 15:27:54.572748) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:27:57.440835) Qwen score: 6.104113578796387 for img[0]
+[ DEBUG   ] (2026-03-14 15:28:00.186406) Qwen score: 6.863057613372803 for img[1]
+[ DEBUG   ] (2026-03-14 15:28:00.186560) Qwen Score: 6.483585357666016
+[ DEBUG   ] (2026-03-14 15:28:00.199028) Loss_Decom: 0.0295452568680048, Loss_Relight: 0.24971690773963928
+[ DEBUG   ] (2026-03-14 15:28:05.709848) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:28:08.524219) Qwen score: 6.332798004150391 for img[0]
+[ DEBUG   ] (2026-03-14 15:28:11.228994) Qwen score: 6.998019695281982 for img[1]
+[ DEBUG   ] (2026-03-14 15:28:11.229196) Qwen Score: 6.665409088134766
+[ DEBUG   ] (2026-03-14 15:28:11.238979) Loss_Decom: 0.03574223816394806, Loss_Relight: 0.2466338574886322
+[ DEBUG   ] (2026-03-14 15:28:16.652553) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:28:19.525978) Qwen score: 6.586179733276367 for img[0]
+[ DEBUG   ] (2026-03-14 15:28:24.644268) Qwen score: 6.661648750305176 for img[1]
+[ DEBUG   ] (2026-03-14 15:28:24.644462) Qwen Score: 6.6239142417907715
+[ DEBUG   ] (2026-03-14 15:28:24.649550) Loss_Decom: 0.02376927062869072, Loss_Relight: 0.2553755044937134
+[ DEBUG   ] (2026-03-14 15:28:30.323762) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:28:32.949757) Qwen score: 6.789711952209473 for img[0]
+[ DEBUG   ] (2026-03-14 15:28:35.754260) Qwen score: 6.193197727203369 for img[1]
+[ DEBUG   ] (2026-03-14 15:28:35.754440) Qwen Score: 6.491455078125
+[ DEBUG   ] (2026-03-14 15:28:35.765640) Loss_Decom: 0.047839608043432236, Loss_Relight: 0.29658597707748413
+[ DEBUG   ] (2026-03-14 15:28:40.898634) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:28:43.401316) Qwen score: 7.044241428375244 for img[0]
+[ DEBUG   ] (2026-03-14 15:28:46.018447) Qwen score: 6.45842981338501 for img[1]
+[ DEBUG   ] (2026-03-14 15:28:46.018612) Qwen Score: 6.751335620880127
+[ DEBUG   ] (2026-03-14 15:28:46.022922) Loss_Decom: 0.03940725326538086, Loss_Relight: 0.2870074510574341
+[ DEBUG   ] (2026-03-14 15:28:51.015485) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:28:53.510264) Qwen score: 6.403636932373047 for img[0]
+[ DEBUG   ] (2026-03-14 15:28:55.945903) Qwen score: 6.080313682556152 for img[1]
+[ DEBUG   ] (2026-03-14 15:28:55.946033) Qwen Score: 6.2419753074646
+[ DEBUG   ] (2026-03-14 15:28:55.956311) Loss_Decom: 0.04404575005173683, Loss_Relight: 0.21401254832744598
+[ DEBUG   ] (2026-03-14 15:29:01.023576) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:29:03.609702) Qwen score: 5.976507663726807 for img[0]
+[ DEBUG   ] (2026-03-14 15:29:06.037268) Qwen score: 7.000546932220459 for img[1]
+[ DEBUG   ] (2026-03-14 15:29:06.037424) Qwen Score: 6.488527297973633
+[ DEBUG   ] (2026-03-14 15:29:06.041867) Loss_Decom: 0.026208702474832535, Loss_Relight: 0.19681181013584137
+[ DEBUG   ] (2026-03-14 15:29:11.127392) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:29:13.651787) Qwen score: 6.257623195648193 for img[0]
+[ DEBUG   ] (2026-03-14 15:29:16.300649) Qwen score: 6.960709571838379 for img[1]
+[ DEBUG   ] (2026-03-14 15:29:16.300831) Qwen Score: 6.609166145324707
+[ DEBUG   ] (2026-03-14 15:29:16.305256) Loss_Decom: 0.0346507653594017, Loss_Relight: 0.17488688230514526
+[ DEBUG   ] (2026-03-14 15:29:21.354029) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:29:23.905680) Qwen score: 6.066973686218262 for img[0]
+[ DEBUG   ] (2026-03-14 15:29:26.593428) Qwen score: 6.326654434204102 for img[1]
+[ DEBUG   ] (2026-03-14 15:29:26.593610) Qwen Score: 6.196814060211182
+[ DEBUG   ] (2026-03-14 15:29:26.604048) Loss_Decom: 0.03200458735227585, Loss_Relight: 0.1999131441116333
+[ DEBUG   ] (2026-03-14 15:29:31.961829) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:29:34.499721) Qwen score: 7.009302139282227 for img[0]
+[ DEBUG   ] (2026-03-14 15:29:36.976852) Qwen score: 6.9282402992248535 for img[1]
+[ DEBUG   ] (2026-03-14 15:29:36.976969) Qwen Score: 6.968770980834961
+[ DEBUG   ] (2026-03-14 15:29:36.981194) Loss_Decom: 0.03404495492577553, Loss_Relight: 0.1821129024028778
+[ DEBUG   ] (2026-03-14 15:29:41.899203) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:29:44.395167) Qwen score: 6.314927577972412 for img[0]
+[ DEBUG   ] (2026-03-14 15:29:46.675768) Qwen score: 6.168771743774414 for img[1]
+[ DEBUG   ] (2026-03-14 15:29:46.675945) Qwen Score: 6.241849899291992
+[ DEBUG   ] (2026-03-14 15:29:46.680375) Loss_Decom: 0.02635474130511284, Loss_Relight: 0.16908904910087585
+[ DEBUG   ] (2026-03-14 15:29:51.596718) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:29:54.233244) Qwen score: 6.477766036987305 for img[0]
+[ DEBUG   ] (2026-03-14 15:29:57.105835) Qwen score: 6.715111255645752 for img[1]
+[ DEBUG   ] (2026-03-14 15:29:57.105974) Qwen Score: 6.596438407897949
+[ DEBUG   ] (2026-03-14 15:29:57.110232) Loss_Decom: 0.038468651473522186, Loss_Relight: 0.1758860945701599
+[ DEBUG   ] (2026-03-14 15:30:02.527600) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:30:05.315755) Qwen score: 6.746758460998535 for img[0]
+[ DEBUG   ] (2026-03-14 15:30:07.824412) Qwen score: 6.3891496658325195 for img[1]
+[ DEBUG   ] (2026-03-14 15:30:07.824579) Qwen Score: 6.567954063415527
+[ DEBUG   ] (2026-03-14 15:30:07.830086) Loss_Decom: 0.02439398504793644, Loss_Relight: 0.27333083748817444
+[ DEBUG   ] (2026-03-14 15:30:12.822200) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:30:15.337396) Qwen score: 6.736090660095215 for img[0]
+[ DEBUG   ] (2026-03-14 15:30:17.693807) Qwen score: 6.294059753417969 for img[1]
+[ DEBUG   ] (2026-03-14 15:30:17.693953) Qwen Score: 6.515075206756592
+[ DEBUG   ] (2026-03-14 15:30:17.698056) Loss_Decom: 0.041420478373765945, Loss_Relight: 0.24381528794765472
+[ DEBUG   ] (2026-03-14 15:30:22.555452) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:30:25.037871) Qwen score: 6.414010524749756 for img[0]
+[ DEBUG   ] (2026-03-14 15:30:27.478247) Qwen score: 6.331377029418945 for img[1]
+[ DEBUG   ] (2026-03-14 15:30:27.478380) Qwen Score: 6.37269401550293
+[ DEBUG   ] (2026-03-14 15:30:27.482822) Loss_Decom: 0.015988145023584366, Loss_Relight: 0.25567784905433655
+[ DEBUG   ] (2026-03-14 15:30:32.694579) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:30:35.134601) Qwen score: 7.017531394958496 for img[0]
+[ DEBUG   ] (2026-03-14 15:30:37.523839) Qwen score: 5.572235584259033 for img[1]
+[ DEBUG   ] (2026-03-14 15:30:37.523983) Qwen Score: 6.294883728027344
+[ DEBUG   ] (2026-03-14 15:30:37.528139) Loss_Decom: 0.03296435624361038, Loss_Relight: 0.26150137186050415
+[ DEBUG   ] (2026-03-14 15:30:42.393865) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:30:44.853178) Qwen score: 6.502971649169922 for img[0]
+[ DEBUG   ] (2026-03-14 15:30:47.352021) Qwen score: 6.518756866455078 for img[1]
+[ DEBUG   ] (2026-03-14 15:30:47.352190) Qwen Score: 6.5108642578125
+[ DEBUG   ] (2026-03-14 15:30:47.356727) Loss_Decom: 0.03450135141611099, Loss_Relight: 0.2964007258415222
+[ DEBUG   ] (2026-03-14 15:30:52.324261) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:30:54.798211) Qwen score: 6.247413635253906 for img[0]
+[ DEBUG   ] (2026-03-14 15:30:57.160617) Qwen score: 6.321006774902344 for img[1]
+[ DEBUG   ] (2026-03-14 15:30:57.160741) Qwen Score: 6.284210205078125
+[ DEBUG   ] (2026-03-14 15:30:57.171049) Loss_Decom: 0.02831845171749592, Loss_Relight: 0.26342666149139404
+[ DEBUG   ] (2026-03-14 15:31:02.204075) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:31:04.798895) Qwen score: 5.7623515129089355 for img[0]
+[ DEBUG   ] (2026-03-14 15:31:07.634825) Qwen score: 6.256737232208252 for img[1]
+[ DEBUG   ] (2026-03-14 15:31:07.634962) Qwen Score: 6.009544372558594
+[ DEBUG   ] (2026-03-14 15:31:07.639392) Loss_Decom: 0.04236882925033569, Loss_Relight: 0.3016805648803711
+[ DEBUG   ] (2026-03-14 15:31:12.891064) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:31:15.721252) Qwen score: 6.176020622253418 for img[0]
+[ DEBUG   ] (2026-03-14 15:31:18.408396) Qwen score: 6.296675682067871 for img[1]
+[ DEBUG   ] (2026-03-14 15:31:18.408571) Qwen Score: 6.2363481521606445
+[ DEBUG   ] (2026-03-14 15:31:18.420362) Loss_Decom: 0.03641017526388168, Loss_Relight: 0.3535097539424896
+[ DEBUG   ] (2026-03-14 15:31:23.591974) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:31:26.067403) Qwen score: 6.545697212219238 for img[0]
+[ DEBUG   ] (2026-03-14 15:31:28.363393) Qwen score: 6.502985954284668 for img[1]
+[ DEBUG   ] (2026-03-14 15:31:28.363575) Qwen Score: 6.524341583251953
+[ DEBUG   ] (2026-03-14 15:31:28.368014) Loss_Decom: 0.03491848334670067, Loss_Relight: 0.2066808044910431
+[ DEBUG   ] (2026-03-14 15:31:33.152249) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:31:35.642839) Qwen score: 6.920828819274902 for img[0]
+[ DEBUG   ] (2026-03-14 15:31:38.075185) Qwen score: 6.382674217224121 for img[1]
+[ DEBUG   ] (2026-03-14 15:31:38.075319) Qwen Score: 6.651751518249512
+[ DEBUG   ] (2026-03-14 15:31:38.085217) Loss_Decom: 0.038444239646196365, Loss_Relight: 0.3731732964515686
+[ DEBUG   ] (2026-03-14 15:31:42.994863) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:31:45.444861) Qwen score: 6.508112907409668 for img[0]
+[ DEBUG   ] (2026-03-14 15:31:47.895811) Qwen score: 6.872461318969727 for img[1]
+[ DEBUG   ] (2026-03-14 15:31:47.895985) Qwen Score: 6.690287113189697
+[ DEBUG   ] (2026-03-14 15:31:47.899943) Loss_Decom: 0.026743590831756592, Loss_Relight: 0.23975539207458496
+[ DEBUG   ] (2026-03-14 15:31:53.938746) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:31:57.844044) Qwen score: 5.855961322784424 for img[0]
+[ DEBUG   ] (2026-03-14 15:32:03.113210) Qwen score: 6.607705116271973 for img[1]
+[ DEBUG   ] (2026-03-14 15:32:03.114163) Qwen Score: 6.231833457946777
+[ DEBUG   ] (2026-03-14 15:32:03.132177) Loss_Decom: 0.03920913487672806, Loss_Relight: 0.23701050877571106
+[ DEBUG   ] (2026-03-14 15:32:11.754680) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:32:14.554756) Qwen score: 6.294838905334473 for img[0]
+[ DEBUG   ] (2026-03-14 15:32:17.403581) Qwen score: 6.398362636566162 for img[1]
+[ DEBUG   ] (2026-03-14 15:32:17.403733) Qwen Score: 6.346600532531738
+[ DEBUG   ] (2026-03-14 15:32:17.414313) Loss_Decom: 0.034718532115221024, Loss_Relight: 0.27694880962371826
+[ DEBUG   ] (2026-03-14 15:32:23.929873) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:32:26.714586) Qwen score: 5.468620300292969 for img[0]
+[ DEBUG   ] (2026-03-14 15:32:29.608921) Qwen score: 6.210960388183594 for img[1]
+[ DEBUG   ] (2026-03-14 15:32:29.609096) Qwen Score: 5.839790344238281
+[ DEBUG   ] (2026-03-14 15:32:29.613701) Loss_Decom: 0.053101278841495514, Loss_Relight: 0.19590668380260468
+[ DEBUG   ] (2026-03-14 15:32:34.974342) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:32:37.771553) Qwen score: 5.532020092010498 for img[0]
+[ DEBUG   ] (2026-03-14 15:32:40.623546) Qwen score: 6.2452192306518555 for img[1]
+[ DEBUG   ] (2026-03-14 15:32:40.623689) Qwen Score: 5.888619422912598
+[ DEBUG   ] (2026-03-14 15:32:40.628402) Loss_Decom: 0.0333230122923851, Loss_Relight: 0.27749839425086975
+[ DEBUG   ] (2026-03-14 15:32:46.149930) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:32:48.888757) Qwen score: 5.983726978302002 for img[0]
+[ DEBUG   ] (2026-03-14 15:32:51.612318) Qwen score: 5.393409729003906 for img[1]
+[ DEBUG   ] (2026-03-14 15:32:51.612454) Qwen Score: 5.688568115234375
+[ DEBUG   ] (2026-03-14 15:32:51.616856) Loss_Decom: 0.03934952989220619, Loss_Relight: 0.2015179842710495
+[ DEBUG   ] (2026-03-14 15:32:56.967931) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:32:59.739071) Qwen score: 6.058719635009766 for img[0]
+[ DEBUG   ] (2026-03-14 15:33:02.617055) Qwen score: 6.112249374389648 for img[1]
+[ DEBUG   ] (2026-03-14 15:33:02.617235) Qwen Score: 6.085484504699707
+[ DEBUG   ] (2026-03-14 15:33:02.626848) Loss_Decom: 0.04826491326093674, Loss_Relight: 0.21422162652015686
+[ DEBUG   ] (2026-03-14 15:33:08.133367) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:33:10.986657) Qwen score: 6.464932918548584 for img[0]
+[ DEBUG   ] (2026-03-14 15:33:13.904151) Qwen score: 6.576077461242676 for img[1]
+[ DEBUG   ] (2026-03-14 15:33:13.904287) Qwen Score: 6.520504951477051
+[ DEBUG   ] (2026-03-14 15:33:13.908705) Loss_Decom: 0.04087425023317337, Loss_Relight: 0.22637644410133362
+[ DEBUG   ] (2026-03-14 15:33:19.345976) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:33:22.132204) Qwen score: 6.312158584594727 for img[0]
+[ DEBUG   ] (2026-03-14 15:33:24.816976) Qwen score: 6.6712141036987305 for img[1]
+[ DEBUG   ] (2026-03-14 15:33:24.817131) Qwen Score: 6.4916863441467285
+[ DEBUG   ] (2026-03-14 15:33:24.822906) Loss_Decom: 0.02763315849006176, Loss_Relight: 0.2396986037492752
+[ DEBUG   ] (2026-03-14 15:33:30.252353) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:33:33.070732) Qwen score: 6.845224380493164 for img[0]
+[ DEBUG   ] (2026-03-14 15:33:35.858897) Qwen score: 5.979997634887695 for img[1]
+[ DEBUG   ] (2026-03-14 15:33:35.859035) Qwen Score: 6.41261100769043
+[ DEBUG   ] (2026-03-14 15:33:35.863651) Loss_Decom: 0.03159218281507492, Loss_Relight: 0.19438433647155762
+[ DEBUG   ] (2026-03-14 15:33:41.155050) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:33:43.843309) Qwen score: 6.640377044677734 for img[0]
+[ DEBUG   ] (2026-03-14 15:33:46.700830) Qwen score: 6.222167015075684 for img[1]
+[ DEBUG   ] (2026-03-14 15:33:46.700981) Qwen Score: 6.431272029876709
+[ DEBUG   ] (2026-03-14 15:33:46.712037) Loss_Decom: 0.03554711490869522, Loss_Relight: 0.24124675989151
+[ DEBUG   ] (2026-03-14 15:33:52.001516) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:33:54.782115) Qwen score: 6.444002628326416 for img[0]
+[ DEBUG   ] (2026-03-14 15:33:57.643769) Qwen score: 5.6731157302856445 for img[1]
+[ DEBUG   ] (2026-03-14 15:33:57.643910) Qwen Score: 6.058559417724609
+[ DEBUG   ] (2026-03-14 15:33:57.648778) Loss_Decom: 0.029743952676653862, Loss_Relight: 0.19628086686134338
+[ DEBUG   ] (2026-03-14 15:34:03.172033) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:34:06.011353) Qwen score: 6.72065544128418 for img[0]
+[ DEBUG   ] (2026-03-14 15:34:08.861916) Qwen score: 6.579481601715088 for img[1]
+[ DEBUG   ] (2026-03-14 15:34:08.862094) Qwen Score: 6.650068283081055
+[ DEBUG   ] (2026-03-14 15:34:08.866481) Loss_Decom: 0.038972966372966766, Loss_Relight: 0.22350618243217468
+[ DEBUG   ] (2026-03-14 15:34:14.427067) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:34:17.211950) Qwen score: 6.5360426902771 for img[0]
+[ DEBUG   ] (2026-03-14 15:34:19.927938) Qwen score: 6.355954170227051 for img[1]
+[ DEBUG   ] (2026-03-14 15:34:19.928107) Qwen Score: 6.445998191833496
+[ DEBUG   ] (2026-03-14 15:34:19.940279) Loss_Decom: 0.03381362184882164, Loss_Relight: 0.21286077797412872
+[ DEBUG   ] (2026-03-14 15:34:25.290586) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:34:28.039400) Qwen score: 6.179662704467773 for img[0]
+[ DEBUG   ] (2026-03-14 15:34:30.861392) Qwen score: 6.070522308349609 for img[1]
+[ DEBUG   ] (2026-03-14 15:34:30.861583) Qwen Score: 6.125092506408691
+[ DEBUG   ] (2026-03-14 15:34:30.866507) Loss_Decom: 0.030225928872823715, Loss_Relight: 0.21214397251605988
+[ DEBUG   ] (2026-03-14 15:34:36.217890) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:34:38.937740) Qwen score: 6.262101650238037 for img[0]
+[ DEBUG   ] (2026-03-14 15:34:41.689471) Qwen score: 6.613809585571289 for img[1]
+[ DEBUG   ] (2026-03-14 15:34:41.689613) Qwen Score: 6.437955856323242
+[ DEBUG   ] (2026-03-14 15:34:41.700506) Loss_Decom: 0.042929183691740036, Loss_Relight: 0.20952452719211578
+[ DEBUG   ] (2026-03-14 15:34:47.091128) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:34:49.713508) Qwen score: 6.900154113769531 for img[0]
+[ DEBUG   ] (2026-03-14 15:34:52.395519) Qwen score: 6.679298400878906 for img[1]
+[ DEBUG   ] (2026-03-14 15:34:52.395723) Qwen Score: 6.789726257324219
+[ DEBUG   ] (2026-03-14 15:34:52.400149) Loss_Decom: 0.037710148841142654, Loss_Relight: 0.2868770956993103
+[ DEBUG   ] (2026-03-14 15:34:57.727339) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:35:00.453705) Qwen score: 6.12069845199585 for img[0]
+[ DEBUG   ] (2026-03-14 15:35:03.266102) Qwen score: 6.115697860717773 for img[1]
+[ DEBUG   ] (2026-03-14 15:35:03.266259) Qwen Score: 6.118198394775391
+[ DEBUG   ] (2026-03-14 15:35:03.271625) Loss_Decom: 0.03016539290547371, Loss_Relight: 0.32885268330574036
+[ DEBUG   ] (2026-03-14 15:35:08.671354) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:35:11.547504) Qwen score: 7.010736465454102 for img[0]
+[ DEBUG   ] (2026-03-14 15:35:14.426098) Qwen score: 6.934735298156738 for img[1]
+[ DEBUG   ] (2026-03-14 15:35:14.426242) Qwen Score: 6.97273588180542
+[ DEBUG   ] (2026-03-14 15:35:14.430758) Loss_Decom: 0.027465373277664185, Loss_Relight: 0.16107314825057983
+[ DEBUG   ] (2026-03-14 15:35:19.929490) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:35:22.781045) Qwen score: 6.32366418838501 for img[0]
+[ DEBUG   ] (2026-03-14 15:35:25.599859) Qwen score: 5.964365005493164 for img[1]
+[ DEBUG   ] (2026-03-14 15:35:25.600002) Qwen Score: 6.144014358520508
+[ DEBUG   ] (2026-03-14 15:35:25.604558) Loss_Decom: 0.03653497248888016, Loss_Relight: 0.2748616933822632
+[ DEBUG   ] (2026-03-14 15:35:30.920445) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:35:33.710169) Qwen score: 6.738842964172363 for img[0]
+[ DEBUG   ] (2026-03-14 15:35:36.558089) Qwen score: 6.618448257446289 for img[1]
+[ DEBUG   ] (2026-03-14 15:35:36.558288) Qwen Score: 6.678645610809326
+[ DEBUG   ] (2026-03-14 15:35:36.562800) Loss_Decom: 0.052797723561525345, Loss_Relight: 0.21823258697986603
+[ DEBUG   ] (2026-03-14 15:35:41.951365) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:35:44.830060) Qwen score: 6.540250778198242 for img[0]
+[ DEBUG   ] (2026-03-14 15:35:47.560436) Qwen score: 6.460497856140137 for img[1]
+[ DEBUG   ] (2026-03-14 15:35:47.560580) Qwen Score: 6.5003743171691895
+[ DEBUG   ] (2026-03-14 15:35:47.564941) Loss_Decom: 0.03939886391162872, Loss_Relight: 0.23401868343353271
+[ DEBUG   ] (2026-03-14 15:35:52.930239) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:35:55.658122) Qwen score: 6.258447170257568 for img[0]
+[ DEBUG   ] (2026-03-14 15:35:59.949070) Qwen score: 7.02058219909668 for img[1]
+[ DEBUG   ] (2026-03-14 15:35:59.949249) Qwen Score: 6.639514923095703
+[ DEBUG   ] (2026-03-14 15:35:59.954020) Loss_Decom: 0.030538346618413925, Loss_Relight: 0.3040444552898407
+[ DEBUG   ] (2026-03-14 15:36:08.640500) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:36:11.415114) Qwen score: 6.265335559844971 for img[0]
+[ DEBUG   ] (2026-03-14 15:36:14.053829) Qwen score: 6.434675216674805 for img[1]
+[ DEBUG   ] (2026-03-14 15:36:14.053963) Qwen Score: 6.350005149841309
+[ DEBUG   ] (2026-03-14 15:36:14.058384) Loss_Decom: 0.04646555706858635, Loss_Relight: 0.18835310637950897
+[ DEBUG   ] (2026-03-14 15:36:19.600689) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:36:22.524481) Qwen score: 6.6705546379089355 for img[0]
+[ DEBUG   ] (2026-03-14 15:36:25.328992) Qwen score: 6.715145111083984 for img[1]
+[ DEBUG   ] (2026-03-14 15:36:25.329125) Qwen Score: 6.692850112915039
+[ DEBUG   ] (2026-03-14 15:36:25.333368) Loss_Decom: 0.03113638609647751, Loss_Relight: 0.21931570768356323
+[ DEBUG   ] (2026-03-14 15:36:32.401265) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:36:35.870313) Qwen score: 7.028433799743652 for img[0]
+[ DEBUG   ] (2026-03-14 15:36:39.567124) Qwen score: 6.306440353393555 for img[1]
+[ DEBUG   ] (2026-03-14 15:36:39.567299) Qwen Score: 6.6674370765686035
+[ DEBUG   ] (2026-03-14 15:36:39.576803) Loss_Decom: 0.03536079078912735, Loss_Relight: 0.2302110344171524
+[ DEBUG   ] (2026-03-14 15:36:45.791469) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:36:52.524614) Qwen score: 6.849637031555176 for img[0]
+[ DEBUG   ] (2026-03-14 15:36:55.745319) Qwen score: 6.833834648132324 for img[1]
+[ DEBUG   ] (2026-03-14 15:36:55.745593) Qwen Score: 6.84173583984375
+[ DEBUG   ] (2026-03-14 15:36:55.752625) Loss_Decom: 0.02595638670027256, Loss_Relight: 0.21234890818595886
+[ DEBUG   ] (2026-03-14 15:37:03.850868) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:37:06.744914) Qwen score: 6.423696517944336 for img[0]
+[ DEBUG   ] (2026-03-14 15:37:09.815238) Qwen score: 6.78370475769043 for img[1]
+[ DEBUG   ] (2026-03-14 15:37:09.815384) Qwen Score: 6.603700637817383
+[ DEBUG   ] (2026-03-14 15:37:09.819710) Loss_Decom: 0.036482300609350204, Loss_Relight: 0.268598735332489
+[ DEBUG   ] (2026-03-14 15:37:17.632938) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:37:20.453043) Qwen score: 6.956662654876709 for img[0]
+[ DEBUG   ] (2026-03-14 15:37:23.174647) Qwen score: 6.1432085037231445 for img[1]
+[ DEBUG   ] (2026-03-14 15:37:23.174797) Qwen Score: 6.549935340881348
+[ DEBUG   ] (2026-03-14 15:37:23.179435) Loss_Decom: 0.03918217867612839, Loss_Relight: 0.2088220715522766
+[ DEBUG   ] (2026-03-14 15:37:28.681109) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:37:31.536534) Qwen score: 6.349481105804443 for img[0]
+[ DEBUG   ] (2026-03-14 15:37:34.295394) Qwen score: 6.850216865539551 for img[1]
+[ DEBUG   ] (2026-03-14 15:37:34.295586) Qwen Score: 6.599848747253418
+[ DEBUG   ] (2026-03-14 15:37:34.306119) Loss_Decom: 0.029217004776000977, Loss_Relight: 0.20297890901565552
+[ DEBUG   ] (2026-03-14 15:37:39.695022) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:37:42.859041) Qwen score: 6.369533538818359 for img[0]
+[ DEBUG   ] (2026-03-14 15:37:45.973810) Qwen score: 6.913495063781738 for img[1]
+[ DEBUG   ] (2026-03-14 15:37:45.973985) Qwen Score: 6.641514301300049
+[ DEBUG   ] (2026-03-14 15:37:45.978245) Loss_Decom: 0.03452333062887192, Loss_Relight: 0.22257938981056213
+[ DEBUG   ] (2026-03-14 15:37:51.466744) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:37:54.641830) Qwen score: 5.474016189575195 for img[0]
+[ DEBUG   ] (2026-03-14 15:37:57.301231) Qwen score: 6.854491233825684 for img[1]
+[ DEBUG   ] (2026-03-14 15:37:57.301452) Qwen Score: 6.1642537117004395
+[ DEBUG   ] (2026-03-14 15:37:57.313173) Loss_Decom: 0.0327935591340065, Loss_Relight: 0.18293775618076324
+[ DEBUG   ] (2026-03-14 15:38:04.250131) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:38:07.453422) Qwen score: 6.772988319396973 for img[0]
+[ DEBUG   ] (2026-03-14 15:38:10.956708) Qwen score: 6.740353584289551 for img[1]
+[ DEBUG   ] (2026-03-14 15:38:10.956851) Qwen Score: 6.756670951843262
+[ DEBUG   ] (2026-03-14 15:38:10.961214) Loss_Decom: 0.02259332686662674, Loss_Relight: 0.2790207266807556
+[ DEBUG   ] (2026-03-14 15:38:16.300331) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:38:19.055395) Qwen score: 5.109620571136475 for img[0]
+[ DEBUG   ] (2026-03-14 15:38:21.902924) Qwen score: 5.752946853637695 for img[1]
+[ DEBUG   ] (2026-03-14 15:38:21.903090) Qwen Score: 5.431283950805664
+[ DEBUG   ] (2026-03-14 15:38:21.915107) Loss_Decom: 0.04386265203356743, Loss_Relight: 0.20545370876789093
+[ DEBUG   ] (2026-03-14 15:38:27.521622) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:38:30.393138) Qwen score: 6.418705940246582 for img[0]
+[ DEBUG   ] (2026-03-14 15:38:34.784716) Qwen score: 6.500060081481934 for img[1]
+[ DEBUG   ] (2026-03-14 15:38:34.785081) Qwen Score: 6.459383010864258
+[ DEBUG   ] (2026-03-14 15:38:34.795039) Loss_Decom: 0.026206620037555695, Loss_Relight: 0.1605154275894165
+[ DEBUG   ] (2026-03-14 15:38:44.589501) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:38:47.451775) Qwen score: 6.115215301513672 for img[0]
+[ DEBUG   ] (2026-03-14 15:38:50.677658) Qwen score: 6.593733310699463 for img[1]
+[ DEBUG   ] (2026-03-14 15:38:50.678384) Qwen Score: 6.354474067687988
+[ DEBUG   ] (2026-03-14 15:38:50.696350) Loss_Decom: 0.03877643123269081, Loss_Relight: 0.21466851234436035
+[ DEBUG   ] (2026-03-14 15:39:00.077561) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:39:03.316412) Qwen score: 5.290848731994629 for img[0]
+[ DEBUG   ] (2026-03-14 15:39:06.195432) Qwen score: 6.505629062652588 for img[1]
+[ DEBUG   ] (2026-03-14 15:39:06.195606) Qwen Score: 5.8982391357421875
+[ DEBUG   ] (2026-03-14 15:39:06.200100) Loss_Decom: 0.05347428843379021, Loss_Relight: 0.29673972725868225
+[ DEBUG   ] (2026-03-14 15:39:12.546580) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:39:15.608577) Qwen score: 7.06922721862793 for img[0]
+[ DEBUG   ] (2026-03-14 15:39:18.403254) Qwen score: 6.1491169929504395 for img[1]
+[ DEBUG   ] (2026-03-14 15:39:18.403430) Qwen Score: 6.6091718673706055
+[ DEBUG   ] (2026-03-14 15:39:18.414615) Loss_Decom: 0.0356011763215065, Loss_Relight: 0.3435448408126831
+[ DEBUG   ] (2026-03-14 15:39:24.127111) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:39:26.921734) Qwen score: 6.190779685974121 for img[0]
+[ DEBUG   ] (2026-03-14 15:39:29.734214) Qwen score: 6.173579216003418 for img[1]
+[ DEBUG   ] (2026-03-14 15:39:29.734393) Qwen Score: 6.1821794509887695
+[ DEBUG   ] (2026-03-14 15:39:29.739014) Loss_Decom: 0.026511462405323982, Loss_Relight: 0.12430182099342346
+[ DEBUG   ] (2026-03-14 15:39:35.181432) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:39:38.205901) Qwen score: 6.222804546356201 for img[0]
+[ DEBUG   ] (2026-03-14 15:39:41.110871) Qwen score: 6.918736457824707 for img[1]
+[ DEBUG   ] (2026-03-14 15:39:41.111017) Qwen Score: 6.570770263671875
+[ DEBUG   ] (2026-03-14 15:39:41.115924) Loss_Decom: 0.04738874360918999, Loss_Relight: 0.2606605887413025
+[ DEBUG   ] (2026-03-14 15:39:46.750259) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:39:49.773982) Qwen score: 5.9281206130981445 for img[0]
+[ DEBUG   ] (2026-03-14 15:39:53.152780) Qwen score: 6.203991889953613 for img[1]
+[ DEBUG   ] (2026-03-14 15:39:53.152971) Qwen Score: 6.066056251525879
+[ DEBUG   ] (2026-03-14 15:39:53.165085) Loss_Decom: 0.04250522702932358, Loss_Relight: 0.2429928034543991
+[ DEBUG   ] (2026-03-14 15:39:59.966971) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:40:02.739820) Qwen score: 6.786172866821289 for img[0]
+[ DEBUG   ] (2026-03-14 15:40:05.802444) Qwen score: 6.238755226135254 for img[1]
+[ DEBUG   ] (2026-03-14 15:40:05.802637) Qwen Score: 6.5124640464782715
+[ DEBUG   ] (2026-03-14 15:40:05.809030) Loss_Decom: 0.02067151665687561, Loss_Relight: 0.14651112258434296
+[ DEBUG   ] (2026-03-14 15:40:11.586397) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:40:14.644862) Qwen score: 5.800921440124512 for img[0]
+[ DEBUG   ] (2026-03-14 15:40:17.568201) Qwen score: 6.11924934387207 for img[1]
+[ DEBUG   ] (2026-03-14 15:40:17.568363) Qwen Score: 5.960085391998291
+[ DEBUG   ] (2026-03-14 15:40:17.579976) Loss_Decom: 0.050363123416900635, Loss_Relight: 0.16735950112342834
+[ DEBUG   ] (2026-03-14 15:40:23.390372) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:40:26.215437) Qwen score: 6.387819766998291 for img[0]
+[ DEBUG   ] (2026-03-14 15:40:29.200250) Qwen score: 6.093928337097168 for img[1]
+[ DEBUG   ] (2026-03-14 15:40:29.200411) Qwen Score: 6.240874290466309
+[ DEBUG   ] (2026-03-14 15:40:29.205342) Loss_Decom: 0.032485391944646835, Loss_Relight: 0.12517552077770233
+[ DEBUG   ] (2026-03-14 15:40:34.650203) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:40:37.532543) Qwen score: 6.07098388671875 for img[0]
+[ DEBUG   ] (2026-03-14 15:40:40.254005) Qwen score: 5.578495979309082 for img[1]
+[ DEBUG   ] (2026-03-14 15:40:40.254184) Qwen Score: 5.824739933013916
+[ DEBUG   ] (2026-03-14 15:40:40.265738) Loss_Decom: 0.040161971002817154, Loss_Relight: 0.2197796106338501
+[ DEBUG   ] (2026-03-14 15:40:45.778675) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:40:48.653293) Qwen score: 6.943265914916992 for img[0]
+[ DEBUG   ] (2026-03-14 15:40:51.634020) Qwen score: 6.79250955581665 for img[1]
+[ DEBUG   ] (2026-03-14 15:40:51.634172) Qwen Score: 6.867887496948242
+[ DEBUG   ] (2026-03-14 15:40:51.638905) Loss_Decom: 0.03758981078863144, Loss_Relight: 0.2968102991580963
+[ DEBUG   ] (2026-03-14 15:40:57.179278) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:41:00.718623) Qwen score: 5.4745588302612305 for img[0]
+[ DEBUG   ] (2026-03-14 15:41:05.470121) Qwen score: 6.271967887878418 for img[1]
+[ DEBUG   ] (2026-03-14 15:41:05.470736) Qwen Score: 5.873263359069824
+[ DEBUG   ] (2026-03-14 15:41:05.488628) Loss_Decom: 0.04006825014948845, Loss_Relight: 0.32790741324424744
+[ DEBUG   ] (2026-03-14 15:41:12.030070) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:41:15.160423) Qwen score: 5.9212422370910645 for img[0]
+[ DEBUG   ] (2026-03-14 15:41:19.295659) Qwen score: 6.253885269165039 for img[1]
+[ DEBUG   ] (2026-03-14 15:41:19.295838) Qwen Score: 6.087563514709473
+[ DEBUG   ] (2026-03-14 15:41:19.300315) Loss_Decom: 0.04348871856927872, Loss_Relight: 0.2893620431423187
+[ DEBUG   ] (2026-03-14 15:41:28.914128) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:41:33.369900) Qwen score: 6.023951530456543 for img[0]
+[ DEBUG   ] (2026-03-14 15:41:36.697706) Qwen score: 6.652902603149414 for img[1]
+[ DEBUG   ] (2026-03-14 15:41:36.697858) Qwen Score: 6.3384270668029785
+[ DEBUG   ] (2026-03-14 15:41:36.702455) Loss_Decom: 0.033619847148656845, Loss_Relight: 0.21788468956947327
+[ DEBUG   ] (2026-03-14 15:41:42.470284) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:41:45.464833) Qwen score: 6.623898506164551 for img[0]
+[ DEBUG   ] (2026-03-14 15:41:48.385243) Qwen score: 6.217458724975586 for img[1]
+[ DEBUG   ] (2026-03-14 15:41:48.385470) Qwen Score: 6.420678615570068
+[ DEBUG   ] (2026-03-14 15:41:48.390532) Loss_Decom: 0.026601901277899742, Loss_Relight: 0.312530517578125
+[ DEBUG   ] (2026-03-14 15:41:54.162530) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:41:57.093172) Qwen score: 6.840709686279297 for img[0]
+[ DEBUG   ] (2026-03-14 15:42:00.016266) Qwen score: 6.3435869216918945 for img[1]
+[ DEBUG   ] (2026-03-14 15:42:00.016425) Qwen Score: 6.592148303985596
+[ DEBUG   ] (2026-03-14 15:42:00.021202) Loss_Decom: 0.036659255623817444, Loss_Relight: 0.29690366983413696
+[ DEBUG   ] (2026-03-14 15:42:05.779644) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:42:08.733502) Qwen score: 6.951684474945068 for img[0]
+[ DEBUG   ] (2026-03-14 15:42:11.711658) Qwen score: 6.945423126220703 for img[1]
+[ DEBUG   ] (2026-03-14 15:42:11.711809) Qwen Score: 6.948554039001465
+[ DEBUG   ] (2026-03-14 15:42:11.716497) Loss_Decom: 0.030051732435822487, Loss_Relight: 0.2945275604724884
+[ DEBUG   ] (2026-03-14 15:42:17.348754) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:42:20.360591) Qwen score: 6.285762786865234 for img[0]
+[ DEBUG   ] (2026-03-14 15:42:23.335226) Qwen score: 7.081547260284424 for img[1]
+[ DEBUG   ] (2026-03-14 15:42:23.335399) Qwen Score: 6.68365478515625
+[ DEBUG   ] (2026-03-14 15:42:23.348890) Loss_Decom: 0.032004401087760925, Loss_Relight: 0.20628833770751953
+[ DEBUG   ] (2026-03-14 15:42:28.927080) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:42:31.863937) Qwen score: 5.887310981750488 for img[0]
+[ DEBUG   ] (2026-03-14 15:42:34.818205) Qwen score: 6.330066204071045 for img[1]
+[ DEBUG   ] (2026-03-14 15:42:34.818373) Qwen Score: 6.1086883544921875
+[ DEBUG   ] (2026-03-14 15:42:34.823341) Loss_Decom: 0.04373691603541374, Loss_Relight: 0.16348481178283691
+[ DEBUG   ] (2026-03-14 15:42:40.370731) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:42:43.367274) Qwen score: 6.841914176940918 for img[0]
+[ DEBUG   ] (2026-03-14 15:42:46.407951) Qwen score: 6.612659931182861 for img[1]
+[ DEBUG   ] (2026-03-14 15:42:46.408106) Qwen Score: 6.727287292480469
+[ DEBUG   ] (2026-03-14 15:42:46.412680) Loss_Decom: 0.039832908660173416, Loss_Relight: 0.213282972574234
+[ DEBUG   ] (2026-03-14 15:42:51.865194) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:42:54.748490) Qwen score: 6.269173622131348 for img[0]
+[ DEBUG   ] (2026-03-14 15:42:57.636743) Qwen score: 6.156720161437988 for img[1]
+[ DEBUG   ] (2026-03-14 15:42:57.637005) Qwen Score: 6.212946891784668
+[ DEBUG   ] (2026-03-14 15:42:57.645785) Loss_Decom: 0.029925577342510223, Loss_Relight: 0.16721317172050476
+[ DEBUG   ] (2026-03-14 15:43:04.754418) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:43:09.718440) Qwen score: 6.643581390380859 for img[0]
+[ DEBUG   ] (2026-03-14 15:43:12.777968) Qwen score: 6.813334941864014 for img[1]
+[ DEBUG   ] (2026-03-14 15:43:12.778181) Qwen Score: 6.728458404541016
+[ DEBUG   ] (2026-03-14 15:43:12.783321) Loss_Decom: 0.04075168818235397, Loss_Relight: 0.38366028666496277
+[ DEBUG   ] (2026-03-14 15:43:18.607466) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:43:21.630044) Qwen score: 6.4268293380737305 for img[0]
+[ DEBUG   ] (2026-03-14 15:43:27.273824) Qwen score: 6.714205741882324 for img[1]
+[ DEBUG   ] (2026-03-14 15:43:27.274513) Qwen Score: 6.570517539978027
+[ DEBUG   ] (2026-03-14 15:43:27.292865) Loss_Decom: 0.025692518800497055, Loss_Relight: 0.1672365814447403
+[ DEBUG   ] (2026-03-14 15:43:38.218123) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:43:45.399617) Qwen score: 6.373364448547363 for img[0]
+[ DEBUG   ] (2026-03-14 15:43:52.340930) Qwen score: 6.501387596130371 for img[1]
+[ DEBUG   ] (2026-03-14 15:43:52.341184) Qwen Score: 6.437376022338867
+[ DEBUG   ] (2026-03-14 15:43:52.347246) Loss_Decom: 0.0405106283724308, Loss_Relight: 0.19421306252479553
+[ DEBUG   ] (2026-03-14 15:44:02.289179) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:44:06.589627) Qwen score: 6.473478317260742 for img[0]
+[ DEBUG   ] (2026-03-14 15:44:11.673631) Qwen score: 6.337688446044922 for img[1]
+[ DEBUG   ] (2026-03-14 15:44:11.673882) Qwen Score: 6.405583381652832
+[ DEBUG   ] (2026-03-14 15:44:11.681132) Loss_Decom: 0.04162636771798134, Loss_Relight: 0.36536747217178345
+[ DEBUG   ] (2026-03-14 15:44:24.846877) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:44:28.944573) Qwen score: 5.689142227172852 for img[0]
+[ DEBUG   ] (2026-03-14 15:44:31.876086) Qwen score: 6.317962646484375 for img[1]
+[ DEBUG   ] (2026-03-14 15:44:31.876290) Qwen Score: 6.003552436828613
+[ DEBUG   ] (2026-03-14 15:44:31.924434) Loss_Decom: 0.025843266397714615, Loss_Relight: 0.3662172853946686
+[ DEBUG   ] (2026-03-14 15:44:37.658280) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:44:40.614214) Qwen score: 6.237271308898926 for img[0]
+[ DEBUG   ] (2026-03-14 15:44:43.506684) Qwen score: 6.476071834564209 for img[1]
+[ DEBUG   ] (2026-03-14 15:44:43.506840) Qwen Score: 6.356671333312988
+[ DEBUG   ] (2026-03-14 15:44:43.511176) Loss_Decom: 0.039990413933992386, Loss_Relight: 0.29574039578437805
+[ DEBUG   ] (2026-03-14 15:44:51.900144) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:44:58.196137) Qwen score: 6.33082389831543 for img[0]
+[ DEBUG   ] (2026-03-14 15:45:02.779861) Qwen score: 6.866853713989258 for img[1]
+[ DEBUG   ] (2026-03-14 15:45:02.780049) Qwen Score: 6.598838806152344
+[ DEBUG   ] (2026-03-14 15:45:02.785581) Loss_Decom: 0.03223448619246483, Loss_Relight: 0.3056204319000244
+[ DEBUG   ] (2026-03-14 15:45:08.615825) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:45:11.600414) Qwen score: 7.062492370605469 for img[0]
+[ DEBUG   ] (2026-03-14 15:45:14.541333) Qwen score: 6.039961338043213 for img[1]
+[ DEBUG   ] (2026-03-14 15:45:14.541516) Qwen Score: 6.551226615905762
+[ DEBUG   ] (2026-03-14 15:45:14.546479) Loss_Decom: 0.03389886021614075, Loss_Relight: 0.14559753239154816
+[ DEBUG   ] (2026-03-14 15:45:20.664555) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:45:26.570317) Qwen score: 7.075841426849365 for img[0]
+[ DEBUG   ] (2026-03-14 15:45:29.541409) Qwen score: 6.549693584442139 for img[1]
+[ DEBUG   ] (2026-03-14 15:45:29.541576) Qwen Score: 6.812767505645752
+[ DEBUG   ] (2026-03-14 15:45:29.546102) Loss_Decom: 0.03610782325267792, Loss_Relight: 0.15829600393772125
+[ DEBUG   ] (2026-03-14 15:45:35.753887) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:45:38.672683) Qwen score: 6.469830513000488 for img[0]
+[ DEBUG   ] (2026-03-14 15:45:41.473551) Qwen score: 5.928011894226074 for img[1]
+[ DEBUG   ] (2026-03-14 15:45:41.473703) Qwen Score: 6.198921203613281
+[ DEBUG   ] (2026-03-14 15:45:41.484432) Loss_Decom: 0.0428413562476635, Loss_Relight: 0.21417197585105896
+[ DEBUG   ] (2026-03-14 15:45:47.397046) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:45:51.089168) Qwen score: 5.483710289001465 for img[0]
+[ DEBUG   ] (2026-03-14 15:45:54.050561) Qwen score: 6.1202287673950195 for img[1]
+[ DEBUG   ] (2026-03-14 15:45:54.050711) Qwen Score: 5.801969528198242
+[ DEBUG   ] (2026-03-14 15:45:54.055348) Loss_Decom: 0.042199429124593735, Loss_Relight: 0.23009943962097168
+[ DEBUG   ] (2026-03-14 15:45:59.710284) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:46:03.571351) Qwen score: 6.4546966552734375 for img[0]
+[ DEBUG   ] (2026-03-14 15:46:07.098739) Qwen score: 6.134446144104004 for img[1]
+[ DEBUG   ] (2026-03-14 15:46:07.098893) Qwen Score: 6.294571399688721
+[ DEBUG   ] (2026-03-14 15:46:07.103289) Loss_Decom: 0.035161957144737244, Loss_Relight: 0.24546143412590027
+[ DEBUG   ] (2026-03-14 15:46:17.019779) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:46:23.028202) Qwen score: 5.51723575592041 for img[0]
+[ DEBUG   ] (2026-03-14 15:46:30.338311) Qwen score: 6.980467319488525 for img[1]
+[ DEBUG   ] (2026-03-14 15:46:30.339058) Qwen Score: 6.248851776123047
+[ DEBUG   ] (2026-03-14 15:46:30.357012) Loss_Decom: 0.027173331007361412, Loss_Relight: 0.1953045129776001
+[ DEBUG   ] (2026-03-14 15:46:47.115827) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:46:53.328683) Qwen score: 5.987551689147949 for img[0]
+[ DEBUG   ] (2026-03-14 15:46:59.664647) Qwen score: 6.191877841949463 for img[1]
+[ DEBUG   ] (2026-03-14 15:46:59.665333) Qwen Score: 6.089715003967285
+[ DEBUG   ] (2026-03-14 15:46:59.683506) Loss_Decom: 0.0372035913169384, Loss_Relight: 0.16929665207862854
+[ DEBUG   ] (2026-03-14 15:47:10.486743) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:47:16.005029) Qwen score: 6.471242904663086 for img[0]
+[ DEBUG   ] (2026-03-14 15:47:23.248122) Qwen score: 6.4936981201171875 for img[1]
+[ DEBUG   ] (2026-03-14 15:47:23.248334) Qwen Score: 6.482470512390137
+[ DEBUG   ] (2026-03-14 15:47:23.261013) Loss_Decom: 0.03224439546465874, Loss_Relight: 0.32189109921455383
+[ DEBUG   ] (2026-03-14 15:47:37.628875) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:47:39.843396) Qwen score: 6.916924953460693 for img[0]
+[ DEBUG   ] (2026-03-14 15:47:42.579181) Qwen score: 6.303430080413818 for img[1]
+[ DEBUG   ] (2026-03-14 15:47:42.579361) Qwen Score: 6.610177516937256
+[ DEBUG   ] (2026-03-14 15:47:42.583744) Loss_Decom: 0.05685175210237503, Loss_Relight: 0.2092788815498352
+[ DEBUG   ] (2026-03-14 15:47:50.392404) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:47:53.133478) Qwen score: 6.077091217041016 for img[0]
+[ DEBUG   ] (2026-03-14 15:47:55.405380) Qwen score: 5.616426467895508 for img[1]
+[ DEBUG   ] (2026-03-14 15:47:55.405525) Qwen Score: 5.846758842468262
+[ DEBUG   ] (2026-03-14 15:47:55.418375) Loss_Decom: 0.032998714596033096, Loss_Relight: 0.2285633534193039
+[ DEBUG   ] (2026-03-14 15:48:03.394097) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:48:05.818267) Qwen score: 6.410401821136475 for img[0]
+[ DEBUG   ] (2026-03-14 15:48:08.222376) Qwen score: 6.064487934112549 for img[1]
+[ DEBUG   ] (2026-03-14 15:48:08.222517) Qwen Score: 6.237444877624512
+[ DEBUG   ] (2026-03-14 15:48:08.226901) Loss_Decom: 0.034990932792425156, Loss_Relight: 0.2747794985771179
+[ DEBUG   ] (2026-03-14 15:48:12.922913) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:48:16.535114) Qwen score: 5.422133445739746 for img[0]
+[ DEBUG   ] (2026-03-14 15:48:19.691553) Qwen score: 6.330216407775879 for img[1]
+[ DEBUG   ] (2026-03-14 15:48:19.691773) Qwen Score: 5.8761749267578125
+[ DEBUG   ] (2026-03-14 15:48:19.695963) Loss_Decom: 0.03746355324983597, Loss_Relight: 0.30397236347198486
+[ DEBUG   ] (2026-03-14 15:48:25.037573) Train step, epoch 0
+[ DEBUG   ] (2026-03-14 15:48:28.839198) Qwen score: 6.47445011138916 for img[0]
+[ DEBUG   ] (2026-03-14 15:48:31.949364) Qwen score: 6.139836311340332 for img[1]
+[ DEBUG   ] (2026-03-14 15:48:31.949713) Qwen Score: 6.307143211364746
+[ DEBUG   ] (2026-03-14 15:48:31.961302) Loss_Decom: 0.0530485063791275, Loss_Relight: 0.24145926535129547
+[ DEBUG   ] (2026-03-14 15:48:54.546807) Qwen score: 6.174202919006348 for img[0]
+[ DEBUG   ] (2026-03-14 15:49:01.274569) Qwen score: 6.858342170715332 for img[1]
+[ DEBUG   ] (2026-03-14 15:49:01.274710) Qwen Score: 6.51627254486084
+[ DEBUG   ] (2026-03-14 15:49:01.280165) Loss_Decom: 0.03328394517302513, Loss_Relight: 0.21888551115989685
+[ DEBUG   ] (2026-03-14 15:49:01.290102) nrows = 5, ncols = 16

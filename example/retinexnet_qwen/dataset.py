@@ -46,6 +46,33 @@ class Our485(Dataset):
 
     def _read_imgs(self) -> None:
         # TODO
+        if hp.get_hp('mode') == 'eval':
+            our485_dir = '/data/eval-our485/'
+            high_dir = our485_dir + 'high/'
+            low_dir = our485_dir + 'low/'
+
+            high_paths = list()
+            low_paths = list()
+            for f in os.listdir(high_dir):
+                if f.split('.')[-1] == 'png':
+                    high_paths.append(high_dir + f)
+                    low_paths.append(low_dir + f)
+            logger.debug(f'high_paths = {high_paths}')
+            logger.debug(f'low_paths = {low_paths}')
+
+            logger.info(f'Reading images...')
+            self.high_imgs: list[torch.Tensor] = list()
+            self.low_imgs:  list[torch.Tensor] = list()
+            for i in range(len(high_paths)):
+                self.high_imgs.append(torch.from_numpy(
+                    file.filepath_to_chw_rgb_1(high_paths[i])
+                ))
+                self.low_imgs.append(torch.from_numpy(
+                    file.filepath_to_chw_rgb_1(low_paths[i])
+                ))
+            logger.info('OK')
+            return
+
         our485_dir = '/data/our485/'
         high_dir = our485_dir + 'high/'
         low_dir = our485_dir + 'low/'

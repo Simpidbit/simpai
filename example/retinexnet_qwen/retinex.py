@@ -51,9 +51,7 @@ class RetinexNet(nn.Module):
         self.Ismooth_loss_delta = self._smooth(I_delta, R_low)
 
         self.output_S_device = R_low * I_delta_3
-        self.qwen_score = self.qwen_scorer(self.output_S_device)
 
-        logger.debug(f'Qwen Score: {self.qwen_score}')
 
         self.original_loss_Decom = self.recon_loss_low + \
                           self.recon_loss_high + \
@@ -62,15 +60,26 @@ class RetinexNet(nn.Module):
                           0.1 * self.Ismooth_loss_low + \
                           0.1 * self.Ismooth_loss_high + \
                           0.01 * self.equal_R_loss
-        self.loss_Decom = self.original_loss_Decom + 0.01 * self.qwen_score
         self.original_loss_Relight = self.relight_loss + \
                             3 * self.Ismooth_loss_delta
-        self.loss_Relight = self.original_loss_Relight + 0.01 * self.qwen_score
+
+        if hp.get_hp('mode') == 'train':
+            self.qwen_score = self.qwen_scorer(self.output_S_device)
+
+            logger.debug(f'Qwen Score: {self.qwen_score}')
+            self.loss_Decom = self.original_loss_Decom + 0.01 * self.qwen_score
+            self.loss_Relight = self.original_loss_Relight# + 0.01 * self.qwen_score
+        elif hp.get_hp('mode') == 'eval':
+            self.loss_Decom = self.original_loss_Decom# + 0.01 * self.qwen_score
+            self.loss_Relight = self.original_loss_Relight# + 0.01 * self.qwen_score
+
         logger.debug(f'Loss_Decom: {self.loss_Decom}, Loss_Relight: {self.loss_Relight}')
 
-        self.original_loss_Decom.retain_grad()
-        self.original_loss_Relight.retain_grad()
-        self.qwen_score.retain_grad()
+
+        if hp.get_hp('mode') == 'train':
+            self.qwen_score.retain_grad()
+            self.original_loss_Decom.retain_grad()
+            self.original_loss_Relight.retain_grad()
 
         self.output_R_low   = R_low.detach().cpu()
         self.output_I_low   = I_low_3.detach().cpu()
