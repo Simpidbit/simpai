@@ -6,6 +6,7 @@ from simpai import hyperparam
 from simpai import constant
 from simpai import train
 from simpai import logger
+from simpai import analyzer
 
 def wait_for_io() -> None:
     logger.wait_for_log_io()

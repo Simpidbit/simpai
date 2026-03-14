@@ -14,6 +14,16 @@ from typeguard import typechecked
 
 from simpai import logger
 
+_simpai_visual_return: bool = False
+
+def disable_show() -> None:
+    global _simpai_visual_return
+    _simpai_visual_return = True
+
+def enable_show() -> None:
+    global _simpai_visual_return
+    _simpai_visual_return = False
+
 @typechecked
 def plot_bhwc(
     img: np.ndarray | torch.Tensor,
@@ -53,6 +63,8 @@ def plot_bhwc(
         If both nrows and ncols are -1, the grid dimensions are automatically
         calculated to form a roughly square layout.
     """
+    global _simpai_visual_return
+    if _simpai_visual_return: return
     # Convert torch.Tensor to numpy array
     if isinstance(img, torch.Tensor):
         img = img.detach().clone().to('cpu').numpy()
